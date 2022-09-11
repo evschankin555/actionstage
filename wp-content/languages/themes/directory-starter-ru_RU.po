@@ -1,0 +1,441 @@
+# Translation of Themes - Directory Starter in Russian
+# This file is distributed under the same license as the Themes - Directory Starter package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-07-18 22:22:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Directory Starter\n"
+
+#. Description of the theme
+msgid "Directory Starter is a starter theme for our GeoDirectory plugin (https://wordpress.org/plugins/geodirectory/), perfect to be edited directly or to create your own child themes. Directory Starter is a fully responsive Directory Theme that has been methodically coded to be lightweight and customisable, we have used all the latest WordPress Customizer options allowing you to customise the look and feel of your site with no coding knowledge. Check out the 1st child theme for DS called Supreme directory (https://wpgeodirectory.com/downloads/supreme-directory/)"
+msgstr "Directory Starter является стартовой темой для нашего плагина GeoDirectory (https://wordpress.org/plugins/geodirectory/), идеально подходит для редактирования напрямую или для создания собственных дочерних тем.. Directory Starter представляет собой полностью адаптивную тему каталога, которая была закодирована как легкая и настраиваемая, мы использовали все последние версии WordPress имеющие параметры, позволяющие настраивать внешний вид вашего сайта без знания кодирования. Проверьте 1-ю детскую тему для DS под названием Supreme directory(https://wpgeodirectory.com/downloads/supreme-directory/)"
+
+#. Theme Name of the theme
+msgid "Directory Starter"
+msgstr "Directory Starter"
+
+#: lib/sidebars.php:33
+msgid "Sidebar for WooCommerce."
+msgstr "Область виджетов для WooCommerce."
+
+#: lib/sidebars.php:31
+msgid "Sidebar WooCommerce"
+msgstr "Область виджетов WooCommerce"
+
+#: lib/admin/customizer.php:840
+msgid "Enable WooCommerce Sidebar"
+msgstr "Разрешить область виджетов для WooCommerce"
+
+#: lib/init.php:143
+msgid "Copyright &copy; %1$s %2$s %3$s Theme %4$s"
+msgstr "Copyright &copy; %1$s %2$s %3$s Тема %4$s"
+
+#: lib/admin/customizer.php:1063
+msgid "Copyright"
+msgstr "Авторское право"
+
+#. Template Name of the theme
+msgid "Full Width Page"
+msgstr "Страница на полную ширину"
+
+#: lib/sidebars.php:22
+msgid "Sidebar for pages."
+msgstr "Область виджетов для страниц"
+
+#: lib/sidebars.php:20
+msgid "Sidebar Page"
+msgstr "Страница области виджетов"
+
+#: lib/sidebars.php:12
+msgid "Sidebar for blog pages, can be enabled from customizer Body>Sidebar"
+msgstr "Область виджетов для страниц блога, может быть активизирован из Тело> Область виджетов"
+
+#: lib/sidebars.php:10
+msgid "Sidebar Blog"
+msgstr "Область виджета блога"
+
+#: lib/init.php:144
+msgid " - Powered by %s."
+msgstr " - Powered by %s."
+
+#: lib/init.php:142
+msgid "WordPress"
+msgstr "WordPress"
+
+#: lib/config.php:11
+msgid ". All rights reserved."
+msgstr ".Все права защищены."
+
+#: lib/config.php:11
+msgid "Copyright &copy; "
+msgstr "Copyright &copy; "
+
+#: lib/admin/customizer.php:902 lib/admin/customizer.php:1088
+msgid "Text Color"
+msgstr "Цвет текста"
+
+#: lib/admin/customizer.php:858
+msgid "Blog Sidebar Position"
+msgstr "Позиция области виджета блога"
+
+#: lib/admin/customizer.php:822
+msgid "Enable Blog Sidebar"
+msgstr "Разрешить область виджета блога"
+
+#: lib/admin/customizer.php:806 lib/admin/customizer.php:808
+msgid "Sidebar"
+msgstr "Область виджета"
+
+#: lib/libraries/wp-bootstrap-comments.php:55
+msgid "Reply"
+msgstr "Ответ"
+
+#: lib/admin/customizer.php:305
+msgid "Header Top Background Color"
+msgstr "Верхний цвет фона шапки"
+
+#: lib/admin/customizer.php:288
+msgid "Header Top Link Hover Color"
+msgstr "Верхний цвет шапки при наведении курсора"
+
+#: lib/admin/customizer.php:220 lib/admin/customizer.php:222 lib/nav.php:8
+msgid "Header Top"
+msgstr "Верх шапки"
+
+#: lib/admin/customizer.php:271
+msgid "Header Top Link Color"
+msgstr "Цвет ссылки заголовка шапки"
+
+#: lib/admin/customizer.php:254
+msgid "Header Top Text Color"
+msgstr "Цвет текста заголовка шапки"
+
+#: lib/admin/customizer.php:236
+msgid "Enable Header Top Section"
+msgstr "Включить секцию шапки"
+
+#: comments.php:88
+msgid "Post Comment"
+msgstr "Опубликовать комментарий"
+
+#: comments.php:87
+msgid "Leave a Comment"
+msgstr "Оставить комментарий"
+
+#: single.php:49
+msgid "Previous post:"
+msgstr "Предыдущая запись:"
+
+#: single.php:46
+msgid "Next post:"
+msgstr "Следующая запись:"
+
+#: lib/sidebars.php:116
+msgid "Sidebar Footer 4."
+msgstr "Область виджета Нижнего колонтитула 4."
+
+#: lib/sidebars.php:114
+msgid "Sidebar Footer 4"
+msgstr "Область виджета Нижнего колонтитула 4"
+
+#: lib/sidebars.php:104
+msgid "Sidebar Footer 3."
+msgstr "Область виджета Нижнего колонтитула 3."
+
+#: lib/sidebars.php:102
+msgid "Sidebar Footer 3"
+msgstr "Область виджета Нижнего колонтитула 3"
+
+#: lib/sidebars.php:92
+msgid "Sidebar Footer 2."
+msgstr "Область виджета Нижнего колонтитула 2."
+
+#: lib/sidebars.php:90
+msgid "Sidebar Footer 2"
+msgstr "Область виджета Нижнего колонтитула 2"
+
+#: lib/sidebars.php:80
+msgid "Sidebar Footer 1."
+msgstr "Область виджетов подвала 1."
+
+#: lib/sidebars.php:78
+msgid "Sidebar Footer 1"
+msgstr "Область виджетов подвала 1"
+
+#: lib/nav.php:4
+msgid "Footer Links"
+msgstr "Ссылки подвала"
+
+#: lib/nav.php:3
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: lib/entrymeta.php:62
+msgid "% Comments"
+msgstr "% Комментариев"
+
+#: lib/entrymeta.php:62
+msgid "1 Comment"
+msgstr "1 Комментарий"
+
+#: lib/entrymeta.php:62
+msgid "Leave a comment"
+msgstr "Прокомментировать"
+
+#: lib/entrymeta.php:54
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Метки"
+
+#: lib/entrymeta.php:46
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Рубрики"
+
+#: lib/entrymeta.php:42 lib/entrymeta.php:51
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: lib/entrymeta.php:36
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "Автор"
+
+#: lib/entrymeta.php:10
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "Формат"
+
+#: lib/entrymeta.php:4
+msgid "Featured"
+msgstr "Рекомендуемые"
+
+#: lib/libraries/wp-bootstrap-comments.php:66
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+#: lib/comments.php:14
+msgid "Newer Comments"
+msgstr "Следующие комментарии"
+
+#: lib/comments.php:10
+msgid "Older Comments"
+msgstr "Предыдущие комментарии"
+
+#: lib/comments.php:7
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: lib/admin/customizer.php:1180
+msgid "Copyright Section Border Color"
+msgstr "Цвет рамки секции авторского права"
+
+#: lib/admin/customizer.php:1164
+msgid "Copyright Section Background Color"
+msgstr "Фон секции авторского права"
+
+#: lib/admin/customizer.php:1025
+msgid "Footer Section Border Bottom Color"
+msgstr "Цвет нижней рамки секции подвала"
+
+#: lib/admin/customizer.php:1009
+msgid "Footer Section Border Top Color"
+msgstr "Цвет верхней рамки секции подвала"
+
+#: lib/admin/customizer.php:993
+msgid "Footer Section Background Color"
+msgstr "Фон секции подвала"
+
+#: lib/admin/customizer.php:784
+msgid "Line Height"
+msgstr "Line Height"
+
+#: lib/admin/customizer.php:767
+msgid "Font Size"
+msgstr ""
+"Размер\n"
+" \n"
+"шрифта"
+
+#: lib/admin/customizer.php:677
+msgid "Content Box Border Color"
+msgstr "Цвет рамки содержимого"
+
+#: lib/admin/customizer.php:643
+msgid "Content Box Background Color"
+msgstr "Цвет фона в поле содержимого"
+
+#: lib/admin/customizer.php:608 lib/admin/customizer.php:966
+#: lib/admin/customizer.php:1137
+msgid "Link Visited Color"
+msgstr "Цвет посещенных ссылок"
+
+#: lib/admin/customizer.php:750
+msgid "Font Family"
+msgstr "Семейство шрифтов"
+
+#: lib/admin/customizer.php:592 lib/admin/customizer.php:950
+#: lib/admin/customizer.php:1121
+msgid "Link Hover Color"
+msgstr "Цвет ссылки при наведении"
+
+#: lib/admin/customizer.php:576 lib/admin/customizer.php:934
+#: lib/admin/customizer.php:1105
+msgid "Link Color"
+msgstr "Цвет ссылок"
+
+#: lib/admin/customizer.php:560 lib/admin/customizer.php:918
+msgid "h1 to h6 Color"
+msgstr "от h1 до h6 цвет"
+
+#: lib/admin/customizer.php:543
+msgid "Body Color"
+msgstr "Цвет тела"
+
+#: lib/admin/customizer.php:328
+msgid "Upload a logo to replace the default site name and description in the header"
+msgstr "Загрузите логотип, чтобы заменить стандартное название сайта и описание в шапке."
+
+#: lib/admin/customizer.php:420
+msgid "Header Background Color"
+msgstr "Цвет фона шапки"
+
+#: lib/admin/customizer.php:480
+msgid "Primary Menu - Sub menu Background hover Color"
+msgstr "Основное меню -  Фоновый цвет при наведении в подменю"
+
+#: lib/admin/customizer.php:463
+msgid "Primary Menu - Sub menu Background Color"
+msgstr "Основное меню - Фоновый цвет подменю"
+
+#: lib/admin/customizer.php:392
+msgid "Header Link Hover Color"
+msgstr "Цвет ссылки шапки при наведении"
+
+#: lib/admin/customizer.php:375
+msgid "Header Link Color"
+msgstr "Цвет ссылки шапки"
+
+#: lib/admin/customizer.php:187 lib/admin/customizer.php:240
+#: lib/admin/customizer.php:257 lib/admin/customizer.php:274
+#: lib/admin/customizer.php:291 lib/admin/customizer.php:308
+#: lib/admin/customizer.php:378 lib/admin/customizer.php:395
+#: lib/admin/customizer.php:423 lib/admin/customizer.php:449
+#: lib/admin/customizer.php:466 lib/admin/customizer.php:483
+#: lib/admin/customizer.php:546 lib/admin/customizer.php:563
+#: lib/admin/customizer.php:579 lib/admin/customizer.php:595
+#: lib/admin/customizer.php:611 lib/admin/customizer.php:646
+#: lib/admin/customizer.php:664 lib/admin/customizer.php:680
+#: lib/admin/customizer.php:705 lib/admin/customizer.php:725
+#: lib/admin/customizer.php:753 lib/admin/customizer.php:770
+#: lib/admin/customizer.php:787 lib/admin/customizer.php:826
+#: lib/admin/customizer.php:844 lib/admin/customizer.php:866
+#: lib/admin/customizer.php:905 lib/admin/customizer.php:921
+#: lib/admin/customizer.php:937 lib/admin/customizer.php:953
+#: lib/admin/customizer.php:969 lib/admin/customizer.php:996
+#: lib/admin/customizer.php:1012 lib/admin/customizer.php:1028
+#: lib/admin/customizer.php:1091 lib/admin/customizer.php:1108
+#: lib/admin/customizer.php:1124 lib/admin/customizer.php:1140
+#: lib/admin/customizer.php:1167 lib/admin/customizer.php:1183
+msgid "Default: %s"
+msgstr "По умолчанию: %s"
+
+#: lib/admin/customizer.php:491 lib/admin/customizer.php:493
+#: lib/admin/customizer.php:733 lib/admin/customizer.php:735
+#: lib/admin/customizer.php:1037 lib/admin/customizer.php:1039
+#: lib/admin/customizer.php:1191 lib/admin/customizer.php:1193
+msgid "Typography"
+msgstr "Оформление"
+
+#: lib/admin/customizer.php:403 lib/admin/customizer.php:405
+#: lib/admin/customizer.php:620 lib/admin/customizer.php:622
+#: lib/admin/customizer.php:977 lib/admin/customizer.php:979
+#: lib/admin/customizer.php:1148 lib/admin/customizer.php:1150
+msgid "Background Colors"
+msgstr "Фоновые цвета"
+
+#: lib/admin/customizer.php:352 lib/admin/customizer.php:354
+#: lib/admin/customizer.php:526 lib/admin/customizer.php:528
+#: lib/admin/customizer.php:886 lib/admin/customizer.php:888
+#: lib/admin/customizer.php:1072 lib/admin/customizer.php:1074
+msgid "Text Colors"
+msgstr "Текстовые цвета"
+
+#: lib/admin/customizer.php:316 lib/admin/customizer.php:318
+#: lib/admin/customizer.php:331
+msgid "Logo"
+msgstr "Лого"
+
+#: lib/admin/customizer.php:163 lib/admin/customizer.php:165
+#: lib/admin/customizer.php:795 lib/admin/customizer.php:797
+#: lib/admin/customizer.php:1048 lib/admin/customizer.php:1050
+msgid "Spacing"
+msgstr "Отступы"
+
+#: lib/admin/customizer.php:506
+msgid "Body"
+msgstr "Тело"
+
+#: lib/admin/customizer.php:877
+msgid "Footer"
+msgstr "Подвал"
+
+#: lib/admin/customizer.php:211
+msgid "Header"
+msgstr "Шапка"
+
+#: lib/admin/customizer.php:131
+msgid "General"
+msgstr "Главное"
+
+#: template-parts/post/content.php:25 template-parts/content/content.php:31
+#: lib/libraries/wp-bootstrap-comments.php:51
+msgid "Edit"
+msgstr "Правка"
+
+#: template-parts/post/content.php:16 template-parts/content/content.php:22
+msgid "Pages:"
+msgstr "Страница:"
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "Комментарии запрещены."
+
+#: single.php:45 archive.php:44 index.php:49
+msgid "Next"
+msgstr "Следующая"
+
+#: page_full-width.php:18 woocommerce.php:28 single.php:28 page.php:22
+#: template-parts/content/content-none.php:4 geodirectory.php:31
+msgid "Sorry, no results were found."
+msgstr "Приносим извинения, результаты не найдены."
+
+#: single.php:48 archive.php:43 index.php:48
+msgid "Previous"
+msgstr "Предыдущие"
+
+#: 404.php:12
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "По данному адресу ничего не найдено. Попробуйте воспользоваться поиском."
+
+#: 404.php:11
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Неприятная новость"
+
+#: 404.php:6
+msgid "Not Found"
+msgstr "Не Найдено"
+
+#. Author URI of the theme
+msgid "https://wpgeodirectory.com/"
+msgstr "https://wpgeodirectory.com/"
+
+#. Author of the theme
+msgid "GeoDirectory Team"
+msgstr "Команда GeoDirectory "

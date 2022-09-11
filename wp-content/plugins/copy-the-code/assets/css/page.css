@@ -1,0 +1,91 @@
+#preview {
+    position: relative;
+}
+
+#preview .inner pre {
+    border: 2px solid #ccd0d4;
+    margin-bottom: 2em;
+}
+
+/** <pre> tag */
+#preview pre {
+    padding: 1em 2em 1em 2em;
+    margin: 0;
+	position: relative;
+}
+
+/** 'Copy' button and JS. */
+.copy-the-code-inside-wrap .copy-the-code-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.copy-the-code-inside .copy-the-code-button {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.copy-the-code-wrap {
+    display: block;
+    position: relative;
+}
+
+.copy-the-code-button {
+    background: #e1e3e8;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: none;
+    color: #424242;
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 0;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+}
+
+.copy-the-code-button:hover {
+    background: #d0d1d6;
+}
+
+.copy-the-code-outside + * {
+    margin-top: 0;
+}
+
+.copy-the-code-outside {
+    text-align: right;
+}
+
+/** Styles */
+.copy-the-code-button[style="svg-icon"] {
+    background: transparent;
+    padding: 0;
+    height: 25px;
+}
+.copy-the-code-button[style="svg-icon"] svg {
+    height: auto;
+    width: 20px;
+    fill: #23282d;
+}
+.copy-the-code-button[style="cover"] {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+pre:hover .copy-the-code-button[style="cover"] {
+    opacity: 1;
+}
+
+.copy-the-code-inside-wrap .copy-the-code-button[style="svg-icon"] {
+    padding: 10px;
+}

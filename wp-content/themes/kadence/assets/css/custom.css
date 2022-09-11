@@ -1,0 +1,54 @@
+.fr-filter {
+	width:100%;
+}
+
+.searchandfilter > ul {
+    display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	margin: 20px 0;
+	width:100%;
+}
+
+.searchandfilter > ul > li {
+	display: block;
+    vertical-align: top;
+    width: 24%;
+}
+
+.searchandfilter > ul > li .chosen-container, .searchandfilter > ul > li label {
+	display: block;
+	width: 100%!important;
+}
+
+.searchandfilter > ul > li h4 {
+	display: none;
+}
+
+.searchandfilter .chosen-container-single .chosen-single {
+	height: 40px;
+    background: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c3ccd2;
+    border-radius: 3px;
+    padding: 0 0 0 14px;
+	line-height: 40px;
+}
+
+.searchandfilter .chosen-container-single .chosen-single div {
+    top: 10px;
+}
+
+@media screen and (max-width: 1024px){
+	.searchandfilter > ul > li,  .searchandfilter > ul > li select {
+		width: 49%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.searchandfilter > ul > li,  .searchandfilter > ul > li select{
+		width: 100%;
+	}
+}

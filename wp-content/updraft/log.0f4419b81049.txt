@@ -1,0 +1,1321 @@
+0000.000 (0) Opened log file at time: Thu, 09 Sep 2021 19:24:45 +0000 on https://fishing-report.ru
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.53 WP: 5.5.6 PHP: 7.3.20 (apache2handler, Linux rocky.beget.ru 4.9.207-1-beget-acl #1 SMP Fri Dec 27 18:43:49 MSK 2019 x86_64) MySQL: 5.7.21-20-beget-5.7.21-20-1-log WPLANG: ru_RU Server: Apache/2.4.10 (Unix) safe_mode: 0 max_execution_time: 900 memory_limit: 268435456 (used: 22.6M | 14M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.001 (0) Free space on disk containing Updraft's temporary directory: 96893.6 MB
+0000.007 (0) Deleting old log file: log.abe6f19d6f13.txt
+0000.009 (0) Deleting old log file: log.ea8717f9ba15.txt
+0000.010 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.012 (0) Semaphore (fd, wp_options) being initialised
+0000.014 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.015 (0) Set semaphore last lock (fd) time to 2021-09-09 19:24:45
+0000.015 (0) Semaphore lock (fd) complete
+0000.017 (0) Backup run: resumption=0, nonce=0f4419b81049, file_nonce=0f4419b81049 begun at=1631215485 (0s ago), job type=backup
+0000.018 (0) Scheduling a resumption (1) after 300 seconds (1631215785) in case this run gets aborted
+0000.050 (0) Checking if we have a zip executable available
+0000.051 (0) Testing: /usr/bin/zip
+0000.072 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.073 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.073 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.073 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.074 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.093 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.094 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.095 (0) Working binary zip found: /usr/bin/zip
+0000.096 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.097 (0) Creation of backups of directories: beginning
+0000.099 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.343 (0) Total entities for the zip file: 1536 directories, 7339 files (0 skipped as non-modified), 104.8 MB
+0000.346 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.348 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.350 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.352 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.354 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.357 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.359 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.361 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 7339 files batched, 770 (770) added so far); re-opening (prior size: 0 KB)
+0001.693 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: size is now: 8.20 MB
+0001.694 (0) A useful amount of data was added after this amount of zip processing: 2.2 s (normalised: 2.2 s, rate: 11504.1 KB/s)
+0001.695 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.2257859706879, normalised_time=2.2252955710406, max_time=1.6943080425262, data points known=1, old_max_bytes=26214400, new_max_bytes=70681127)
+0001.696 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 800 files added (on-disk size: 8404.9 KB)
+0001.699 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 900 files added (on-disk size: 8404.9 KB)
+0001.701 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 1000 files added (on-disk size: 8404.9 KB)
+0001.704 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 1100 files added (on-disk size: 8404.9 KB)
+0001.706 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 1200 files added (on-disk size: 8404.9 KB)
+0001.708 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 1300 files added (on-disk size: 8404.9 KB)
+0001.711 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 1400 files added (on-disk size: 8404.9 KB)
+0001.713 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 1500 files added (on-disk size: 8404.9 KB)
+0001.716 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 1600 files added (on-disk size: 8404.9 KB)
+0001.718 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 1700 files added (on-disk size: 8404.9 KB)
+0001.720 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.9 MB, 7339 files batched, 1001 (1771) added so far); re-opening (prior size: 8404.9 KB)
+0002.206 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: size is now: 10.40 MB
+0002.208 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 1800 files added (on-disk size: 10652.6 KB)
+0002.211 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 1900 files added (on-disk size: 10652.6 KB)
+0002.213 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 2000 files added (on-disk size: 10652.6 KB)
+0002.215 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 2100 files added (on-disk size: 10652.6 KB)
+0002.217 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 2200 files added (on-disk size: 10652.6 KB)
+0002.219 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 2300 files added (on-disk size: 10652.6 KB)
+0002.222 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 2400 files added (on-disk size: 10652.6 KB)
+0002.224 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 2500 files added (on-disk size: 10652.6 KB)
+0002.227 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 2600 files added (on-disk size: 10652.6 KB)
+0002.229 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 2700 files added (on-disk size: 10652.6 KB)
+0002.231 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.4 MB, 7339 files batched, 1001 (2772) added so far); re-opening (prior size: 10652.6 KB)
+0002.832 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: size is now: 13.40 MB
+0002.835 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 2800 files added (on-disk size: 13682.2 KB)
+0002.837 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 2900 files added (on-disk size: 13682.2 KB)
+0002.839 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 3000 files added (on-disk size: 13682.2 KB)
+0002.841 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 3100 files added (on-disk size: 13682.2 KB)
+0002.843 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 3200 files added (on-disk size: 13682.2 KB)
+0002.845 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 3300 files added (on-disk size: 13682.2 KB)
+0002.848 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 3400 files added (on-disk size: 13682.2 KB)
+0002.850 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 3500 files added (on-disk size: 13682.2 KB)
+0002.852 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 3600 files added (on-disk size: 13682.2 KB)
+0002.854 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 3700 files added (on-disk size: 13682.2 KB)
+0002.856 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.1 MB, 7339 files batched, 1001 (3773) added so far); re-opening (prior size: 13682.2 KB)
+0003.278 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 3800 files added (on-disk size: 15656.4 KB)
+0003.280 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 3900 files added (on-disk size: 15656.4 KB)
+0003.282 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 4000 files added (on-disk size: 15656.4 KB)
+0003.284 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 4100 files added (on-disk size: 15656.4 KB)
+0003.287 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 4200 files added (on-disk size: 15656.4 KB)
+0003.289 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 4300 files added (on-disk size: 15656.4 KB)
+0003.291 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 4400 files added (on-disk size: 15656.4 KB)
+0003.293 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 4500 files added (on-disk size: 15656.4 KB)
+0003.295 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 4600 files added (on-disk size: 15656.4 KB)
+0003.297 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 4700 files added (on-disk size: 15656.4 KB)
+0003.299 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.8 MB, 7339 files batched, 1001 (4774) added so far); re-opening (prior size: 15656.4 KB)
+0004.369 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: size is now: 21.00 MB
+0004.371 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 4800 files added (on-disk size: 21550.5 KB)
+0004.374 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 4900 files added (on-disk size: 21550.5 KB)
+0004.376 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 5000 files added (on-disk size: 21550.5 KB)
+0004.378 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 5100 files added (on-disk size: 21550.5 KB)
+0004.380 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 5200 files added (on-disk size: 21550.5 KB)
+0004.382 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 5300 files added (on-disk size: 21550.5 KB)
+0004.385 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 5400 files added (on-disk size: 21550.5 KB)
+0004.387 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 5500 files added (on-disk size: 21550.5 KB)
+0004.389 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 5600 files added (on-disk size: 21550.5 KB)
+0004.392 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 5700 files added (on-disk size: 21550.5 KB)
+0004.394 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18.4 MB, 7339 files batched, 1001 (5775) added so far); re-opening (prior size: 21550.5 KB)
+0005.363 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: size is now: 29.70 MB
+0005.365 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 5800 files added (on-disk size: 30371.9 KB)
+0005.368 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 5900 files added (on-disk size: 30371.9 KB)
+0005.370 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 6000 files added (on-disk size: 30371.9 KB)
+0005.373 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 6100 files added (on-disk size: 30371.9 KB)
+0005.375 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 6200 files added (on-disk size: 30371.9 KB)
+0005.378 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 6300 files added (on-disk size: 30371.9 KB)
+0005.380 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 6400 files added (on-disk size: 30371.9 KB)
+0005.382 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 6500 files added (on-disk size: 30371.9 KB)
+0005.384 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 6600 files added (on-disk size: 30371.9 KB)
+0005.387 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 6700 files added (on-disk size: 30371.9 KB)
+0005.389 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.5 MB, 7339 files batched, 1001 (6776) added so far); re-opening (prior size: 30371.9 KB)
+0006.407 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 6800 files added (on-disk size: 33942.8 KB)
+0006.410 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 6900 files added (on-disk size: 33942.8 KB)
+0006.412 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 7000 files added (on-disk size: 33942.8 KB)
+0006.414 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 7100 files added (on-disk size: 33942.8 KB)
+0006.416 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 7200 files added (on-disk size: 33942.8 KB)
+0006.419 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip.tmp: 7300 files added (on-disk size: 33942.8 KB)
+0007.528 (0) Created plugins zip (0) - 37657.2 KB in 7.4 s (5069.6 KB/s) (sha1: 939dc0e529403da5d2d68f2dfecef5d645f96e5c, sha256: c9c7d15d182c4231e4c7aa621f5e25cd7b371fc8aabd3bf66c57885220b5b780)
+0007.530 (0) Beginning creation of dump of themes (split every: 400 MB)
+0007.569 (0) Total entities for the zip file: 225 directories, 1200 files (0 skipped as non-modified), 20.9 MB
+0007.572 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.575 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0007.577 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0007.580 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0007.582 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0007.585 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0007.587 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0007.589 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0007.592 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0007.595 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0007.596 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.1 MB, 1200 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0008.425 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-themes.zip.tmp: size is now: 7.30 MB
+0008.431 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-themes.zip.tmp: 1100 files added (on-disk size: 7482.1 KB)
+0008.435 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-themes.zip.tmp: 1200 files added (on-disk size: 7482.1 KB)
+0008.751 (0) Created themes zip (0) - 8617.6 KB in 1.2 s (7061.7 KB/s) (sha1: 7899269ffcd49d2bee274df36c6e63bc61900891, sha256: 7636411ad8daca0198517812c561405a9c049de68912ae75922a0661e7fbb5a7)
+0008.752 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0008.753 (0) Looking for candidates to backup in: /home/m/msmaxitf/fish/public_html/wp-content/uploads
+0008.754 (0) finding files: 1022194: adding to list (1)
+0008.754 (0) finding files: 305408: adding to list (2)
+0008.755 (0) finding files: 302935: adding to list (3)
+0008.755 (0) finding files: 348318: adding to list (4)
+0008.755 (0) finding files: 526750: adding to list (5)
+0008.756 (0) finding files: 408637: adding to list (6)
+0008.756 (0) finding files: 42363: adding to list (7)
+0008.757 (0) finding files: 201915: adding to list (8)
+0008.757 (0) finding files: 532944: adding to list (9)
+0008.757 (0) finding files: 277881: adding to list (10)
+0008.758 (0) finding files: 506404: adding to list (11)
+0008.758 (0) finding files: 783010: adding to list (12)
+0008.758 (0) finding files: 59783: adding to list (13)
+0008.758 (0) finding files: 165849: adding to list (14)
+0008.759 (0) finding files: 1261736: adding to list (15)
+0008.759 (0) finding files: 760618: adding to list (16)
+0008.759 (0) finding files: 546944: adding to list (17)
+0008.760 (0) finding files: 238899: adding to list (18)
+0008.760 (0) finding files: 24224: adding to list (19)
+0008.760 (0) finding files: 405014: adding to list (20)
+0008.761 (0) finding files: 68465: adding to list (21)
+0008.761 (0) finding files: 49522: adding to list (22)
+0008.761 (0) finding files: 129201: adding to list (23)
+0008.762 (0) finding files: 557827: adding to list (24)
+0008.762 (0) finding files: 220071: adding to list (25)
+0008.762 (0) finding files: 188806: adding to list (26)
+0008.762 (0) finding files: 1279458: adding to list (27)
+0008.763 (0) finding files: 105781: adding to list (28)
+0008.763 (0) finding files: 527119: adding to list (29)
+0008.763 (0) finding files: 1214725: adding to list (30)
+0008.764 (0) finding files: 781389: adding to list (31)
+0008.764 (0) finding files: 42717: adding to list (32)
+0008.764 (0) finding files: 238932: adding to list (33)
+0008.765 (0) finding files: 11173: adding to list (34)
+0008.765 (0) finding files: 55894: adding to list (35)
+0008.765 (0) finding files: 207439: adding to list (36)
+0008.766 (0) finding files: 9774: adding to list (37)
+0008.766 (0) finding files: 1273749: adding to list (38)
+0008.766 (0) finding files: 50096: adding to list (39)
+0008.766 (0) finding files: 36691: adding to list (40)
+0008.767 (0) finding files: 525063: adding to list (41)
+0008.767 (0) finding files: 234665: adding to list (42)
+0008.767 (0) finding files: 404808: adding to list (43)
+0008.768 (0) finding files: 300503: adding to list (44)
+0008.768 (0) finding files: 50564: adding to list (45)
+0008.768 (0) finding files: 890071: adding to list (46)
+0008.769 (0) finding files: 71589: adding to list (47)
+0008.769 (0) finding files: 138278: adding to list (48)
+0008.769 (0) finding files: 374197: adding to list (49)
+0008.769 (0) finding files: 1294036: adding to list (50)
+0008.770 (0) finding files: 202659: adding to list (51)
+0008.770 (0) finding files: 4850: adding to list (52)
+0008.770 (0) finding files: 473013: adding to list (53)
+0008.770 (0) finding files: 238572: adding to list (54)
+0008.770 (0) finding files: 1153593: adding to list (55)
+0008.770 (0) finding files: 29651: adding to list (56)
+0008.770 (0) finding files: 481475: adding to list (57)
+0008.770 (0) finding files: 130670: adding to list (58)
+0008.770 (0) finding files: 70867: adding to list (59)
+0008.770 (0) finding files: 28067: adding to list (60)
+0008.770 (0) finding files: 783234: adding to list (61)
+0008.770 (0) finding files: 880293: adding to list (62)
+0008.770 (0) finding files: 10920: adding to list (63)
+0008.770 (0) finding files: 170023: adding to list (64)
+0008.770 (0) finding files: 335267: adding to list (65)
+0008.770 (0) finding files: 997211: adding to list (66)
+0008.770 (0) finding files: 149507: adding to list (67)
+0008.770 (0) finding files: 448947: adding to list (68)
+0008.770 (0) finding files: 320172: adding to list (69)
+0008.770 (0) finding files: 162751: adding to list (70)
+0008.770 (0) finding files: 548420: adding to list (71)
+0008.770 (0) finding files: 524088: adding to list (72)
+0008.770 (0) finding files: 408535: adding to list (73)
+0008.770 (0) finding files: 8672: adding to list (74)
+0008.770 (0) finding files: 479118: adding to list (75)
+0008.770 (0) finding files: 1851: adding to list (76)
+0008.770 (0) finding files: 333107: adding to list (77)
+0008.770 (0) finding files: 31642: adding to list (78)
+0008.770 (0) finding files: 69959: adding to list (79)
+0008.770 (0) finding files: 207883: adding to list (80)
+0008.770 (0) finding files: 1280215: adding to list (81)
+0008.770 (0) finding files: 128262: adding to list (82)
+0008.770 (0) finding files: 408562: adding to list (83)
+0008.770 (0) finding files: 280609: adding to list (84)
+0008.770 (0) finding files: 15556: adding to list (85)
+0008.770 (0) finding files: 767818: adding to list (86)
+0008.770 (0) finding files: 4959: adding to list (87)
+0008.770 (0) finding files: 1159149: adding to list (88)
+0008.770 (0) finding files: 708677: adding to list (89)
+0008.770 (0) finding files: 725330: adding to list (90)
+0008.770 (0) finding files: 154516: adding to list (91)
+0008.770 (0) finding files: 253316: adding to list (92)
+0008.770 (0) finding files: 730528: adding to list (93)
+0008.770 (0) finding files: 86430: adding to list (94)
+0008.770 (0) finding files: 89927: adding to list (95)
+0008.770 (0) finding files: 330988: adding to list (96)
+0008.770 (0) finding files: 491559: adding to list (97)
+0008.770 (0) finding files: 251027: adding to list (98)
+0008.770 (0) finding files: 18645: adding to list (99)
+0008.770 (0) finding files: 1058119: adding to list (100)
+0008.770 (0) finding files: 1271912: adding to list (101)
+0008.770 (0) finding files: 474853: adding to list (102)
+0008.770 (0) finding files: 449327: adding to list (103)
+0008.770 (0) finding files: 227388: adding to list (104)
+0008.770 (0) finding files: 546371: adding to list (105)
+0008.770 (0) finding files: 207216: adding to list (106)
+0008.770 (0) finding files: 793561: adding to list (107)
+0008.770 (0) finding files: 187625: adding to list (108)
+0008.770 (0) finding files: 221321: adding to list (109)
+0008.770 (0) finding files: 493760: adding to list (110)
+0008.770 (0) finding files: 487068: adding to list (111)
+0008.770 (0) finding files: 602607: adding to list (112)
+0008.770 (0) finding files: 507045: adding to list (113)
+0008.770 (0) finding files: 8084: adding to list (114)
+0008.770 (0) finding files: 531304: adding to list (115)
+0008.770 (0) finding files: 482592: adding to list (116)
+0008.770 (0) finding files: 569960: adding to list (117)
+0008.771 (0) finding files: 96443: adding to list (118)
+0008.771 (0) finding files: 178490: adding to list (119)
+0008.771 (0) finding files: 9847: adding to list (120)
+0008.771 (0) finding files: 19498: adding to list (121)
+0008.771 (0) finding files: 335254: adding to list (122)
+0008.771 (0) finding files: 456274: adding to list (123)
+0008.771 (0) finding files: 708144: adding to list (124)
+0008.771 (0) finding files: 168468: adding to list (125)
+0008.771 (0) finding files: 348644: adding to list (126)
+0008.771 (0) finding files: 60973: adding to list (127)
+0008.771 (0) finding files: 16865: adding to list (128)
+0008.771 (0) finding files: 18080: adding to list (129)
+0008.771 (0) finding files: 296981: adding to list (130)
+0008.771 (0) finding files: 458582: adding to list (131)
+0008.771 (0) finding files: 39495: adding to list (132)
+0008.771 (0) finding files: 11831: adding to list (133)
+0008.771 (0) finding files: 570721: adding to list (134)
+0008.771 (0) finding files: 32005: adding to list (135)
+0008.771 (0) finding files: 273906: adding to list (136)
+0008.771 (0) finding files: 1281454: adding to list (137)
+0008.771 (0) finding files: 476060: adding to list (138)
+0008.771 (0) finding files: 336869: adding to list (139)
+0008.771 (0) finding files: 85395: adding to list (140)
+0008.771 (0) finding files: 329458: adding to list (141)
+0008.771 (0) finding files: 254810: adding to list (142)
+0008.771 (0) finding files: 1015886: adding to list (143)
+0008.771 (0) finding files: slider: adding to list (144)
+0008.771 (0) finding files: 12037: adding to list (145)
+0008.771 (0) finding files: 768004: adding to list (146)
+0008.771 (0) finding files: 488031: adding to list (147)
+0008.771 (0) finding files: 175965: adding to list (148)
+0008.771 (0) finding files: 1023329: adding to list (149)
+0008.771 (0) finding files: 561109: adding to list (150)
+0008.771 (0) finding files: 282170: adding to list (151)
+0008.771 (0) finding files: 89838: adding to list (152)
+0008.771 (0) finding files: 780578: adding to list (153)
+0008.771 (0) finding files: 1150610: adding to list (154)
+0008.771 (0) finding files: 415660: adding to list (155)
+0008.771 (0) finding files: 6103: adding to list (156)
+0008.771 (0) finding files: 290932: adding to list (157)
+0008.771 (0) finding files: 329525: adding to list (158)
+0008.771 (0) finding files: 2788: adding to list (159)
+0008.771 (0) finding files: 346635: adding to list (160)
+0008.771 (0) finding files: 55886: adding to list (161)
+0008.771 (0) finding files: 466858: adding to list (162)
+0008.771 (0) finding files: 100500: adding to list (163)
+0008.771 (0) finding files: 50984: adding to list (164)
+0008.771 (0) finding files: 203205: adding to list (165)
+0008.771 (0) finding files: 799592: adding to list (166)
+0008.771 (0) finding files: 19418: adding to list (167)
+0008.771 (0) finding files: 345484: adding to list (168)
+0008.771 (0) finding files: 101040: adding to list (169)
+0008.771 (0) finding files: 38103: adding to list (170)
+0008.771 (0) finding files: 17803: adding to list (171)
+0008.771 (0) finding files: 1676: adding to list (172)
+0008.771 (0) finding files: 1297994: adding to list (173)
+0008.771 (0) finding files: 1134269: adding to list (174)
+0008.771 (0) finding files: 16959: adding to list (175)
+0008.771 (0) finding files: 1182223: adding to list (176)
+0008.771 (0) finding files: 228152: adding to list (177)
+0008.771 (0) finding files: 281053: adding to list (178)
+0008.771 (0) finding files: 1262952: adding to list (179)
+0008.771 (0) finding files: 5306: adding to list (180)
+0008.771 (0) finding files: 298565: adding to list (181)
+0008.771 (0) finding files: 18388: adding to list (182)
+0008.771 (0) finding files: 53901: adding to list (183)
+0008.771 (0) finding files: 101315: adding to list (184)
+0008.771 (0) finding files: 162070: adding to list (185)
+0008.771 (0) finding files: 835791: adding to list (186)
+0008.771 (0) finding files: 331820: adding to list (187)
+0008.771 (0) finding files: 1228589: adding to list (188)
+0008.771 (0) finding files: 4232: adding to list (189)
+0008.771 (0) finding files: 336776: adding to list (190)
+0008.771 (0) finding files: 332783: adding to list (191)
+0008.771 (0) finding files: 1054764: adding to list (192)
+0008.771 (0) finding files: 1272364: adding to list (193)
+0008.771 (0) finding files: 238831: adding to list (194)
+0008.771 (0) finding files: 4419: adding to list (195)
+0008.771 (0) finding files: 10581: adding to list (196)
+0008.771 (0) finding files: 5679: adding to list (197)
+0008.771 (0) finding files: 292789: adding to list (198)
+0008.771 (0) finding files: 1230169: adding to list (199)
+0008.771 (0) finding files: 535369: adding to list (200)
+0008.771 (0) finding files: 375095: adding to list (201)
+0008.771 (0) finding files: 7206: adding to list (202)
+0008.771 (0) finding files: 783003: adding to list (203)
+0008.771 (0) finding files: 42138: adding to list (204)
+0008.771 (0) finding files: 65943: adding to list (205)
+0008.771 (0) finding files: 18007: adding to list (206)
+0008.771 (0) finding files: 191649: adding to list (207)
+0008.771 (0) finding files: 331673: adding to list (208)
+0008.771 (0) finding files: 328097: adding to list (209)
+0008.771 (0) finding files: 148829: adding to list (210)
+0008.771 (0) finding files: 409945: adding to list (211)
+0008.771 (0) finding files: 1027040: adding to list (212)
+0008.771 (0) finding files: slider2: adding to list (213)
+0008.771 (0) finding files: 33444: adding to list (214)
+0008.771 (0) finding files: 471413: adding to list (215)
+0008.771 (0) finding files: 1267337: adding to list (216)
+0008.771 (0) finding files: 11538: adding to list (217)
+0008.771 (0) finding files: 454593: adding to list (218)
+0008.771 (0) finding files: 357941: adding to list (219)
+0008.771 (0) finding files: 228581: adding to list (220)
+0008.771 (0) finding files: 206988: adding to list (221)
+0008.771 (0) finding files: 14652: adding to list (222)
+0008.771 (0) finding files: 581028: adding to list (223)
+0008.771 (0) finding files: 45031: adding to list (224)
+0008.771 (0) finding files: 326135: adding to list (225)
+0008.771 (0) finding files: 308763: adding to list (226)
+0008.771 (0) finding files: 450865: adding to list (227)
+0008.771 (0) finding files: 499268: adding to list (228)
+0008.771 (0) finding files: 97977: adding to list (229)
+0008.771 (0) finding files: 55693: adding to list (230)
+0008.771 (0) finding files: 376569: adding to list (231)
+0008.771 (0) finding files: webp-converter-for-media-test.png2: adding to list (232)
+0008.771 (0) finding files: 225955: adding to list (233)
+0008.771 (0) finding files: 832898: adding to list (234)
+0008.771 (0) finding files: 1151662: adding to list (235)
+0008.771 (0) finding files: 456484: adding to list (236)
+0008.771 (0) finding files: 476973: adding to list (237)
+0008.771 (0) finding files: 1265126: adding to list (238)
+0008.772 (0) finding files: 2444: adding to list (239)
+0008.772 (0) finding files: 349953: adding to list (240)
+0008.772 (0) finding files: 499342: adding to list (241)
+0008.772 (0) finding files: 1289724: adding to list (242)
+0008.772 (0) finding files: 468863: adding to list (243)
+0008.772 (0) finding files: 272080: adding to list (244)
+0008.772 (0) finding files: 570670: adding to list (245)
+0008.772 (0) finding files: 794068: adding to list (246)
+0008.772 (0) finding files: 791220: adding to list (247)
+0008.772 (0) finding files: 522815: adding to list (248)
+0008.772 (0) finding files: 343501: adding to list (249)
+0008.772 (0) finding files: 541916: adding to list (250)
+0008.772 (0) finding files: 780470: adding to list (251)
+0008.772 (0) finding files: 523979: adding to list (252)
+0008.772 (0) finding files: 329448: adding to list (253)
+0008.772 (0) finding files: 239488: adding to list (254)
+0008.772 (0) finding files: 1220272: adding to list (255)
+0008.772 (0) finding files: 569752: adding to list (256)
+0008.772 (0) finding files: 342015: adding to list (257)
+0008.772 (0) finding files: 800391: adding to list (258)
+0008.772 (0) finding files: 149553: adding to list (259)
+0008.772 (0) finding files: 474782: adding to list (260)
+0008.772 (0) finding files: 534692: adding to list (261)
+0008.772 (0) finding files: 160127: adding to list (262)
+0008.772 (0) finding files: 33961: adding to list (263)
+0008.772 (0) finding files: 44362: adding to list (264)
+0008.772 (0) finding files: 282636: adding to list (265)
+0008.772 (0) finding files: 476899: adding to list (266)
+0008.772 (0) finding files: 537216: adding to list (267)
+0008.772 (0) finding files: 768119: adding to list (268)
+0008.772 (0) finding files: 1231281: adding to list (269)
+0008.772 (0) finding files: 358341: adding to list (270)
+0008.772 (0) finding files: 32457: adding to list (271)
+0008.772 (0) finding files: 70209: adding to list (272)
+0008.772 (0) finding files: 537835: adding to list (273)
+0008.772 (0) finding files: 330787: adding to list (274)
+0008.772 (0) finding files: 477154: adding to list (275)
+0008.772 (0) finding files: 30442: adding to list (276)
+0008.772 (0) finding files: 1149954: adding to list (277)
+0008.772 (0) finding files: 836358: adding to list (278)
+0008.772 (0) finding files: 1226957: adding to list (279)
+0008.772 (0) finding files: 1068871: adding to list (280)
+0008.772 (0) finding files: 571580: adding to list (281)
+0008.772 (0) finding files: 337915: adding to list (282)
+0008.772 (0) finding files: 145371: adding to list (283)
+0008.772 (0) finding files: 466349: adding to list (284)
+0008.772 (0) finding files: 1070238: adding to list (285)
+0008.772 (0) finding files: 475713: adding to list (286)
+0008.772 (0) finding files: 673808: adding to list (287)
+0008.772 (0) finding files: 40998: adding to list (288)
+0008.772 (0) finding files: 1259082: adding to list (289)
+0008.772 (0) finding files: 273673: adding to list (290)
+0008.772 (0) finding files: 537615: adding to list (291)
+0008.772 (0) finding files: 12067: adding to list (292)
+0008.772 (0) finding files: 253624: adding to list (293)
+0008.772 (0) finding files: 6161: adding to list (294)
+0008.772 (0) finding files: 52577: adding to list (295)
+0008.772 (0) finding files: 348316: adding to list (296)
+0008.772 (0) finding files: 520769: adding to list (297)
+0008.772 (0) finding files: 55921: adding to list (298)
+0008.772 (0) finding files: 16234: adding to list (299)
+0008.772 (0) finding files: 53416: adding to list (300)
+0008.772 (0) finding files: 52986: adding to list (301)
+0008.772 (0) finding files: 24272: adding to list (302)
+0008.772 (0) finding files: 343026: adding to list (303)
+0008.772 (0) finding files: 161291: adding to list (304)
+0008.772 (0) finding files: 338859: adding to list (305)
+0008.772 (0) finding files: 325826: adding to list (306)
+0008.772 (0) finding files: 443839: adding to list (307)
+0008.772 (0) finding files: 36002: adding to list (308)
+0008.772 (0) finding files: 529223: adding to list (309)
+0008.772 (0) finding files: 698377: adding to list (310)
+0008.772 (0) finding files: 355863: adding to list (311)
+0008.772 (0) finding files: 501588: adding to list (312)
+0008.772 (0) finding files: 39159: adding to list (313)
+0008.772 (0) finding files: 1275988: adding to list (314)
+0008.772 (0) finding files: 9309: adding to list (315)
+0008.772 (0) finding files: 483826: adding to list (316)
+0008.772 (0) finding files: 343007: adding to list (317)
+0008.772 (0) finding files: 1231363: adding to list (318)
+0008.772 (0) finding files: 493341: adding to list (319)
+0008.772 (0) finding files: 42467: adding to list (320)
+0008.772 (0) finding files: 169693: adding to list (321)
+0008.772 (0) finding files: 67340: adding to list (322)
+0008.772 (0) finding files: 28295: adding to list (323)
+0008.772 (0) finding files: 60033: adding to list (324)
+0008.772 (0) finding files: 1264981: adding to list (325)
+0008.772 (0) finding files: 757364: adding to list (326)
+0008.772 (0) finding files: 41490: adding to list (327)
+0008.772 (0) finding files: 1215196: adding to list (328)
+0008.772 (0) finding files: 476862: adding to list (329)
+0008.772 (0) finding files: 476166: adding to list (330)
+0008.773 (0) finding files: 19511: adding to list (331)
+0008.773 (0) finding files: 11565: adding to list (332)
+0008.773 (0) finding files: 293350: adding to list (333)
+0008.773 (0) finding files: 281443: adding to list (334)
+0008.773 (0) finding files: 221361: adding to list (335)
+0008.773 (0) finding files: 1289864: adding to list (336)
+0008.773 (0) finding files: 351670: adding to list (337)
+0008.773 (0) finding files: 682975: adding to list (338)
+0008.773 (0) finding files: 730613: adding to list (339)
+0008.773 (0) finding files: 502342: adding to list (340)
+0008.773 (0) finding files: 39440: adding to list (341)
+0008.773 (0) finding files: 21976: adding to list (342)
+0008.773 (0) finding files: 530600: adding to list (343)
+0008.773 (0) finding files: 99941: adding to list (344)
+0008.773 (0) finding files: 102070: adding to list (345)
+0008.773 (0) finding files: 29294: adding to list (346)
+0008.773 (0) finding files: 41191: adding to list (347)
+0008.773 (0) finding files: 1491576: adding to list (348)
+0008.773 (0) finding files: 548094: adding to list (349)
+0008.773 (0) finding files: 49923: adding to list (350)
+0008.773 (0) finding files: 32812: adding to list (351)
+0008.773 (0) finding files: 187235: adding to list (352)
+0008.773 (0) finding files: 266878: adding to list (353)
+0008.773 (0) finding files: 42498: adding to list (354)
+0008.773 (0) finding files: 228828: adding to list (355)
+0008.773 (0) finding files: 1277548: adding to list (356)
+0008.773 (0) finding files: 472018: adding to list (357)
+0008.773 (0) finding files: 4745: adding to list (358)
+0008.773 (0) finding files: 487215: adding to list (359)
+0008.773 (0) finding files: 342247: adding to list (360)
+0008.773 (0) finding files: 281386: adding to list (361)
+0008.773 (0) finding files: 300702: adding to list (362)
+0008.773 (0) finding files: 1071579: adding to list (363)
+0008.773 (0) finding files: 20036: adding to list (364)
+0008.773 (0) finding files: 1500537: adding to list (365)
+0008.773 (0) finding files: 525214: adding to list (366)
+0008.773 (0) finding files: 1175536: adding to list (367)
+0008.773 (0) finding files: 472005: adding to list (368)
+0008.773 (0) finding files: 465015: adding to list (369)
+0008.773 (0) finding files: 347957: adding to list (370)
+0008.773 (0) finding files: 19680: adding to list (371)
+0008.773 (0) finding files: 506786: adding to list (372)
+0008.773 (0) finding files: 168586: adding to list (373)
+0008.773 (0) finding files: 50228: adding to list (374)
+0008.773 (0) finding files: 1550668: adding to list (375)
+0008.773 (0) finding files: 341095: adding to list (376)
+0008.773 (0) finding files: 803551: adding to list (377)
+0008.773 (0) finding files: 1061046: adding to list (378)
+0008.773 (0) finding files: 9776: adding to list (379)
+0008.773 (0) finding files: anycomment: adding to list (380)
+0008.773 (0) finding files: 177544: adding to list (381)
+0008.773 (0) finding files: 167675: adding to list (382)
+0008.773 (0) finding files: 758978: adding to list (383)
+0008.773 (0) finding files: 129838: adding to list (384)
+0008.773 (0) finding files: 1253640: adding to list (385)
+0008.773 (0) finding files: 1054889: adding to list (386)
+0008.773 (0) finding files: 6814: adding to list (387)
+0008.773 (0) finding files: 314926: adding to list (388)
+0008.773 (0) finding files: 527253: adding to list (389)
+0008.773 (0) finding files: 333232: adding to list (390)
+0008.773 (0) finding files: 43651: adding to list (391)
+0008.773 (0) finding files: 794040: adding to list (392)
+0008.773 (0) finding files: 3536: adding to list (393)
+0008.773 (0) finding files: 11542: adding to list (394)
+0008.773 (0) finding files: 18028: adding to list (395)
+0008.773 (0) finding files: 455887: adding to list (396)
+0008.773 (0) finding files: 1021130: adding to list (397)
+0008.773 (0) finding files: 724785: adding to list (398)
+0008.773 (0) finding files: 1282172: adding to list (399)
+0008.773 (0) finding files: 170101: adding to list (400)
+0008.773 (0) finding files: 4751: adding to list (401)
+0008.773 (0) finding files: 347890: adding to list (402)
+0008.773 (0) finding files: 202551: adding to list (403)
+0008.773 (0) finding files: 63658: adding to list (404)
+0008.773 (0) finding files: 164935: adding to list (405)
+0008.773 (0) finding files: 187875: adding to list (406)
+0008.773 (0) finding files: 60060: adding to list (407)
+0008.773 (0) finding files: 4260: adding to list (408)
+0008.773 (0) finding files: 729753: adding to list (409)
+0008.773 (0) finding files: 151465: adding to list (410)
+0008.773 (0) finding files: 196998: adding to list (411)
+0008.773 (0) finding files: 684916: adding to list (412)
+0008.773 (0) finding files: 376570: adding to list (413)
+0008.773 (0) finding files: 832324: adding to list (414)
+0008.773 (0) finding files: 591213: adding to list (415)
+0008.773 (0) finding files: 642: adding to list (416)
+0008.773 (0) finding files: 302675: adding to list (417)
+0008.773 (0) finding files: 1027677: adding to list (418)
+0008.773 (0) finding files: 342407: adding to list (419)
+0008.773 (0) finding files: 41430: adding to list (420)
+0008.773 (0) finding files: 234829: adding to list (421)
+0008.773 (0) finding files: 63522: adding to list (422)
+0008.773 (0) finding files: 85089: adding to list (423)
+0008.773 (0) finding files: 237523: adding to list (424)
+0008.773 (0) finding files: 202297: adding to list (425)
+0008.773 (0) finding files: 1260010: adding to list (426)
+0008.773 (0) finding files: 283481: adding to list (427)
+0008.773 (0) finding files: 341468: adding to list (428)
+0008.773 (0) finding files: 697856: adding to list (429)
+0008.773 (0) finding files: 41393: adding to list (430)
+0008.773 (0) finding files: 1752: adding to list (431)
+0008.773 (0) finding files: 283825: adding to list (432)
+0008.773 (0) finding files: 38366: adding to list (433)
+0008.773 (0) finding files: 1502508: adding to list (434)
+0008.773 (0) finding files: 1299253: adding to list (435)
+0008.773 (0) finding files: 138352: adding to list (436)
+0008.773 (0) finding files: 348725: adding to list (437)
+0008.773 (0) finding files: 228517: adding to list (438)
+0008.773 (0) finding files: 702387: adding to list (439)
+0008.773 (0) finding files: 248912: adding to list (440)
+0008.774 (0) finding files: 516097: adding to list (441)
+0008.774 (0) finding files: 3883: adding to list (442)
+0008.774 (0) finding files: 482379: adding to list (443)
+0008.774 (0) finding files: 272385: adding to list (444)
+0008.774 (0) finding files: 305765: adding to list (445)
+0008.774 (0) finding files: 1290529: adding to list (446)
+0008.774 (0) finding files: 13793: adding to list (447)
+0008.774 (0) finding files: 291294: adding to list (448)
+0008.774 (0) finding files: 780554: adding to list (449)
+0008.774 (0) finding files: 209117: adding to list (450)
+0008.774 (0) finding files: 1285120: adding to list (451)
+0008.774 (0) finding files: 39461: adding to list (452)
+0008.774 (0) finding files: 17306: adding to list (453)
+0008.774 (0) finding files: 60186: adding to list (454)
+0008.774 (0) finding files: 29022: adding to list (455)
+0008.774 (0) finding files: 408862: adding to list (456)
+0008.774 (0) finding files: 16992: adding to list (457)
+0008.774 (0) finding files: 1067571: adding to list (458)
+0008.774 (0) finding files: 15345: adding to list (459)
+0008.774 (0) finding files: 1556081: adding to list (460)
+0008.774 (0) finding files: 1281834: adding to list (461)
+0008.774 (0) finding files: 501864: adding to list (462)
+0008.774 (0) finding files: 234643: adding to list (463)
+0008.774 (0) finding files: 49379: adding to list (464)
+0008.774 (0) finding files: 1554067: adding to list (465)
+0008.774 (0) finding files: 14678: adding to list (466)
+0008.774 (0) finding files: 158598: adding to list (467)
+0008.774 (0) finding files: 451616: adding to list (468)
+0008.774 (0) finding files: 461168: adding to list (469)
+0008.774 (0) finding files: 305533: adding to list (470)
+0008.774 (0) finding files: 335709: adding to list (471)
+0008.774 (0) finding files: 1122343: adding to list (472)
+0008.774 (0) finding files: 733454: adding to list (473)
+0008.774 (0) finding files: 594175: adding to list (474)
+0008.774 (0) finding files: 278724: adding to list (475)
+0008.774 (0) finding files: 13408: adding to list (476)
+0008.774 (0) finding files: 14988: adding to list (477)
+0008.774 (0) finding files: 472781: adding to list (478)
+0008.774 (0) finding files: 484581: adding to list (479)
+0008.774 (0) finding files: 93922: adding to list (480)
+0008.774 (0) finding files: 602687: adding to list (481)
+0008.774 (0) finding files: 614228: adding to list (482)
+0008.774 (0) finding files: 809408: adding to list (483)
+0008.774 (0) finding files: 234238: adding to list (484)
+0008.774 (0) finding files: 542342: adding to list (485)
+0008.774 (0) finding files: 264694: adding to list (486)
+0008.774 (0) finding files: 151162: adding to list (487)
+0008.774 (0) finding files: 349486: adding to list (488)
+0008.774 (0) finding files: 898793: adding to list (489)
+0008.774 (0) finding files: 10762: adding to list (490)
+0008.774 (0) finding files: 487389: adding to list (491)
+0008.774 (0) finding files: 482875: adding to list (492)
+0008.774 (0) finding files: 499286: adding to list (493)
+0008.774 (0) finding files: 149841: adding to list (494)
+0008.774 (0) finding files: 199059: adding to list (495)
+0008.774 (0) finding files: 1277317: adding to list (496)
+0008.774 (0) finding files: 171410: adding to list (497)
+0008.774 (0) finding files: 572064: adding to list (498)
+0008.774 (0) finding files: 5012: adding to list (499)
+0008.774 (0) finding files: 267614: adding to list (500)
+0008.775 (0) finding files: 343536: adding to list (1001, 500 log lines skipped)
+0008.777 (0) finding files: 36451: adding to list (1502, 500 log lines skipped)
+0008.778 (0) finding files: 410004: adding to list (2003, 500 log lines skipped)
+0008.779 (0) finding files: 17516: adding to list (2504, 500 log lines skipped)
+0008.780 (0) finding files: 10125: adding to list (3005, 500 log lines skipped)
+0008.782 (0) finding files: 203816: adding to list (3506, 500 log lines skipped)
+0008.782 (0) finding files: 794652: adding to list (3689, last; 183 log lines skipped)
+0008.783 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0009.600 (0) Total entities for the zip file: 3711 directories, 23410 files (0 skipped as non-modified), 6100.5 MB
+0009.603 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.605 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 67.4 MB added on this batch (67.6 MB, 23410 files batched, 194 (194) added so far); re-opening (prior size: 0 KB)
+0010.277 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads.zip.tmp: size is now: 68.20 MB
+0010.278 (0) A useful amount of data was added after this amount of zip processing: 1.8 s (normalised: 1.8 s, rate: 38238 KB/s)
+0010.279 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.810045003891, normalised_time=1.8051296284762, max_time=10.278584003448, data points known=1, old_max_bytes=70681127, new_max_bytes=209715200)
+0010.280 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads.zip.tmp: 200 files added (on-disk size: 69819.4 KB)
+0010.282 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads.zip.tmp: 300 files added (on-disk size: 69819.4 KB)
+0010.284 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads.zip.tmp: 400 files added (on-disk size: 69819.4 KB)
+0010.286 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads.zip.tmp: 500 files added (on-disk size: 69819.4 KB)
+0010.288 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads.zip.tmp: 600 files added (on-disk size: 69819.4 KB)
+0010.290 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads.zip.tmp: 700 files added (on-disk size: 69819.4 KB)
+0010.292 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 200 MB added on this batch (200.3 MB, 23410 files batched, 572 (766) added so far); re-opening (prior size: 69819.4 KB)
+0012.890 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads.zip.tmp: size is now: 268.60 MB
+0012.892 (0) A useful amount of data was added after this amount of zip processing: 3.4 s (normalised: 3.4 s, rate: 59910.9 KB/s)
+0012.893 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=3.4238469600677, normalised_time=3.4184108094056, max_time=12.89241194725, data points known=1, max_bytes=209715200)
+0012.894 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads.zip.tmp: 800 files added (on-disk size: 275049.7 KB)
+0012.896 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads.zip.tmp: 900 files added (on-disk size: 275049.7 KB)
+0012.900 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads.zip.tmp: 1000 files added (on-disk size: 275049.7 KB)
+0012.904 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (119.8 MB, 330 (1096) files added so far); last ratio: 1; re-opening (prior size: 275049.7 KB)
+0015.398 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads.zip.tmp: size is now: 388.50 MB
+0015.399 (0) Zip size is at/near split limit (388.5 MB / 400 MB) - bumping index (from: 0)
+0020.231 (0) Created uploads zip (0) - 397803.3 KB in 6.6 s (60126.5 KB/s) (checksums: sha1: 646873f24b8197ce68e35057d48cb6e8c163425f, sha256: b710d9da48483d3647a2d0fdcf9000824d5bc5db1355a6b8c6f2013ed31d34bf)
+0020.233 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.5 MB, 1 (1097) files added so far); re-opening (prior size: 0 KB)
+0020.255 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads2.zip.tmp: size is now: 0.50 MB
+0020.256 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads2.zip.tmp: 1100 files added (on-disk size: 488.9 KB)
+0020.258 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads2.zip.tmp: 1200 files added (on-disk size: 488.9 KB)
+0020.261 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads2.zip.tmp: 1300 files added (on-disk size: 488.9 KB)
+0020.263 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads2.zip.tmp: 1400 files added (on-disk size: 488.9 KB)
+0020.265 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads2.zip.tmp: 1500 files added (on-disk size: 488.9 KB)
+0020.267 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads2.zip.tmp: 1600 files added (on-disk size: 488.9 KB)
+0020.268 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 200 MB added on this batch (200.3 MB, 23410 files batched, 533 (1630) added so far); re-opening (prior size: 488.9 KB)
+0022.404 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads2.zip.tmp: size is now: 200.80 MB
+0022.407 (0) A useful amount of data was added after this amount of zip processing: 2.9 s (normalised: 2.9 s, rate: 69799.3 KB/s)
+0022.407 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=2.9384760856628, normalised_time=2.9341261426972, max_time=22.40722990036, data points known=1, max_bytes=209715200)
+0022.411 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads2.zip.tmp: 1700 files added (on-disk size: 205629.4 KB)
+0022.415 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads2.zip.tmp: 1800 files added (on-disk size: 205629.4 KB)
+0022.419 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads2.zip.tmp: 1900 files added (on-disk size: 205629.4 KB)
+0022.423 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads2.zip.tmp: 2000 files added (on-disk size: 205629.4 KB)
+0022.426 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (181.5 MB, 455 (2085) files added so far); last ratio: 1; re-opening (prior size: 205629.4 KB)
+0025.554 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads2.zip.tmp: size is now: 382.40 MB
+0025.555 (0) Zip size is at/near split limit (382.4 MB / 400 MB) - bumping index (from: 1)
+0030.089 (0) Created uploads zip (1) - 391583.1 KB in 5.3 s (73550.4 KB/s) (checksums: sha1: 1f57fe41ce7436b0f14dc7977a2a6808b1fd1c0a, sha256: 24ce64554753220efdbdd3c108c37e05ec2da78ab3e0c0c5a17a7920c7bc7606)
+0030.091 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.4 MB, 1 (2086) files added so far); re-opening (prior size: 0 KB)
+0030.113 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads3.zip.tmp: size is now: 0.40 MB
+0030.115 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads3.zip.tmp: 2100 files added (on-disk size: 423.7 KB)
+0030.117 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads3.zip.tmp: 2200 files added (on-disk size: 423.7 KB)
+0030.119 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads3.zip.tmp: 2300 files added (on-disk size: 423.7 KB)
+0030.121 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads3.zip.tmp: 2400 files added (on-disk size: 423.7 KB)
+0030.123 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads3.zip.tmp: 2500 files added (on-disk size: 423.7 KB)
+0030.125 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads3.zip.tmp: 2600 files added (on-disk size: 423.7 KB)
+0030.126 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 200 MB added on this batch (200.5 MB, 23410 files batched, 546 (2632) added so far); re-opening (prior size: 423.7 KB)
+0032.174 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads3.zip.tmp: size is now: 201.00 MB
+0032.175 (0) A useful amount of data was added after this amount of zip processing: 2.7 s (normalised: 2.7 s, rate: 75835.9 KB/s)
+0032.176 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=2.7069189548492, normalised_time=2.7005687900243, max_time=32.175456047058, data points known=1, max_bytes=209715200)
+0032.178 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads3.zip.tmp: 2700 files added (on-disk size: 205805.2 KB)
+0032.180 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads3.zip.tmp: 2800 files added (on-disk size: 205805.2 KB)
+0032.182 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads3.zip.tmp: 2900 files added (on-disk size: 205805.2 KB)
+0032.184 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads3.zip.tmp: 3000 files added (on-disk size: 205805.2 KB)
+0032.186 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads3.zip.tmp: 3100 files added (on-disk size: 205805.2 KB)
+0032.187 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (181.1 MB, 492 (3124) files added so far); last ratio: 1; re-opening (prior size: 205805.2 KB)
+0035.371 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads3.zip.tmp: size is now: 382.20 MB
+0035.373 (0) Zip size is at/near split limit (382.2 MB / 400 MB) - bumping index (from: 2)
+0040.661 (0) Created uploads zip (2) - 391352.5 KB in 5.3 s (74070.2 KB/s) (checksums: sha1: 9386eed2468a9d6dcdfc1ed40415268e985216fe, sha256: 947cc4d5e80d2a1ff84b6396a6ce524b391b189888b6b7b03eac939e28456a0b)
+0040.662 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.7 MB, 1 (3125) files added so far); re-opening (prior size: 0 KB)
+0040.685 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads4.zip.tmp: size is now: 0.70 MB
+0040.689 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads4.zip.tmp: 3200 files added (on-disk size: 696.1 KB)
+0040.691 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads4.zip.tmp: 3300 files added (on-disk size: 696.1 KB)
+0040.694 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads4.zip.tmp: 3400 files added (on-disk size: 696.1 KB)
+0040.696 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads4.zip.tmp: 3500 files added (on-disk size: 696.1 KB)
+0040.698 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads4.zip.tmp: 3600 files added (on-disk size: 696.1 KB)
+0040.700 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 200 MB added on this batch (200.1 MB, 23410 files batched, 534 (3659) added so far); re-opening (prior size: 696.1 KB)
+0042.832 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads4.zip.tmp: size is now: 200.90 MB
+0042.833 (0) A useful amount of data was added after this amount of zip processing: 2.4 s (normalised: 2.4 s, rate: 86644.1 KB/s)
+0042.834 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=2.3649671077728, normalised_time=2.3636921477696, max_time=42.833623886108, data points known=1, max_bytes=209715200)
+0042.835 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads4.zip.tmp: 3700 files added (on-disk size: 205704.5 KB)
+0042.837 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads4.zip.tmp: 3800 files added (on-disk size: 205704.5 KB)
+0042.840 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads4.zip.tmp: 3900 files added (on-disk size: 205704.5 KB)
+0042.842 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads4.zip.tmp: 4000 files added (on-disk size: 205704.5 KB)
+0042.844 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads4.zip.tmp: 4100 files added (on-disk size: 205704.5 KB)
+0042.845 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (181 MB, 477 (4136) files added so far); last ratio: 1; re-opening (prior size: 205704.5 KB)
+0045.586 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads4.zip.tmp: size is now: 382.00 MB
+0045.588 (0) Zip size is at/near split limit (382 MB / 400 MB) - bumping index (from: 3)
+0050.242 (0) Created uploads zip (3) - 391173.4 KB in 4.9 s (79395.4 KB/s) (checksums: sha1: 7416116f4ee58dead23992042b58832313b8c5fb, sha256: 1400c67eab969ed580b145691f9f4866375cfc2c6a0484731b5996ac17750827)
+0050.243 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.4 MB, 1 (4137) files added so far); re-opening (prior size: 0 KB)
+0050.264 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads5.zip.tmp: size is now: 0.40 MB
+0050.267 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads5.zip.tmp: 4200 files added (on-disk size: 460 KB)
+0050.270 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads5.zip.tmp: 4300 files added (on-disk size: 460 KB)
+0050.272 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads5.zip.tmp: 4400 files added (on-disk size: 460 KB)
+0050.275 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads5.zip.tmp: 4500 files added (on-disk size: 460 KB)
+0050.277 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads5.zip.tmp: 4600 files added (on-disk size: 460 KB)
+0050.280 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 200 MB added on this batch (200.2 MB, 23410 files batched, 558 (4695) added so far); re-opening (prior size: 460 KB)
+0052.416 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads5.zip.tmp: size is now: 200.70 MB
+0052.418 (0) A useful amount of data was added after this amount of zip processing: 2.9 s (normalised: 2.9 s, rate: 69506.5 KB/s)
+0052.418 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=2.9492330551147, normalised_time=2.9464857862249, max_time=52.417756080627, data points known=1, max_bytes=209715200)
+0052.419 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads5.zip.tmp: 4700 files added (on-disk size: 205553 KB)
+0052.422 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads5.zip.tmp: 4800 files added (on-disk size: 205553 KB)
+0052.425 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads5.zip.tmp: 4900 files added (on-disk size: 205553 KB)
+0052.427 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads5.zip.tmp: 5000 files added (on-disk size: 205553 KB)
+0052.430 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads5.zip.tmp: 5100 files added (on-disk size: 205553 KB)
+0052.432 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (181.4 MB, 495 (5190) files added so far); last ratio: 1; re-opening (prior size: 205553 KB)
+0054.945 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads5.zip.tmp: size is now: 382.30 MB
+0054.947 (0) Zip size is at/near split limit (382.3 MB / 400 MB) - bumping index (from: 4)
+0059.550 (0) Created uploads zip (4) - 391445 KB in 4.7 s (83200.5 KB/s) (checksums: sha1: e6900cbce08a9db170ad60d633399c811313dc49, sha256: df5601faf9987917d2997e58140f8c5ff3b86caf844e4db1588a94ace0a16889)
+0059.552 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.8 MB, 1 (5191) files added so far); re-opening (prior size: 0 KB)
+0059.574 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads6.zip.tmp: size is now: 0.80 MB
+0059.576 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads6.zip.tmp: 5200 files added (on-disk size: 808.1 KB)
+0059.580 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads6.zip.tmp: 5300 files added (on-disk size: 808.1 KB)
+0059.584 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads6.zip.tmp: 5400 files added (on-disk size: 808.1 KB)
+0059.588 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads6.zip.tmp: 5500 files added (on-disk size: 808.1 KB)
+0059.592 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads6.zip.tmp: 5600 files added (on-disk size: 808.1 KB)
+0059.597 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads6.zip.tmp: 5700 files added (on-disk size: 808.1 KB)
+0059.600 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 200 MB added on this batch (200.3 MB, 23410 files batched, 556 (5747) added so far); re-opening (prior size: 808.1 KB)
+0061.433 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads6.zip.tmp: size is now: 201.20 MB
+0061.435 (0) A useful amount of data was added after this amount of zip processing: 2 s (normalised: 2 s, rate: 104265.3 KB/s)
+0061.436 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.9668920040131, normalised_time=1.9642207169627, max_time=61.435436964035, data points known=1, max_bytes=209715200)
+0061.438 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads6.zip.tmp: 5800 files added (on-disk size: 205988.6 KB)
+0061.440 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads6.zip.tmp: 5900 files added (on-disk size: 205988.6 KB)
+0061.443 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads6.zip.tmp: 6000 files added (on-disk size: 205988.6 KB)
+0061.446 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads6.zip.tmp: 6100 files added (on-disk size: 205988.6 KB)
+0061.449 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads6.zip.tmp: 6200 files added (on-disk size: 205988.6 KB)
+0061.450 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (180.9 MB, 479 (6226) files added so far); last ratio: 1; re-opening (prior size: 205988.6 KB)
+0064.650 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads6.zip.tmp: size is now: 382.10 MB
+0064.652 (0) Zip size is at/near split limit (382.1 MB / 400 MB) - bumping index (from: 5)
+0069.247 (0) Created uploads zip (5) - 391319.9 KB in 5.1 s (76706.7 KB/s) (checksums: sha1: b77abf5e2c0fedd576f4b1d1a5351e29a9caf0aa, sha256: d206e31baf4e5b2d037d5b61b559f3bd192527d2a91f849393a9c2154c5672ef)
+0069.248 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.1 MB, 1 (6227) files added so far); re-opening (prior size: 0 KB)
+0069.270 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads7.zip.tmp: size is now: 0.10 MB
+0069.275 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads7.zip.tmp: 6300 files added (on-disk size: 104.3 KB)
+0069.279 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads7.zip.tmp: 6400 files added (on-disk size: 104.3 KB)
+0069.284 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads7.zip.tmp: 6500 files added (on-disk size: 104.3 KB)
+0069.288 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads7.zip.tmp: 6600 files added (on-disk size: 104.3 KB)
+0069.293 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads7.zip.tmp: 6700 files added (on-disk size: 104.3 KB)
+0069.296 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 200 MB added on this batch (200.1 MB, 23410 files batched, 530 (6757) added so far); re-opening (prior size: 104.3 KB)
+0071.403 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads7.zip.tmp: size is now: 200.30 MB
+0071.405 (0) A useful amount of data was added after this amount of zip processing: 2.9 s (normalised: 2.9 s, rate: 69797.3 KB/s)
+0071.405 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=2.9364030361176, normalised_time=2.9342115194658, max_time=71.404928922653, data points known=1, max_bytes=209715200)
+0071.407 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads7.zip.tmp: 6800 files added (on-disk size: 205154.3 KB)
+0071.410 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads7.zip.tmp: 6900 files added (on-disk size: 205154.3 KB)
+0071.412 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads7.zip.tmp: 7000 files added (on-disk size: 205154.3 KB)
+0071.415 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads7.zip.tmp: 7100 files added (on-disk size: 205154.3 KB)
+0071.417 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads7.zip.tmp: 7200 files added (on-disk size: 205154.3 KB)
+0071.418 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (181.5 MB, 473 (7230) files added so far); last ratio: 1; re-opening (prior size: 205154.3 KB)
+0074.496 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads7.zip.tmp: size is now: 382.00 MB
+0074.498 (0) Zip size is at/near split limit (382 MB / 400 MB) - bumping index (from: 6)
+0079.377 (0) Created uploads zip (6) - 391125.9 KB in 5.3 s (74481.5 KB/s) (checksums: sha1: b236d5a5d01541ce6c860fccf5e8bd2287e8d6c6, sha256: 6321122b05bab44682ed5ed1d4c7c670827d10529bed89db1b19a430bfde1714)
+0079.379 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.2 MB, 1 (7231) files added so far); re-opening (prior size: 0 KB)
+0079.393 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads8.zip.tmp: size is now: 0.20 MB
+0079.397 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads8.zip.tmp: 7300 files added (on-disk size: 167.6 KB)
+0079.399 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads8.zip.tmp: 7400 files added (on-disk size: 167.6 KB)
+0079.402 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads8.zip.tmp: 7500 files added (on-disk size: 167.6 KB)
+0079.405 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads8.zip.tmp: 7600 files added (on-disk size: 167.6 KB)
+0079.407 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads8.zip.tmp: 7700 files added (on-disk size: 167.6 KB)
+0079.409 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 200 MB added on this batch (200.5 MB, 23410 files batched, 547 (7778) added so far); re-opening (prior size: 167.6 KB)
+0081.489 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads8.zip.tmp: size is now: 200.80 MB
+0081.491 (0) A useful amount of data was added after this amount of zip processing: 3 s (normalised: 3 s, rate: 67945.7 KB/s)
+0081.491 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=3.0223760604858, normalised_time=3.0141723711561, max_time=81.490912914276, data points known=1, max_bytes=209715200)
+0081.492 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads8.zip.tmp: 7800 files added (on-disk size: 205625.1 KB)
+0081.495 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads8.zip.tmp: 7900 files added (on-disk size: 205625.1 KB)
+0081.497 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads8.zip.tmp: 8000 files added (on-disk size: 205625.1 KB)
+0081.500 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads8.zip.tmp: 8100 files added (on-disk size: 205625.1 KB)
+0081.502 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads8.zip.tmp: 8200 files added (on-disk size: 205625.1 KB)
+0081.505 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads8.zip.tmp: 8300 files added (on-disk size: 205625.1 KB)
+0081.506 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (181.3 MB, 542 (8320) files added so far); last ratio: 1; re-opening (prior size: 205625.1 KB)
+0084.613 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads8.zip.tmp: size is now: 382.20 MB
+0084.615 (0) Zip size is at/near split limit (382.2 MB / 400 MB) - bumping index (from: 7)
+0089.196 (0) Created uploads zip (7) - 391361.5 KB in 5.2 s (74729.3 KB/s) (checksums: sha1: 491d4fd3ad5a4d56e9c68ffb0f6e7f711e931401, sha256: c81974964f4af11ce6165e135c037fa63ee7506cdd3c7ba73a1866880b4b5e1f)
+0089.198 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.4 MB, 1 (8321) files added so far); re-opening (prior size: 0 KB)
+0089.219 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads9.zip.tmp: size is now: 0.40 MB
+0089.223 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads9.zip.tmp: 8400 files added (on-disk size: 378.9 KB)
+0089.227 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads9.zip.tmp: 8500 files added (on-disk size: 378.9 KB)
+0089.229 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads9.zip.tmp: 8600 files added (on-disk size: 378.9 KB)
+0089.232 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads9.zip.tmp: 8700 files added (on-disk size: 378.9 KB)
+0089.235 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads9.zip.tmp: 8800 files added (on-disk size: 378.9 KB)
+0089.237 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 200 MB added on this batch (200.1 MB, 23410 files batched, 540 (8861) added so far); re-opening (prior size: 378.9 KB)
+0091.278 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads9.zip.tmp: size is now: 200.60 MB
+0091.281 (0) A useful amount of data was added after this amount of zip processing: 2.8 s (normalised: 2.8 s, rate: 72863.1 KB/s)
+0091.281 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=2.8124210834503, normalised_time=2.8107523788217, max_time=91.281136989594, data points known=1, max_bytes=209715200)
+0091.284 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads9.zip.tmp: 8900 files added (on-disk size: 205399.4 KB)
+0091.287 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads9.zip.tmp: 9000 files added (on-disk size: 205399.4 KB)
+0091.292 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads9.zip.tmp: 9100 files added (on-disk size: 205399.4 KB)
+0091.295 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads9.zip.tmp: 9200 files added (on-disk size: 205399.4 KB)
+0091.300 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads9.zip.tmp: 9300 files added (on-disk size: 205399.4 KB)
+0091.302 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (181.5 MB, 494 (9355) files added so far); last ratio: 1; re-opening (prior size: 205399.4 KB)
+0094.930 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads9.zip.tmp: size is now: 382.10 MB
+0094.932 (0) Zip size is at/near split limit (382.1 MB / 400 MB) - bumping index (from: 8)
+0099.587 (0) Created uploads zip (8) - 391306.5 KB in 5.7 s (68216.5 KB/s) (checksums: sha1: a4ef879a8a7771e23692f82d3a43f77aef34d5f7, sha256: a8115f012a244632027f8640977351d94de413608f6e4774bd0fde9956df47e2)
+0099.589 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.4 MB, 1 (9356) files added so far); re-opening (prior size: 0 KB)
+0099.607 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads10.zip.tmp: size is now: 0.40 MB
+0099.610 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads10.zip.tmp: 9400 files added (on-disk size: 390.5 KB)
+0099.613 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads10.zip.tmp: 9500 files added (on-disk size: 390.5 KB)
+0099.616 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads10.zip.tmp: 9600 files added (on-disk size: 390.5 KB)
+0099.618 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads10.zip.tmp: 9700 files added (on-disk size: 390.5 KB)
+0099.621 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads10.zip.tmp: 9800 files added (on-disk size: 390.5 KB)
+0099.623 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 200 MB added on this batch (200.3 MB, 23410 files batched, 525 (9881) added so far); re-opening (prior size: 390.5 KB)
+0101.646 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads10.zip.tmp: size is now: 200.80 MB
+0101.648 (0) A useful amount of data was added after this amount of zip processing: 2.2 s (normalised: 2.2 s, rate: 94133.8 KB/s)
+0101.648 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=2.1792950630188, normalised_time=2.1756256595901, max_time=101.64796805382, data points known=1, max_bytes=209715200)
+0101.650 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads10.zip.tmp: 9900 files added (on-disk size: 205631.4 KB)
+0101.654 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads10.zip.tmp: 10000 files added (on-disk size: 205631.4 KB)
+0101.658 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads10.zip.tmp: 10100 files added (on-disk size: 205631.4 KB)
+0101.663 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads10.zip.tmp: 10200 files added (on-disk size: 205631.4 KB)
+0101.667 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads10.zip.tmp: 10300 files added (on-disk size: 205631.4 KB)
+0101.669 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (181.4 MB, 473 (10354) files added so far); last ratio: 1; re-opening (prior size: 205631.4 KB)
+0104.362 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads10.zip.tmp: size is now: 382.20 MB
+0104.364 (0) Zip size is at/near split limit (382.2 MB / 400 MB) - bumping index (from: 9)
+0108.994 (0) Created uploads zip (9) - 391420.8 KB in 4.8 s (81937.5 KB/s) (checksums: sha1: ebcc86216229b03e3600798e0f305976bacecc12, sha256: 1109fe82789e31267cc78253bcdd8d8322c67d96191ad41ffc2cf0d6570dfd79)
+0108.995 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.3 MB, 1 (10355) files added so far); re-opening (prior size: 0 KB)
+0109.014 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: size is now: 0.30 MB
+0109.018 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 10400 files added (on-disk size: 321.3 KB)
+0109.022 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 10500 files added (on-disk size: 321.3 KB)
+0109.027 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 10600 files added (on-disk size: 321.3 KB)
+0109.031 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 10700 files added (on-disk size: 321.3 KB)
+0109.036 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 10800 files added (on-disk size: 321.3 KB)
+0109.041 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 10900 files added (on-disk size: 321.3 KB)
+0109.045 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 11000 files added (on-disk size: 321.3 KB)
+0109.050 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 11100 files added (on-disk size: 321.3 KB)
+0109.054 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 11200 files added (on-disk size: 321.3 KB)
+0109.059 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 11300 files added (on-disk size: 321.3 KB)
+0109.062 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (155.9 MB, 23410 files batched, 1001 (11356) added so far); re-opening (prior size: 321.3 KB)
+0110.743 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: size is now: 156.40 MB
+0110.746 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 11400 files added (on-disk size: 160142.7 KB)
+0110.748 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 11500 files added (on-disk size: 160142.7 KB)
+0110.751 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 11600 files added (on-disk size: 160142.7 KB)
+0110.754 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 11700 files added (on-disk size: 160142.7 KB)
+0110.756 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 11800 files added (on-disk size: 160142.7 KB)
+0110.759 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 11900 files added (on-disk size: 160142.7 KB)
+0110.762 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 12000 files added (on-disk size: 160142.7 KB)
+0110.764 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 12100 files added (on-disk size: 160142.7 KB)
+0110.767 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 12200 files added (on-disk size: 160142.7 KB)
+0110.770 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 12300 files added (on-disk size: 160142.7 KB)
+0110.771 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (136.8 MB, 23410 files batched, 1001 (12357) added so far); re-opening (prior size: 160142.7 KB)
+0113.143 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: size is now: 293.40 MB
+0113.147 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 12400 files added (on-disk size: 300442.4 KB)
+0113.149 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 12500 files added (on-disk size: 300442.4 KB)
+0113.152 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 12600 files added (on-disk size: 300442.4 KB)
+0113.155 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 12700 files added (on-disk size: 300442.4 KB)
+0113.158 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 12800 files added (on-disk size: 300442.4 KB)
+0113.161 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 12900 files added (on-disk size: 300442.4 KB)
+0113.164 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: 13000 files added (on-disk size: 300442.4 KB)
+0113.165 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (97 MB, 672 (13029) files added so far); last ratio: 1; re-opening (prior size: 300442.4 KB)
+0116.096 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip.tmp: size is now: 390.60 MB
+0116.098 (0) Zip size is at/near split limit (390.6 MB / 400 MB) - bumping index (from: 10)
+0120.856 (0) Created uploads zip (10) - 399936.6 KB in 7.1 s (56290.6 KB/s) (checksums: sha1: 399c15aaa54b4d8f626dd952694d54a5320ecb2d, sha256: 014e5172aa2435d19364fec793c7cba3a9c7cd08922ac2d7e465d23959c71124)
+0120.857 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (13030) files added so far); re-opening (prior size: 0 KB)
+0120.875 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: size is now: 0.00 MB
+0120.879 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 13100 files added (on-disk size: 8.5 KB)
+0120.882 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 13200 files added (on-disk size: 8.5 KB)
+0120.884 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 13300 files added (on-disk size: 8.5 KB)
+0120.887 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 13400 files added (on-disk size: 8.5 KB)
+0120.890 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 13500 files added (on-disk size: 8.5 KB)
+0120.892 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 13600 files added (on-disk size: 8.5 KB)
+0120.895 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 13700 files added (on-disk size: 8.5 KB)
+0120.897 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 13800 files added (on-disk size: 8.5 KB)
+0120.900 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 13900 files added (on-disk size: 8.5 KB)
+0120.902 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 14000 files added (on-disk size: 8.5 KB)
+0120.904 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (149.5 MB, 23410 files batched, 1001 (14031) added so far); re-opening (prior size: 8.5 KB)
+0122.575 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: size is now: 149.70 MB
+0122.579 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 14100 files added (on-disk size: 153286.9 KB)
+0122.581 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 14200 files added (on-disk size: 153286.9 KB)
+0122.584 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 14300 files added (on-disk size: 153286.9 KB)
+0122.586 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 14400 files added (on-disk size: 153286.9 KB)
+0122.589 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 14500 files added (on-disk size: 153286.9 KB)
+0122.591 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 14600 files added (on-disk size: 153286.9 KB)
+0122.594 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 14700 files added (on-disk size: 153286.9 KB)
+0122.596 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 14800 files added (on-disk size: 153286.9 KB)
+0122.599 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 14900 files added (on-disk size: 153286.9 KB)
+0122.601 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 15000 files added (on-disk size: 153286.9 KB)
+0122.602 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (136.9 MB, 23410 files batched, 1001 (15032) added so far); re-opening (prior size: 153286.9 KB)
+0124.855 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: size is now: 286.70 MB
+0124.858 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 15100 files added (on-disk size: 293627.2 KB)
+0124.861 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 15200 files added (on-disk size: 293627.2 KB)
+0124.863 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 15300 files added (on-disk size: 293627.2 KB)
+0124.866 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 15400 files added (on-disk size: 293627.2 KB)
+0124.868 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 15500 files added (on-disk size: 293627.2 KB)
+0124.871 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 15600 files added (on-disk size: 293627.2 KB)
+0124.874 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 15700 files added (on-disk size: 293627.2 KB)
+0124.876 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: 15800 files added (on-disk size: 293627.2 KB)
+0124.877 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (103.1 MB, 792 (15824) files added so far); last ratio: 1; re-opening (prior size: 293627.2 KB)
+0127.775 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip.tmp: size is now: 390.00 MB
+0127.777 (0) Zip size is at/near split limit (390 MB / 400 MB) - bumping index (from: 11)
+0132.692 (0) Created uploads zip (11) - 399324 KB in 6.9 s (57697.1 KB/s) (checksums: sha1: f3dfa334adbfe6e2a45bcf74e546a43d5fce0002, sha256: cc0a3dba0e2912d87b91ffa3a6980d16c6aec88d0e75070383c94fc7ea6718be)
+0132.694 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.1 MB, 1 (15825) files added so far); re-opening (prior size: 0 KB)
+0132.715 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: size is now: 0.10 MB
+0132.719 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 15900 files added (on-disk size: 126.1 KB)
+0132.722 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 16000 files added (on-disk size: 126.1 KB)
+0132.725 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 16100 files added (on-disk size: 126.1 KB)
+0132.728 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 16200 files added (on-disk size: 126.1 KB)
+0132.731 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 16300 files added (on-disk size: 126.1 KB)
+0132.734 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 16400 files added (on-disk size: 126.1 KB)
+0132.737 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 16500 files added (on-disk size: 126.1 KB)
+0132.740 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 16600 files added (on-disk size: 126.1 KB)
+0132.744 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 16700 files added (on-disk size: 126.1 KB)
+0132.749 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 16800 files added (on-disk size: 126.1 KB)
+0132.751 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (145.5 MB, 23410 files batched, 1001 (16826) added so far); re-opening (prior size: 126.1 KB)
+0134.404 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: size is now: 145.80 MB
+0134.407 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 16900 files added (on-disk size: 149294 KB)
+0134.410 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 17000 files added (on-disk size: 149294 KB)
+0134.412 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 17100 files added (on-disk size: 149294 KB)
+0134.414 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 17200 files added (on-disk size: 149294 KB)
+0134.417 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 17300 files added (on-disk size: 149294 KB)
+0134.419 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 17400 files added (on-disk size: 149294 KB)
+0134.422 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 17500 files added (on-disk size: 149294 KB)
+0134.425 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 17600 files added (on-disk size: 149294 KB)
+0134.427 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 17700 files added (on-disk size: 149294 KB)
+0134.430 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 17800 files added (on-disk size: 149294 KB)
+0134.431 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (149.9 MB, 23410 files batched, 1001 (17827) added so far); re-opening (prior size: 149294 KB)
+0137.279 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: size is now: 295.90 MB
+0137.282 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 17900 files added (on-disk size: 303010.9 KB)
+0137.286 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 18000 files added (on-disk size: 303010.9 KB)
+0137.292 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 18100 files added (on-disk size: 303010.9 KB)
+0137.295 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 18200 files added (on-disk size: 303010.9 KB)
+0137.297 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 18300 files added (on-disk size: 303010.9 KB)
+0137.299 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: 18400 files added (on-disk size: 303010.9 KB)
+0137.301 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (94.7 MB, 614 (18441) files added so far); last ratio: 1; re-opening (prior size: 303010.9 KB)
+0140.213 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip.tmp: size is now: 390.70 MB
+0140.215 (0) Zip size is at/near split limit (390.7 MB / 400 MB) - bumping index (from: 12)
+0144.840 (0) Created uploads zip (12) - 400125.1 KB in 7.5 s (53185.9 KB/s) (checksums: sha1: c77dbdf3c9e9545d4b6646a89c3795ddceff129d, sha256: 4b644bfba830ecee6034b1e12c5da16992b6812f1765720e32713d4497523453)
+0144.841 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (18442) files added so far); re-opening (prior size: 0 KB)
+0144.859 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: size is now: 0.00 MB
+0144.862 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 18500 files added (on-disk size: 7.2 KB)
+0144.864 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 18600 files added (on-disk size: 7.2 KB)
+0144.867 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 18700 files added (on-disk size: 7.2 KB)
+0144.869 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 18800 files added (on-disk size: 7.2 KB)
+0144.871 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 18900 files added (on-disk size: 7.2 KB)
+0144.874 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 19000 files added (on-disk size: 7.2 KB)
+0144.877 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 19100 files added (on-disk size: 7.2 KB)
+0144.879 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 19200 files added (on-disk size: 7.2 KB)
+0144.882 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 19300 files added (on-disk size: 7.2 KB)
+0144.885 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 19400 files added (on-disk size: 7.2 KB)
+0144.886 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (139.8 MB, 23410 files batched, 1001 (19443) added so far); re-opening (prior size: 7.2 KB)
+0146.448 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: size is now: 140.00 MB
+0146.451 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 19500 files added (on-disk size: 143385.8 KB)
+0146.454 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 19600 files added (on-disk size: 143385.8 KB)
+0146.456 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 19700 files added (on-disk size: 143385.8 KB)
+0146.459 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 19800 files added (on-disk size: 143385.8 KB)
+0146.461 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 19900 files added (on-disk size: 143385.8 KB)
+0146.464 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 20000 files added (on-disk size: 143385.8 KB)
+0146.467 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 20100 files added (on-disk size: 143385.8 KB)
+0146.469 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 20200 files added (on-disk size: 143385.8 KB)
+0146.472 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 20300 files added (on-disk size: 143385.8 KB)
+0146.475 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 20400 files added (on-disk size: 143385.8 KB)
+0146.476 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (147.2 MB, 23410 files batched, 1001 (20444) added so far); re-opening (prior size: 143385.8 KB)
+0149.391 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: size is now: 287.40 MB
+0149.395 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 20500 files added (on-disk size: 294332.3 KB)
+0149.400 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 20600 files added (on-disk size: 294332.3 KB)
+0149.404 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 20700 files added (on-disk size: 294332.3 KB)
+0149.408 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 20800 files added (on-disk size: 294332.3 KB)
+0149.412 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 20900 files added (on-disk size: 294332.3 KB)
+0149.417 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 21000 files added (on-disk size: 294332.3 KB)
+0149.421 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: 21100 files added (on-disk size: 294332.3 KB)
+0149.423 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (102.5 MB, 690 (21134) files added so far); last ratio: 1; re-opening (prior size: 294332.3 KB)
+0152.689 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip.tmp: size is now: 390.10 MB
+0152.690 (0) Zip size is at/near split limit (390.1 MB / 400 MB) - bumping index (from: 13)
+0157.261 (0) Created uploads zip (13) - 399464 KB in 7.9 s (50883.5 KB/s) (checksums: sha1: 2a21509f4ae8f0aee0e946ed0271d8f6363f025b, sha256: b1a714642f307a140281158408cde3a32352b0e1971c9931cb7bf4d9fd4e40cf)
+0157.262 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.5 MB, 1 (21135) files added so far); re-opening (prior size: 0 KB)
+0157.281 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads15.zip.tmp: size is now: 0.50 MB
+0157.285 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads15.zip.tmp: 21200 files added (on-disk size: 483.1 KB)
+0157.287 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads15.zip.tmp: 21300 files added (on-disk size: 483.1 KB)
+0157.290 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads15.zip.tmp: 21400 files added (on-disk size: 483.1 KB)
+0157.292 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads15.zip.tmp: 21500 files added (on-disk size: 483.1 KB)
+0157.295 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads15.zip.tmp: 21600 files added (on-disk size: 483.1 KB)
+0157.297 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads15.zip.tmp: 21700 files added (on-disk size: 483.1 KB)
+0157.300 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads15.zip.tmp: 21800 files added (on-disk size: 483.1 KB)
+0157.302 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads15.zip.tmp: 21900 files added (on-disk size: 483.1 KB)
+0157.305 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads15.zip.tmp: 22000 files added (on-disk size: 483.1 KB)
+0157.305 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 200 MB added on this batch (200 MB, 23410 files batched, 879 (22014) added so far); re-opening (prior size: 483.1 KB)
+0159.619 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads15.zip.tmp: size is now: 200.70 MB
+0159.621 (0) A useful amount of data was added after this amount of zip processing: 3.2 s (normalised: 3.2 s, rate: 64975.7 KB/s)
+0159.622 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=3.1527030467987, normalised_time=3.1519472204505, max_time=159.62128591537, data points known=1, max_bytes=209715200)
+0159.624 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads15.zip.tmp: 22100 files added (on-disk size: 205501.6 KB)
+0159.629 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads15.zip.tmp: 22200 files added (on-disk size: 205501.6 KB)
+0159.633 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads15.zip.tmp: 22300 files added (on-disk size: 205501.6 KB)
+0159.637 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads15.zip.tmp: 22400 files added (on-disk size: 205501.6 KB)
+0159.642 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads15.zip.tmp: 22500 files added (on-disk size: 205501.6 KB)
+0159.643 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (181.4 MB, 510 (22524) files added so far); last ratio: 1; re-opening (prior size: 205501.6 KB)
+0162.720 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads15.zip.tmp: size is now: 382.20 MB
+0162.721 (0) Zip size is at/near split limit (382.2 MB / 400 MB) - bumping index (from: 14)
+0167.239 (0) Created uploads zip (14) - 391368.3 KB in 5.5 s (71670.2 KB/s) (checksums: sha1: 38280b7b8317a6b36bf41825a501ba8a387ec619, sha256: af83fd0e49b5a8c0cf180bf713caa343d56062c613844c8777441b2728aaddf7)
+0167.241 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.7 MB, 1 (22525) files added so far); re-opening (prior size: 0 KB)
+0167.267 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads16.zip.tmp: size is now: 0.70 MB
+0167.272 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads16.zip.tmp: 22600 files added (on-disk size: 667.1 KB)
+0167.277 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads16.zip.tmp: 22700 files added (on-disk size: 667.1 KB)
+0167.281 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads16.zip.tmp: 22800 files added (on-disk size: 667.1 KB)
+0167.286 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads16.zip.tmp: 22900 files added (on-disk size: 667.1 KB)
+0167.291 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads16.zip.tmp: 23000 files added (on-disk size: 667.1 KB)
+0167.294 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 200 MB added on this batch (200.2 MB, 23410 files batched, 524 (23049) added so far); re-opening (prior size: 667.1 KB)
+0169.546 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads16.zip.tmp: size is now: 200.90 MB
+0169.548 (0) A useful amount of data was added after this amount of zip processing: 3.1 s (normalised: 3.1 s, rate: 66563.7 KB/s)
+0169.549 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=3.0798969268799, normalised_time=3.0767537892732, max_time=169.54865908623, data points known=1, max_bytes=209715200)
+0169.552 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads16.zip.tmp: 23100 files added (on-disk size: 205772.3 KB)
+0169.556 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads16.zip.tmp: 23200 files added (on-disk size: 205772.3 KB)
+0169.561 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads16.zip.tmp: 23300 files added (on-disk size: 205772.3 KB)
+0169.565 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads16.zip.tmp: 23400 files added (on-disk size: 205772.3 KB)
+0172.638 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads16.zip.tmp: size is now: 333.70 MB
+0177.069 (0) Created uploads zip (15) - 341722.2 KB in 9.8 s (34767.2 KB/s) (sha1: d9351b7963b1efd72f8dcb47ccd67982a3049d27, sha256: b53305862f7a0a05500452f14682a4c7f59c5c065d2e894b4d74eaaf173b0d6c)
+0177.071 (0) Beginning backup of other directories found in the content directory (index: 0)
+0177.071 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0177.072 (0) Looking for candidates to backup in: /home/m/msmaxitf/fish/public_html/wp-content
+0177.072 (0) finding files: themes: skipping: this is the themes directory
+0177.073 (0) finding files: chatty-mango: adding to list (1)
+0177.073 (0) finding files: autoptimize_404_handler.php: adding to list (2)
+0177.074 (0) finding files: languages: adding to list (3)
+0177.074 (0) finding files: mu-plugins: adding to list (4)
+0177.075 (0) finding files: fontawesome: adding to list (5)
+0177.075 (0) finding files: uploads: skipping: this is the uploads directory
+0177.076 (0) finding files: index.php: adding to list (6)
+0177.076 (0) finding files: uploads-webpc: adding to list (7)
+0177.077 (0) finding files: updraft: skipping: this is the updraft directory
+0177.077 (0) finding files: cache: skipping: excluded by options
+0177.078 (0) finding files: fontawesome-free-5.15.4-web.zip: adding to list (8)
+0177.078 (0) finding files: plugins: skipping: this is the plugins directory
+0177.078 (0) finding files: .htaccess: adding to list (9)
+0177.079 (0) finding files: upgrade: skipping: excluded by options
+0177.126 (0) Total entities for the zip file: 20 directories, 1808 files (0 skipped as non-modified), 24.2 MB
+0177.129 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0177.131 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0177.134 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0177.137 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0177.139 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0177.141 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-others.zip.tmp: 600 files added (on-disk size: 0 KB)
+0177.145 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-others.zip.tmp: 700 files added (on-disk size: 0 KB)
+0177.149 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-others.zip.tmp: 800 files added (on-disk size: 0 KB)
+0177.152 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-others.zip.tmp: 900 files added (on-disk size: 0 KB)
+0177.156 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-others.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0177.157 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.5 MB, 1808 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0178.263 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-others.zip.tmp: size is now: 4.10 MB
+0178.269 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-others.zip.tmp: 1100 files added (on-disk size: 4171.1 KB)
+0178.272 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-others.zip.tmp: 1200 files added (on-disk size: 4171.1 KB)
+0178.275 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-others.zip.tmp: 1300 files added (on-disk size: 4171.1 KB)
+0178.279 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-others.zip.tmp: 1400 files added (on-disk size: 4171.1 KB)
+0178.283 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-others.zip.tmp: 1500 files added (on-disk size: 4171.1 KB)
+0178.287 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-others.zip.tmp: 1600 files added (on-disk size: 4171.1 KB)
+0178.291 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-others.zip.tmp: 1700 files added (on-disk size: 4171.1 KB)
+0178.295 (0) Zip: backup_2021-09-09-2224_fishingreportru_0f4419b81049-others.zip.tmp: 1800 files added (on-disk size: 4171.1 KB)
+0179.082 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-others.zip.tmp: size is now: 11.60 MB
+0179.234 (0) Created others zip (0) - 11857.5 KB in 2.2 s (5507.4 KB/s) (sha1: 6f00165b5244ce40dd365e2a2c025110c62dc188, sha256: 8646a50db3318552df80795c5271c688659650d388292f030f03cbf586d5d3c7)
+0179.237 (0) Saving backup status to database (elements: 23)
+0179.239 (0) Beginning creation of database dump (WordPress DB)
+0179.240 (0) Couldn't get the sql_mode value (N;)
+0179.241 (0) SQL compatibility mode successfully changed to 
+0179.242 (0) Testing potential mysqldump binary: /usr/local/bin/mysqldump
+0179.277 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1244 bytes total)
+0179.278 (0) Working binary mysqldump found: /usr/local/bin/mysqldump
+0179.290 (0) Table wp_options: Total expected rows (approximate): 2195
+0179.505 (0) Table wp_options: Rows added in this batch (next record: 248792): 2755 (uncompressed bytes in this segment=5538896) in 0.21 seconds
+0179.509 (0) Table wp_options: finishing file(s) (2, 733 KB)
+0179.510 (0) Table wp_users: Total expected rows (approximate): 1
+0179.512 (0) Table wp_users: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1715) in 0.00 seconds
+0179.514 (0) Table wp_users: finishing file(s) (2, 0.8 KB)
+0179.516 (0) Table wp_usermeta: Total expected rows (approximate): 110
+0179.518 (0) Table wp_usermeta: Rows added in this batch (next record: 2786): 110 (uncompressed bytes in this segment=14302) in 0.00 seconds
+0179.521 (0) Table wp_usermeta: finishing file(s) (2, 4.2 KB)
+0179.523 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0179.525 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0179.527 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0179.529 (0) Table wp_comments: Total expected rows (approximate): 4
+0179.531 (0) Table wp_comments: Rows added in this batch (next record: 6): 4 (uncompressed bytes in this segment=2974) in 0.00 seconds
+0179.533 (0) Table wp_comments: finishing file(s) (2, 1 KB)
+0179.535 (0) Table wp_links: Total expected rows (approximate): 0
+0179.536 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0179.539 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0179.540 (0) Table wp_postmeta: Total expected rows (approximate): 75552
+0179.824 (0) Table wp_postmeta: binary mysqldump finished (writes: 38) in 0.28 seconds
+0179.827 (0) Table wp_postmeta: finishing file(s) (1, 720.8 KB)
+0179.829 (0) Table wp_posts: Total expected rows (approximate): 6396
+0180.434 (0) Table wp_posts: Rows added in this batch (next record: 9872): 7620 (uncompressed bytes in this segment=18718317) in 0.60 seconds
+0180.437 (0) Table wp_posts: finishing file(s) (2, 1676 KB)
+0180.439 (0) Table wp_term_relationships: Total expected rows (approximate): 28976
+0180.512 (0) Table wp_term_relationships: binary mysqldump finished (writes: 30) in 0.07 seconds
+0180.515 (0) Table wp_term_relationships: finishing file(s) (1, 81.9 KB)
+0180.517 (0) Table wp_term_taxonomy: Total expected rows (approximate): 3065
+0180.539 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 3129): 3065 (uncompressed bytes in this segment=119482) in 0.02 seconds
+0180.542 (0) Table wp_term_taxonomy: finishing file(s) (2, 20.6 KB)
+0180.544 (0) Table wp_termmeta: Total expected rows (approximate): 754
+0180.549 (0) Table wp_termmeta: Rows added in this batch (next record: 761): 754 (uncompressed bytes in this segment=33706) in 0.00 seconds
+0180.552 (0) Table wp_termmeta: finishing file(s) (2, 4.3 KB)
+0180.554 (0) Table wp_terms: Total expected rows (approximate): 3065
+0180.580 (0) Table wp_terms: Rows added in this batch (next record: 3129): 3065 (uncompressed bytes in this segment=217780) in 0.03 seconds
+0180.584 (0) Table wp_terms: finishing file(s) (2, 53.6 KB)
+0180.586 (0) Table wp_anycomment_email_queue: Total expected rows (approximate): 0
+0180.588 (0) Table wp_anycomment_email_queue: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1115) in 0.00 seconds
+0180.590 (0) Table wp_anycomment_email_queue: finishing file(s) (2, 0.5 KB)
+0180.593 (0) Table wp_anycomment_likes: Total expected rows (approximate): 0
+0180.595 (0) Table wp_anycomment_likes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=898) in 0.00 seconds
+0180.598 (0) Table wp_anycomment_likes: finishing file(s) (2, 0.4 KB)
+0180.600 (0) Table wp_anycomment_rating: Total expected rows (approximate): 0
+0180.602 (0) Table wp_anycomment_rating: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=836) in 0.00 seconds
+0180.604 (0) Table wp_anycomment_rating: finishing file(s) (2, 0.4 KB)
+0180.606 (0) Table wp_anycomment_subscriptions: Total expected rows (approximate): 0
+0180.608 (0) Table wp_anycomment_subscriptions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1083) in 0.00 seconds
+0180.611 (0) Table wp_anycomment_subscriptions: finishing file(s) (2, 0.4 KB)
+0180.613 (0) Table wp_anycomment_uploaded_files: Total expected rows (approximate): 0
+0180.615 (0) Table wp_anycomment_uploaded_files: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1104) in 0.00 seconds
+0180.618 (0) Table wp_anycomment_uploaded_files: finishing file(s) (2, 0.4 KB)
+0180.620 (0) Table wp_facetwp_index: Total expected rows (approximate): 1392
+0180.638 (0) Table wp_facetwp_index: Rows added in this batch (next record: 1551): 1440 (uncompressed bytes in this segment=144843) in 0.02 seconds
+0180.641 (0) Table wp_facetwp_index: finishing file(s) (2, 8.9 KB)
+0180.643 (0) Table wp_nextend2_image_storage: Total expected rows (approximate): 0
+0180.645 (0) Table wp_nextend2_image_storage: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=936) in 0.00 seconds
+0180.648 (0) Table wp_nextend2_image_storage: finishing file(s) (2, 0.5 KB)
+0180.650 (0) Table wp_nextend2_section_storage: Total expected rows (approximate): 7
+0180.652 (0) Table wp_nextend2_section_storage: Rows added in this batch (next record: 10103): 7 (uncompressed bytes in this segment=12813) in 0.00 seconds
+0180.655 (0) Table wp_nextend2_section_storage: finishing file(s) (2, 3.7 KB)
+0180.657 (0) Table wp_nextend2_smartslider3_generators: Total expected rows (approximate): 0
+0180.659 (0) Table wp_nextend2_smartslider3_generators: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=718) in 0.00 seconds
+0180.661 (0) Table wp_nextend2_smartslider3_generators: finishing file(s) (2, 0.4 KB)
+0180.664 (0) Table wp_nextend2_smartslider3_sliders: Total expected rows (approximate): 2
+0180.666 (0) Table wp_nextend2_smartslider3_sliders: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=26756) in 0.00 seconds
+0180.669 (0) Table wp_nextend2_smartslider3_sliders: finishing file(s) (2, 4.2 KB)
+0180.671 (0) Table wp_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 0
+0180.672 (0) Table wp_nextend2_smartslider3_sliders_xref: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=732) in 0.00 seconds
+0180.675 (0) Table wp_nextend2_smartslider3_sliders_xref: finishing file(s) (2, 0.4 KB)
+0180.677 (0) Table wp_nextend2_smartslider3_slides: Total expected rows (approximate): 3
+0180.679 (0) Table wp_nextend2_smartslider3_slides: Rows added in this batch (next record: 4): 3 (uncompressed bytes in this segment=35508) in 0.00 seconds
+0180.682 (0) Table wp_nextend2_smartslider3_slides: finishing file(s) (2, 3.3 KB)
+0180.684 (0) Table wp_search_filter_cache: Total expected rows (approximate): 49223
+0180.844 (0) Table wp_search_filter_cache: binary mysqldump finished (writes: 39) in 0.16 seconds
+0180.847 (0) Table wp_search_filter_cache: finishing file(s) (1, 348.3 KB)
+0180.849 (0) Table wp_search_filter_term_results: Total expected rows (approximate): 6012
+0180.904 (0) Table wp_search_filter_term_results: Rows added in this batch (next record: 50780): 5568 (uncompressed bytes in this segment=567082) in 0.06 seconds
+0180.907 (0) Table wp_search_filter_term_results: finishing file(s) (2, 111.4 KB)
+0180.909 (0) Table wp_smush_dir_images: Total expected rows (approximate): 0
+0180.911 (0) Table wp_smush_dir_images: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1093) in 0.00 seconds
+0180.913 (0) Table wp_smush_dir_images: finishing file(s) (2, 0.5 KB)
+0180.915 (0) Table wp_tm_taskmeta: Total expected rows (approximate): 0
+0180.916 (0) Table wp_tm_taskmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.00 seconds
+0180.918 (0) Table wp_tm_taskmeta: finishing file(s) (2, 0.4 KB)
+0180.920 (0) Table wp_tm_tasks: Total expected rows (approximate): 0
+0180.922 (0) Table wp_tm_tasks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=876) in 0.00 seconds
+0180.924 (0) Table wp_tm_tasks: finishing file(s) (2, 0.4 KB)
+0180.925 (0) Table wp_yoast_indexable: Total expected rows (approximate): 8902
+0181.103 (0) Table wp_yoast_indexable: binary mysqldump finished (writes: 84) in 0.18 seconds
+0181.105 (0) Table wp_yoast_indexable: finishing file(s) (1, 656.7 KB)
+0181.107 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 19
+0181.108 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 19 (uncompressed bytes in this segment=1218) in 0.00 seconds
+0181.110 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.5 KB)
+0181.112 (0) Table wp_yoast_migrations: Total expected rows (approximate): 21
+0181.113 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 21): 21 (uncompressed bytes in this segment=1149) in 0.00 seconds
+0181.115 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0181.117 (0) Table wp_yoast_primary_term: Total expected rows (approximate): 0
+0181.119 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=858) in 0.00 seconds
+0181.121 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0181.122 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 23347
+0181.245 (0) Table wp_yoast_seo_links: binary mysqldump finished (writes: 43) in 0.12 seconds
+0181.247 (0) Table wp_yoast_seo_links: finishing file(s) (1, 419.7 KB)
+0181.248 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_options.table.tmpr248793.gz (1/34): adding to final database dump
+0181.430 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_options.table.gz (2/34): adding to final database dump
+0181.431 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_users.table.tmpr4.gz (3/34): adding to final database dump
+0181.432 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_users.table.gz (4/34): adding to final database dump
+0181.432 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_usermeta.table.tmpr2787.gz (5/34): adding to final database dump
+0181.433 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_usermeta.table.gz (6/34): adding to final database dump
+0181.433 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_commentmeta.table.tmpr0.gz (7/34): adding to final database dump
+0181.434 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_commentmeta.table.gz (8/34): adding to final database dump
+0181.434 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_comments.table.tmpr7.gz (9/34): adding to final database dump
+0181.435 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_comments.table.gz (10/34): adding to final database dump
+0181.435 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_links.table.tmpr0.gz (11/34): adding to final database dump
+0181.435 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_links.table.gz (12/34): adding to final database dump
+0181.436 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_postmeta.table.gz (13/34): adding to final database dump
+0181.601 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_posts.table.tmpr9873.gz (14/34): adding to final database dump
+0182.038 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_posts.table.gz (15/34): adding to final database dump
+0182.039 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_term_relationships.table.gz (16/34): adding to final database dump
+0182.063 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_term_taxonomy.table.tmpr3130.gz (17/34): adding to final database dump
+0182.069 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_term_taxonomy.table.gz (18/34): adding to final database dump
+0182.070 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_termmeta.table.tmpr762.gz (19/34): adding to final database dump
+0182.072 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_termmeta.table.gz (20/34): adding to final database dump
+0182.072 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_terms.table.tmpr3130.gz (21/34): adding to final database dump
+0182.089 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_terms.table.gz (22/34): adding to final database dump
+0182.090 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_anycomment_email_queue.table.tmpr0.gz (23/34): adding to final database dump
+0182.090 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_anycomment_email_queue.table.gz (24/34): adding to final database dump
+0182.091 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_anycomment_likes.table.tmpr0.gz (25/34): adding to final database dump
+0182.091 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_anycomment_likes.table.gz (26/34): adding to final database dump
+0182.091 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_anycomment_rating.table.tmpr0.gz (27/34): adding to final database dump
+0182.092 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_anycomment_rating.table.gz (28/34): adding to final database dump
+0182.092 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_anycomment_subscriptions.table.tmpr0.gz (29/34): adding to final database dump
+0182.092 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_anycomment_subscriptions.table.gz (30/34): adding to final database dump
+0182.093 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_anycomment_uploaded_files.table.tmpr0.gz (31/34): adding to final database dump
+0182.093 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_anycomment_uploaded_files.table.gz (32/34): adding to final database dump
+0182.094 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_facetwp_index.table.tmpr1552.gz (33/34): adding to final database dump
+0182.097 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_facetwp_index.table.gz (34/34): adding to final database dump
+0182.097 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_nextend2_image_storage.table.tmpr2.gz (35/34): adding to final database dump
+0182.098 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_nextend2_image_storage.table.gz (36/34): adding to final database dump
+0182.098 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_nextend2_section_storage.table.tmpr10104.gz (37/34): adding to final database dump
+0182.099 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_nextend2_section_storage.table.gz (38/34): adding to final database dump
+0182.100 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_nextend2_smartslider3_generators.table.tmpr0.gz (39/34): adding to final database dump
+0182.100 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_nextend2_smartslider3_generators.table.gz (40/34): adding to final database dump
+0182.100 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_nextend2_smartslider3_sliders.table.tmpr3.gz (41/34): adding to final database dump
+0182.102 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_nextend2_smartslider3_sliders.table.gz (42/34): adding to final database dump
+0182.102 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_nextend2_smartslider3_sliders_xref.table.tmpr1001.gz (43/34): adding to final database dump
+0182.102 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz (44/34): adding to final database dump
+0182.103 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_nextend2_smartslider3_slides.table.tmpr5.gz (45/34): adding to final database dump
+0182.104 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_nextend2_smartslider3_slides.table.gz (46/34): adding to final database dump
+0182.104 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_search_filter_cache.table.gz (47/34): adding to final database dump
+0182.203 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_search_filter_term_results.table.tmpr50781.gz (48/34): adding to final database dump
+0182.230 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_search_filter_term_results.table.gz (49/34): adding to final database dump
+0182.230 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_smush_dir_images.table.tmpr0.gz (50/34): adding to final database dump
+0182.231 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_smush_dir_images.table.gz (51/34): adding to final database dump
+0182.231 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_tm_taskmeta.table.tmpr0.gz (52/34): adding to final database dump
+0182.232 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_tm_taskmeta.table.gz (53/34): adding to final database dump
+0182.232 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_tm_tasks.table.tmpr0.gz (54/34): adding to final database dump
+0182.232 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_tm_tasks.table.gz (55/34): adding to final database dump
+0182.233 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_yoast_indexable.table.gz (56/34): adding to final database dump
+0182.350 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (57/34): adding to final database dump
+0182.351 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_yoast_indexable_hierarchy.table.gz (58/34): adding to final database dump
+0182.351 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_yoast_migrations.table.tmpr22.gz (59/34): adding to final database dump
+0182.352 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_yoast_migrations.table.gz (60/34): adding to final database dump
+0182.352 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_yoast_primary_term.table.tmpr0.gz (61/34): adding to final database dump
+0182.353 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_yoast_primary_term.table.gz (62/34): adding to final database dump
+0182.353 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db-table-wp_yoast_seo_links.table.gz (63/34): adding to final database dump
+0182.432 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db.gz: finished writing out complete database file (4848 KB)
+0182.495 (0) Total database tables backed up: 34 (backup_2021-09-09-2224_fishingreportru_0f4419b81049-db.gz, size: 4972857, sha1: 95f4bee82cb2f7b40020e782a2f4724dac75a146, sha256: 4a37f7a7ddcba9de8868c5515c45765009e8b1daddf76dbed446d89d6f38a43f)
+0182.499 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0182.499 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0182.500 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0182.500 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+0182.500 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads3.zip: uploads: This file has not yet been successfully uploaded: will queue
+0182.501 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads4.zip: uploads: This file has not yet been successfully uploaded: will queue
+0182.501 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads5.zip: uploads: This file has not yet been successfully uploaded: will queue
+0182.501 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads6.zip: uploads: This file has not yet been successfully uploaded: will queue
+0182.502 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads7.zip: uploads: This file has not yet been successfully uploaded: will queue
+0182.502 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads8.zip: uploads: This file has not yet been successfully uploaded: will queue
+0182.502 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads9.zip: uploads: This file has not yet been successfully uploaded: will queue
+0182.503 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads10.zip: uploads: This file has not yet been successfully uploaded: will queue
+0182.503 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip: uploads: This file has not yet been successfully uploaded: will queue
+0182.503 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip: uploads: This file has not yet been successfully uploaded: will queue
+0182.504 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip: uploads: This file has not yet been successfully uploaded: will queue
+0182.504 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip: uploads: This file has not yet been successfully uploaded: will queue
+0182.504 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads15.zip: uploads: This file has not yet been successfully uploaded: will queue
+0182.505 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads16.zip: uploads: This file has not yet been successfully uploaded: will queue
+0182.505 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-others.zip: others: This file has not yet been successfully uploaded: will queue
+0182.505 (0) backup_2021-09-09-2224_fishingreportru_0f4419b81049-db.gz: db: This file has not yet been successfully uploaded: will queue
+0182.506 (0) Saving backup history. Total backup size: 6 GB
+0182.507 (0) Requesting upload of the files that have not yet been successfully uploaded (20)
+0182.509 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0182.509 (0) No remote despatch: user chose no remote backup service
+0182.509 (0) Recording as successfully uploaded: backup_2021-09-09-2224_fishingreportru_0f4419b81049-plugins.zip
+0182.511 (0) Recording as successfully uploaded: backup_2021-09-09-2224_fishingreportru_0f4419b81049-themes.zip
+0182.512 (0) Recording as successfully uploaded: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads.zip
+0182.513 (0) Recording as successfully uploaded: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads2.zip
+0182.514 (0) Recording as successfully uploaded: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads3.zip
+0182.515 (0) Recording as successfully uploaded: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads4.zip
+0182.516 (0) Recording as successfully uploaded: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads5.zip
+0182.517 (0) Recording as successfully uploaded: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads6.zip
+0182.518 (0) Recording as successfully uploaded: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads7.zip
+0182.519 (0) Recording as successfully uploaded: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads8.zip
+0182.520 (0) Recording as successfully uploaded: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads9.zip
+0182.521 (0) Recording as successfully uploaded: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads10.zip
+0182.522 (0) Recording as successfully uploaded: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads11.zip
+0182.523 (0) Recording as successfully uploaded: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads12.zip
+0182.524 (0) Recording as successfully uploaded: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads13.zip
+0182.525 (0) Recording as successfully uploaded: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads14.zip
+0182.526 (0) Recording as successfully uploaded: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads15.zip
+0182.527 (0) Recording as successfully uploaded: backup_2021-09-09-2224_fishingreportru_0f4419b81049-uploads16.zip
+0182.528 (0) Recording as successfully uploaded: backup_2021-09-09-2224_fishingreportru_0f4419b81049-others.zip
+0182.530 (0) Recording as successfully uploaded: backup_2021-09-09-2224_fishingreportru_0f4419b81049-db.gz
+0182.532 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0182.533 (0) Number of backup sets in history: 3; groups (db): 1
+0182.533 (0) Examining (for databases) backup set with group_id=0, nonce=0f4419b81049, datestamp=1631215485 (Sep 09 2021 19:24:45)
+0182.533 (0) This backup set is the backup set just made, so will not be deleted.
+0182.533 (0) Examining (for databases) backup set with group_id=0, nonce=abe6f19d6f13, datestamp=1618990802 (Apr 21 2021 07:40:02)
+0182.533 (0) Examining (for databases) backup set with group_id=0, nonce=ea8717f9ba15, datestamp=1618990787 (Apr 21 2021 07:39:47)
+0182.533 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0182.534 (0) Number of backup sets in history: 3; groups (files): 1
+0182.534 (0) Examining (for files) backup set with nonce=0f4419b81049, datestamp=1631215485 (Sep 09 2021 19:24:45)
+0182.534 (0) This backup set is the backup set just made, so will not be deleted.
+0182.534 (0) This backup set is the backup set just made, so will not be deleted.
+0182.534 (0) This backup set is the backup set just made, so will not be deleted.
+0182.534 (0) This backup set is the backup set just made, so will not be deleted.
+0182.534 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0182.535 (0) Examining (for files) backup set with nonce=abe6f19d6f13, datestamp=1618990802 (Apr 21 2021 07:40:02)
+0182.535 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0182.535 (0) Examining (for files) backup set with nonce=ea8717f9ba15, datestamp=1618990787 (Apr 21 2021 07:39:47)
+0182.535 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0182.535 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0182.537 (0) Resume backup (0f4419b81049, 0): finish run
+0182.538 (0) Decremented the semaphore (fd) by 1
+0182.538 (0) Semaphore (fd) unlocked
+0182.539 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0182.541 (0) The backup apparently succeeded and is now complete
+0182.541 (0) No email will/can be sent - the user has not configured an email address.
+0182.541 (0) Резервное копирование успешно завершено

@@ -1,0 +1,1003 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: about-me-pro\n"
+"POT-Creation-Date: 2019-09-17 18:59+0530\n"
+"PO-Revision-Date: 2020-04-04 11:17+0530\n"
+"Last-Translator: Mubrak ali <ansari9731@gmail.com>\n"
+"Language-Team: \n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_html_e;esc_attr_e;esc_html__;esc_attr__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: ../languages\n"
+
+#: aatp-banner.php:11
+msgid "Go Pro"
+msgstr ""
+
+#: aatp-banner.php:16
+msgid "About Author Pro Features"
+msgstr ""
+
+#: aatp-banner.php:19
+msgid "More Profile Image Layout"
+msgstr "بیشتر مشخصات طرح بندی تصویر"
+
+#: aatp-banner.php:20
+msgid "Profile Header background"
+msgstr ""
+
+#: aatp-banner.php:21
+msgid "Multiple Author Widget"
+msgstr "نمایش اطلاعات نویسنده وبلاگ در سبک"
+
+#: aatp-banner.php:22
+msgid "Multiple Author Shortcode"
+msgstr "نمایش اطلاعات نویسنده وبلاگ در سبک"
+
+#: aatp-banner.php:23
+msgid "10 Design Author Template"
+msgstr ""
+
+#: aatp-banner.php:24
+#| msgid "Profile Image Layout"
+msgid "Multiple Author Image Layout"
+msgstr ""
+
+#: aatp-banner.php:25
+msgid "8 Type of Hover Animations"
+msgstr ""
+
+#: aatp-banner.php:26
+msgid "More Social Media Settings"
+msgstr ""
+
+#: aatp-banner.php:27
+msgid "Responsive Design & Many More"
+msgstr ""
+
+#: aatp-banner.php:31
+#| msgid "View Site"
+msgid "View Demo"
+msgstr ""
+
+#: aatp-banner.php:33
+msgid "Buy Now"
+msgstr ""
+
+#: aatp-banner.php:33
+msgid "$15"
+msgstr ""
+
+#: about-author-use-shortcode.php:92
+msgid "Sorry! Template Style 3 Available In Pro Plugin"
+msgstr ""
+
+#: about-author-use-shortcode.php:92 about-author-use-shortcode.php:97
+#: about-author-use-shortcode.php:102 about-author-use-shortcode.php:107
+#: about-author-use-shortcode.php:112 about-author-use-shortcode.php:117
+#: about-author-use-shortcode.php:122 about-author-use-shortcode.php:127
+#: author-setting/about-author-use-shortcode2.php:124
+#: author-setting/about-author-use-shortcode2.php:129
+#: author-setting/about-author-use-shortcode2.php:134
+#: author-setting/about-author-use-shortcode2.php:139
+#: author-setting/about-author-use-shortcode2.php:144
+#: author-setting/about-author-use-shortcode2.php:149
+#: author-setting/about-author-use-shortcode2.php:154
+#: author-setting/about-author-use-shortcode2.php:159
+msgid "Template Style 1 And Template Style 2 Available In This Plugin"
+msgstr ""
+
+#: about-author-use-shortcode.php:97 author-setting/about-author-use-shortcode2.php:129
+msgid "Sorry! Template Style 4 Available In Pro Plugin"
+msgstr ""
+
+#: about-author-use-shortcode.php:102 author-setting/about-author-use-shortcode2.php:134
+msgid "Sorry! Template Style 5 Available In Pro Plugin"
+msgstr ""
+
+#: about-author-use-shortcode.php:107 author-setting/about-author-use-shortcode2.php:139
+msgid "Sorry! Template Style 6 Available In Pro Plugin"
+msgstr ""
+
+#: about-author-use-shortcode.php:112 author-setting/about-author-use-shortcode2.php:144
+msgid "Sorry! Template Style 7 Available In Pro Plugin"
+msgstr ""
+
+#: about-author-use-shortcode.php:117 author-setting/about-author-use-shortcode2.php:149
+msgid "Sorry! Template Style 8 Available In Pro Plugin"
+msgstr ""
+
+#: about-author-use-shortcode.php:122 author-setting/about-author-use-shortcode2.php:154
+msgid "Sorry! Template Style 9 Available In Pro Plugin"
+msgstr ""
+
+#: about-author-use-shortcode.php:127 author-setting/about-author-use-shortcode2.php:159
+msgid "Sorry! Template Style 10 Available In Pro Plugin"
+msgstr ""
+
+#: about-author-use-shortcode.php:134 author-setting/about-author-use-shortcode2.php:172
+msgid "Sorry! Invalid About me Shortcode Embedded"
+msgstr "متاسفم! نامعتبر در مورد من کوتاه جاسازی شده"
+
+#: about-author-widget-code.php:32 about-author-widget-code.php:84
+#| msgid "About Me Shortcode"
+msgid "Sorry! No About Author Shortcode Found."
+msgstr ""
+
+#: about-author-widget-code.php:56
+#| msgid "Widget Title"
+msgid "About Author Widget Title"
+msgstr ""
+
+#: about-author-widget-code.php:61
+msgid "Select Any"
+msgstr "انتخاب هر"
+
+#: about-author-widget-code.php:61
+msgid "(Required)"
+msgstr ""
+
+#: about-author-widget-code.php:73
+#| msgid "Insert ABOUT ME Shortcode"
+msgid "Select Any About Author Shortcode"
+msgstr ""
+
+#: about-author-widget-code.php:80 author-settings.php:113
+msgid "No Title"
+msgstr ""
+
+#: about-author.php:51
+#| msgid "Add settings"
+msgid "Settings"
+msgstr ""
+
+#: about-author.php:144
+msgid "About Author"
+msgstr "درباره نویسنده"
+
+#: about-author.php:145
+#| msgid "About Me Shortcode"
+msgid "About Author Shortcode"
+msgstr "نمایش اطلاعات نویسنده وبلاگ در سبک"
+
+#: about-author.php:146
+#| msgid "About Me Shortcode"
+msgid "Author"
+msgstr "نمایش اطلاعات نویسنده وبلاگ در سبک"
+
+#: about-author.php:147
+msgid "Date"
+msgstr ""
+
+#: about-author.php:165
+msgid " Add Images"
+msgstr " افزودن تصاویر"
+
+#: about-author.php:165
+msgid "Select Template"
+msgstr "نمایش اطلاعات نویسنده وبلاگ در سبک"
+
+#: about-author.php:166
+#| msgid "Add settings"
+msgid "Add Settings"
+msgstr " افزودن تصاویر"
+
+#: about-author.php:166
+msgid "Add settings"
+msgstr " افزودن تصاویر"
+
+#: about-author.php:167
+#| msgid "About Me Shortcode"
+msgid "Copy Shortcode"
+msgstr "نمایش اطلاعات نویسنده وبلاگ در سبک"
+
+#: about-author.php:168
+msgid "UpgradetoAboutAuthorPro"
+msgstr ""
+
+#: about-author.php:168 help-and-support.php:2 help-and-support.php:21
+#| msgid "About Me Pro"
+msgid "About Author Pro"
+msgstr ""
+
+#: about-author.php:169
+#| msgid "About Me Shortcode"
+msgid "Preview Shortcode"
+msgstr ""
+
+#: about-author.php:170
+#| msgid "Activate About me pro Widget"
+msgid "Activate About Author Widget"
+msgstr ""
+
+#: about-author.php:184
+#| msgid "Use below shortcode in any Page/Post to publish your Auther information"
+msgid "Use below shortcode in any Page/Post to publish your author information"
+msgstr ""
+
+#: about-author.php:193
+msgid "Click here to preview"
+msgstr ""
+
+#: about-author.php:199
+msgid "Preview"
+msgstr ""
+
+#: about-author.php:201
+msgid "Please save first to check preview."
+msgstr ""
+
+#: about-author.php:207
+msgid "To activate widget into any widget area"
+msgstr ""
+
+#: about-author.php:208 help-and-support.php:8 help-and-support.php:15
+msgid "Click Here"
+msgstr ""
+
+#: about-author.php:209
+msgid "Find"
+msgstr "پیدا کردن"
+
+#: about-author.php:209
+#| msgid "Widget Title"
+msgid "About Author Widget"
+msgstr ""
+
+#: about-author.php:209
+#| msgid ""
+#| "and place it to your widget area. Select any About Me Pro from the dropdown and save changes."
+msgid ""
+"Place it to your widget area. Select any About Author Shortcode from the dropdown and save widget."
+msgstr ""
+
+#: about-author.php:220 about-author.php:226
+msgid "Buy Now $15"
+msgstr ""
+
+#: about-author.php:317
+#| msgid "Select About Me Shortcode And Widget To Insert Into Post"
+msgid "Select About Author Shortcode to insert with content"
+msgstr ""
+
+#: about-author.php:318
+#| msgid "Select About Me Shortcode And Widget To Insert Into Post"
+msgid "Select About Author Shortcode to insert into content"
+msgstr ""
+
+#: about-author.php:320
+#| msgid "About Me Shortcode And Widget"
+msgid "About Author Shortcode And Widget"
+msgstr ""
+
+#: about-author.php:338
+#| msgid "Select About Me Shortcode And Widget To Insert Into Post"
+msgid "Select About Author Shortcode And Widget To Insert Into Post"
+msgstr ""
+
+#: about-author.php:348
+#| msgid "Insert ABOUT ME Shortcode"
+msgid "Insert About Author Shortcode"
+msgstr ""
+
+#: about-author.php:350
+#| msgid "About Me Shortcode"
+msgid "No About Author Shortcode not_found "
+msgstr ""
+
+#: about-author.php:358
+msgid "Social Profile Information"
+msgstr ""
+
+#: about-author.php:362 settings/general-settings.php:257
+msgid "Facebook"
+msgstr ""
+
+#: about-author.php:370 settings/general-settings.php:262
+msgid "Twitter"
+msgstr ""
+
+#: about-author.php:377 settings/general-settings.php:267
+msgid "Google"
+msgstr ""
+
+#: about-author.php:385 settings/general-settings.php:272
+msgid "LinkedIn"
+msgstr ""
+
+#: about-author.php:393 settings/general-settings.php:283
+msgid "Instagram"
+msgstr ""
+
+#: about-author.php:401 settings/general-settings.php:277
+msgid "Pinterest"
+msgstr ""
+
+#: author-settings.php:74
+msgid "Author Settings"
+msgstr ""
+
+#: author-settings.php:77
+#| msgid "Display Author settings"
+msgid "Display Author Settings"
+msgstr ""
+
+#: author-settings.php:80
+msgid "On page"
+msgstr ""
+
+#: author-settings.php:82 author-settings.php:88 author-settings.php:129 author-settings.php:136
+#: author-settings.php:144
+#| msgid "yes"
+msgid "Yes"
+msgstr ""
+
+#: author-settings.php:83 author-settings.php:89 author-settings.php:130 author-settings.php:137
+#: author-settings.php:145
+msgid "No"
+msgstr ""
+
+#: author-settings.php:87
+msgid "On post"
+msgstr ""
+
+#: author-settings.php:92
+msgid "Select Template Style"
+msgstr "نمایش اطلاعات نویسنده وبلاگ در سبک"
+
+#: author-settings.php:102
+msgid "Choose one"
+msgstr ""
+
+#: author-settings.php:105
+#| msgid "Select Any"
+msgid "Select Any Shortcode"
+msgstr ""
+
+#: author-settings.php:117
+#| msgid "About Me Shortcode And Widget"
+msgid "Sorry! No Author Shortcode Created Yet."
+msgstr ""
+
+#: author-settings.php:124
+msgid "Display On Post OR Page"
+msgstr "نمایش اطلاعات نویسنده وبلاگ در سبک"
+
+#: author-settings.php:127
+msgid "Name"
+msgstr ""
+
+#: author-settings.php:133
+msgid "Website Name"
+msgstr ""
+
+#: author-settings.php:141
+msgid "Biographical Info"
+msgstr ""
+
+#: author-settings.php:149
+msgid "Author label settings"
+msgstr "نمایش اطلاعات نویسنده وبلاگ در سبک"
+
+#: author-settings.php:151
+msgid "Author label text"
+msgstr "نمایش اطلاعات نویسنده وبلاگ در سبک"
+
+#: author-settings.php:159 settings/general-settings.php:194 settings/general-settings.php:220
+#: settings/general-settings.php:242
+msgid "Font size"
+msgstr ""
+
+#: author-settings.php:166
+msgid "Background Color"
+msgstr ""
+
+#: author-settings.php:172
+msgid "Font Color"
+msgstr ""
+
+#: author-settings.php:176 settings/general-settings.php:315 settings/general-settings.php:319
+msgid "Font Family"
+msgstr ""
+
+#: author-settings.php:180 settings/general-settings.php:323
+msgid "Arial"
+msgstr ""
+
+#: author-settings.php:181 settings/general-settings.php:324
+msgid "Arial Black"
+msgstr ""
+
+#: author-settings.php:182
+msgid "Courier New"
+msgstr ""
+
+#: author-settings.php:183 settings/general-settings.php:326
+msgid "Cursive"
+msgstr ""
+
+#: author-settings.php:184 settings/general-settings.php:327
+msgid "Fantasy"
+msgstr ""
+
+#: author-settings.php:185 settings/general-settings.php:328
+msgid "Georgia"
+msgstr ""
+
+#: author-settings.php:186 settings/general-settings.php:329
+msgid "Grande"
+msgstr ""
+
+#: author-settings.php:187 settings/general-settings.php:330
+msgid "Helvetica Neue"
+msgstr ""
+
+#: author-settings.php:188 settings/general-settings.php:331
+msgid "Impact"
+msgstr ""
+
+#: author-settings.php:189 settings/general-settings.php:332
+msgid "Lucida"
+msgstr ""
+
+#: author-settings.php:190 settings/general-settings.php:333
+msgid "Lucida Console"
+msgstr ""
+
+#: author-settings.php:191 settings/general-settings.php:334
+msgid "Monospace"
+msgstr ""
+
+#: author-settings.php:192 settings/general-settings.php:335
+msgid "Open Sans"
+msgstr ""
+
+#: author-settings.php:193 settings/general-settings.php:336
+msgid "Palatino"
+msgstr ""
+
+#: author-settings.php:194 settings/general-settings.php:337
+msgid "Sans"
+msgstr ""
+
+#: author-settings.php:195 settings/general-settings.php:338
+msgid "Sans-Serif"
+msgstr ""
+
+#: author-settings.php:196 settings/general-settings.php:339
+msgid "Tahoma"
+msgstr ""
+
+#: author-settings.php:197 settings/general-settings.php:340
+msgid "Times New Roman"
+msgstr ""
+
+#: author-settings.php:198 settings/general-settings.php:341
+msgid "Trebuchet MS"
+msgstr ""
+
+#: author-settings.php:199 settings/general-settings.php:342
+msgid "Verdana"
+msgstr ""
+
+#: author-settings.php:217 settings/general-settings.php:360
+msgid "Error to fetch Google fonts."
+msgstr ""
+
+#: author-settings.php:218 settings/general-settings.php:361
+msgid "Google font will not available in offline mode."
+msgstr ""
+
+#: author-settings.php:224 settings/general-settings.php:368
+msgid "Choose a caption font style."
+msgstr "یک سبک نوع خط عنوان را انتخاب کنید."
+
+#: help-and-support.php:3
+msgid ""
+"About Auhor pro is an  plug-in & widget with a lot of features and options for customizes author "
+"information for different views"
+msgstr ""
+
+#: help-and-support.php:6
+msgid "View Support Docs or Open a Ticket"
+msgstr ""
+
+#: help-and-support.php:12
+msgid "View Plugin Documentation"
+msgstr ""
+
+#: help-and-support.php:19
+msgid "Rate Us"
+msgstr ""
+
+#: help-and-support.php:20
+msgid "If you are enjoying using our"
+msgstr ""
+
+#: help-and-support.php:22
+msgid "plugin and find it useful"
+msgstr ""
+
+#: help-and-support.php:23
+msgid "then please consider writing a positive feedback"
+msgstr ""
+
+#: help-and-support.php:24
+msgid ""
+"Your feedback will help us to encourage and support the plugin continued development and better "
+"user support"
+msgstr ""
+
+#: help-and-support.php:35
+msgid "Share Us Your Suggestion"
+msgstr ""
+
+#: help-and-support.php:36
+msgid "If you have any suggestion or features in your mind then please share us"
+msgstr ""
+
+#: help-and-support.php:37
+msgid "We will try our best to add them in this plugin"
+msgstr ""
+
+#: help-and-support.php:39
+msgid "Language Contribution"
+msgstr ""
+
+#: help-and-support.php:40
+msgid "Translate this plugin into your language"
+msgstr ""
+
+#: help-and-support.php:41
+msgid "Question"
+msgstr ""
+
+#: help-and-support.php:42
+msgid "How to convert Plguin into My Language "
+msgstr ""
+
+#: help-and-support.php:43
+msgid "Answer"
+msgstr ""
+
+#: help-and-support.php:44
+msgid "Contact as to"
+msgstr ""
+
+#: help-and-support.php:44
+msgid "lizarweb@gmail.com"
+msgstr ""
+
+#: help-and-support.php:45
+msgid "for translate this plugin into your language"
+msgstr ""
+
+#: settings/general-settings.php:113
+msgid "Profile Image Layout"
+msgstr ""
+
+#: settings/general-settings.php:131
+msgid "Profile Image Layout settings"
+msgstr ""
+
+#: settings/general-settings.php:136
+#| msgid "Border size"
+msgid "Border style"
+msgstr ""
+
+#: settings/general-settings.php:153
+msgid "Border size"
+msgstr ""
+
+#: settings/general-settings.php:160
+msgid "Border Color"
+msgstr ""
+
+#: settings/general-settings.php:169
+#| msgid "BackgroundColor"
+msgid "BackgroundColor option"
+msgstr ""
+
+#: settings/general-settings.php:174
+msgid "BackgroundColor"
+msgstr ""
+
+#: settings/general-settings.php:184
+#| msgid "Name Information Settings"
+msgid "Name Text Settings"
+msgstr ""
+
+#: settings/general-settings.php:188
+#| msgid "Name"
+msgid "Name Text"
+msgstr ""
+
+#: settings/general-settings.php:200 settings/general-settings.php:295
+msgid "Color"
+msgstr ""
+
+#: settings/general-settings.php:208
+#| msgid "Website Information Settings"
+msgid "Website Text Settings"
+msgstr ""
+
+#: settings/general-settings.php:210
+#| msgid "Website Name"
+msgid "Website Name Text"
+msgstr ""
+
+#: settings/general-settings.php:214
+#| msgid "Website Name"
+msgid "Website url"
+msgstr ""
+
+#: settings/general-settings.php:225
+msgid "Website Link Color"
+msgstr ""
+
+#: settings/general-settings.php:230
+#| msgid "Discription Information Settings"
+msgid "Description Text Settings"
+msgstr ""
+
+#: settings/general-settings.php:234
+#| msgid "Discription Text Color"
+msgid "Description Text"
+msgstr ""
+
+#: settings/general-settings.php:238
+#| msgid "Note: Maximum words for Discription are 325."
+msgid "Note: Maximum words for Description are 325."
+msgstr ""
+
+#: settings/general-settings.php:247
+#| msgid "Discription Text Color"
+msgid "Description Text Color"
+msgstr ""
+
+#: settings/general-settings.php:253
+#| msgid "Social link"
+msgid "Social link Settings"
+msgstr ""
+
+#: settings/general-settings.php:291
+msgid "Social Link Color"
+msgstr ""
+
+#: settings/general-settings.php:304
+msgid "Social icon size"
+msgstr ""
+
+#: settings/general-settings.php:308
+msgid "Size"
+msgstr ""
+
+#: settings/general-settings.php:325
+msgid "Courier New "
+msgstr ""
+
+#: settings/general-settings.php:374 settings/general-settings.php:377
+msgid "Custom CSS"
+msgstr ""
+
+#: settings/general-settings.php:382
+#| msgid ""
+#| "Enter any custom css you want to apply on this shortcode.\n"
+#| "\t\t\t\t\t\tNote: Please Do Not Use Style Tag With Custom CSS."
+msgid "Enter any custom css you want to apply on this shortcode."
+msgstr ""
+
+#: settings/general-settings.php:384
+msgid "Note: Please Do Not Use "
+msgstr ""
+
+#: settings/general-settings.php:384
+msgid "Style"
+msgstr ""
+
+#: settings/general-settings.php:384
+#| msgid "Custom CSS"
+msgid "Tag With Custom CSS"
+msgstr ""
+
+#: settings/template-settings.php:196
+msgid "Template 1"
+msgstr ""
+
+#: settings/template-settings.php:203
+msgid "Template 2"
+msgstr ""
+
+#: settings/template-settings.php:210
+msgid "Template 3"
+msgstr ""
+
+#: settings/template-settings.php:217
+msgid "Template 4"
+msgstr ""
+
+#: settings/template-settings.php:224
+msgid "Template 5"
+msgstr ""
+
+#: settings/template-settings.php:231
+msgid "Template 6"
+msgstr ""
+
+#: settings/template-settings.php:238
+msgid "Template 7"
+msgstr ""
+
+#: settings/template-settings.php:245
+msgid "Template 8"
+msgstr ""
+
+#: settings/template-settings.php:252
+msgid "Template 9"
+msgstr ""
+
+#: settings/template-settings.php:259
+msgid "Template 10"
+msgstr ""
+
+#: settings/template1.php:18
+msgid "Template Style 1"
+msgstr ""
+
+#: settings/template1.php:29 settings/template2.php:28
+msgid "Upload profile Image"
+msgstr ""
+
+#: settings/template1.php:32 settings/template2.php:31 settings/template2.php:40
+msgid "No media selected!"
+msgstr ""
+
+#: settings/template1.php:33 settings/template2.php:32 settings/template2.php:41
+msgid "Upload"
+msgstr ""
+
+#: settings/template1.php:35
+msgid "*Upload profile Image size should be 200*200 pixel maximum and 150*150 minimum"
+msgstr ""
+
+#: settings/template10.php:14
+msgid "Template Style 10 Available In Pro Plugin"
+msgstr ""
+
+#: settings/template10.php:24 settings/template3.php:25 settings/template4.php:25
+#: settings/template5.php:25 settings/template7.php:24 settings/template8.php:27
+#: settings/template9.php:27
+msgid "Check Demo Now"
+msgstr ""
+
+#: settings/template10.php:25 settings/template5.php:26 settings/template6.php:25
+#: settings/template7.php:25 settings/template8.php:28 settings/template9.php:28
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: settings/template2.php:19
+msgid "Template Style 2"
+msgstr ""
+
+#: settings/template2.php:34
+msgid "*Upload profile image size should be 200*200 pixel maximum and 150*150 minimum"
+msgstr ""
+
+#: settings/template2.php:38
+msgid "Upload Header Background Image"
+msgstr ""
+
+#: settings/template2.php:43
+msgid "*Upload header background image size should be 800*150 pixel maximum and 600*150 minimum"
+msgstr ""
+
+#: settings/template3.php:14
+msgid "Template Style 3 Available In Pro Plugin"
+msgstr ""
+
+#: settings/template3.php:26 settings/template4.php:27
+msgid "Upgrade To Pro "
+msgstr ""
+
+#: settings/template4.php:14
+msgid "Template Style 4 Available In Pro Plugin"
+msgstr ""
+
+#: settings/template5.php:14
+msgid "Template Style 5 Available In Pro Plugin"
+msgstr ""
+
+#: settings/template6.php:14
+msgid "Template Style 6 Available In Pro Plugin"
+msgstr ""
+
+#: settings/template6.php:24
+msgid "Check Demo Now "
+msgstr ""
+
+#: settings/template7.php:14
+msgid "Template Style 7 Available In Pro Plugin"
+msgstr ""
+
+#: settings/template8.php:14
+msgid "Template Style 8 Available In Pro Plugin "
+msgstr ""
+
+#: settings/template9.php:14
+msgid "Template Style 9 Available In Pro Plugin"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Premium Plugins"
+#~ msgid "Premium Editions"
+#~ msgstr "प्रीमियम प्लगिन"
+
+#~ msgid "About me Shortcode & Widget Pro"
+#~ msgstr "अबाउट मी शोर्ट कोड  एंड विजेट प्रो"
+
+#~ msgid "About me Shortcode And Widget Pro"
+#~ msgstr "शोर्ट कोड  एंड विजेट प्रो"
+
+#~ msgid "Add New "
+#~ msgstr "नया विकल्प जोड़ें:"
+
+#~ msgid "Edit About me"
+#~ msgstr "सम्पादित अबाउट मी"
+
+#~ msgid "New About me"
+#~ msgstr "नया अबाउट मी "
+
+#~ msgid "View About_me"
+#~ msgstr "अबाउट मी शोर्ट देखें"
+
+#~ msgid "Search About me"
+#~ msgstr " अबाउट मी खोजे"
+
+#~ msgid "No data found"
+#~ msgstr "कोई संग्रह नही मिला"
+
+#~ msgid "No data found in Trash"
+#~ msgstr "कचरे में कोई संग्रह नही मिला "
+
+#~ msgid "Parent About_me:"
+#~ msgstr "प्रमुख अबाउट मी "
+
+#~ msgid "ABOUT ME"
+#~ msgstr "अबाउट मी "
+
+#~ msgid "ABOUT ME Shortcode"
+#~ msgstr "अबाउट मी शोर्ट कोड"
+
+#~ msgid "Add set-tt-ings"
+#~ msgstr "सेटिंग जोड़ो"
+
+#~ msgid "About Me Preview Box"
+#~ msgstr "अबाउट मी प्रीव्यू बॉक्स"
+
+#~ msgid "Select ABOUT ME to insert into post"
+#~ msgstr " चयन करें किसी भी अबाउट मी का पोस्ट में डालने के लिए"
+
+#~ msgid "No ABOUT ME found"
+#~ msgstr "कोई अबाट मी नहीं मिला"
+
+#~ msgid "no"
+#~ msgstr "नहीं"
+
+#~ msgid "Weblizar Responsive WordPress Theme"
+#~ msgstr " Weblizar  रेस्पोंसिव वर्डप्रेस थीम"
+
+#~ msgid "Get The Premium, And Create your website Beautifully."
+#~ msgstr "प्रीमियम थीम प्राप्त करे और अपनी खूबसूरत वेबसाइट बनाये"
+
+#~ msgid "Premium Themes"
+#~ msgstr "प्रीमियम थीम"
+
+#~ msgid "Enigma"
+#~ msgstr "Enigma"
+
+#~ msgid "Weblizar"
+#~ msgstr "बस एक और Weblizar विषय"
+
+#~ msgid "Guardian"
+#~ msgstr "Guardian"
+
+#~ msgid "Green-lantern"
+#~ msgstr "Green-lantern"
+
+#~ msgid "Creative "
+#~ msgstr "Creative "
+
+#~ msgid "Incredible"
+#~ msgstr "Incredible"
+
+#~ msgid "Ultimate Responsive Image Slider"
+#~ msgstr "Ultimate Responsive Image Slider"
+
+#~ msgid "Responsive Photo Gallery"
+#~ msgstr "Responsive Photo Gallery"
+
+#~ msgid "Responsive Portfolio"
+#~ msgstr "Responsive Portfolio"
+
+#~ msgid "Lightbox Slider"
+#~ msgstr "Lightbox Slider"
+
+#~ msgid "Flickr Album Gallery"
+#~ msgstr "Flickr Album Gallery"
+
+#~ msgid "Instagram Shortcode & Widget"
+#~ msgstr "मेरे बारे में शोर्ट और विजेट प्रो"
+
+#~ msgid "Gallery Pro Weblizar"
+#~ msgstr "Gallery Pro Weblizar"
+
+#~ msgid ""
+#~ "Note: More details to click on weblizar Products site link are below given view site button."
+#~ msgstr "सूचना:अधिक जानकर्री नीचे दिए गए लिंक पर क्लिक करे"
+
+#~ msgid "Border"
+#~ msgstr "बॉर्डर"
+
+#~ msgid "General option"
+#~ msgstr "सामान्य विकल्प"
+
+#~ msgid "Discription"
+#~ msgstr "विवरण"
+
+#~ msgid "Flickr"
+#~ msgstr "फ्लिकर"
+
+#~ msgid "Tumblr"
+#~ msgstr "टम्बलर"
+
+#~ msgid "Bitbucket"
+#~ msgstr "बिटबकेट"
+
+#~ msgid "Dropbox"
+#~ msgstr "ड्रापबॉक्स"
+
+#~ msgid "Github"
+#~ msgstr "गीटहब"
+
+#~ msgid "VK"
+#~ msgstr "वीके"
+
+#~ msgid "Template Style 10"
+#~ msgstr "प्रभाव 10"
+
+#~ msgid "Upload Background Image"
+#~ msgstr "*अपलोड बैकग्राउंड इमेज"
+
+#~ msgid "*Upload background image size should be 1000*700 pixel maximum and 900*700 minimum"
+#~ msgstr "*अपलोड  बैकग्राउंड इमेज का साइज़ कम से कम 900*700 और अधिक से अधिक 1000*700 पिक्सेल रखे"
+
+#~ msgid "Template Style 3"
+#~ msgstr "प्रभाव 3"
+
+#~ msgid "Template Style 4"
+#~ msgstr "प्रभाव 4"
+
+#~ msgid "Template Style 5"
+#~ msgstr "प्रभाव 5"
+
+#~ msgid "Template Style 6"
+#~ msgstr "प्रभाव 6"
+
+#~ msgid "Template Style 7"
+#~ msgstr "प्रभाव 7"
+
+#~ msgid "*Upload profile image size should be 200*200 pixel maximum and 150*150 minimum "
+#~ msgstr "*अपलोड प्रोफाइल इमेज का साइज़ कम से कम 150*150 और अधिक से अधिक 200*200 पिक्सेल रखे"
+
+#~ msgid "Template Style 8"
+#~ msgstr "प्रभाव 8"
+
+#~ msgid "Template Style 9"
+#~ msgstr "प्रभाव 9"

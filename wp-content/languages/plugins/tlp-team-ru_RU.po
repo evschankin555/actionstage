@@ -1,0 +1,553 @@
+# Translation of Plugins - Team - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Team - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-18 16:32:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Team - Stable (latest release)\n"
+
+#: lib/views/settings.php:103
+msgid "Please use default customizer to add your css. This option is deprecated."
+msgstr "Данная возможность устарела. Вы можете добавить свои CSS стили через стандартный диалог: 'Внешний вид' → 'Настроить' → 'Дополнительные стили'."
+
+#: lib/classes/TPLsettings.php:42
+msgid "Session Error!!"
+msgstr "Ошибка сессии!"
+
+#: lib/classes/TPLTeamShortCode.php:257
+msgid "No shortCode found"
+msgstr "Шорткоды не найдены"
+
+#: lib/classes/TPLTeamShortCode.php:255
+msgid "Session Error !!"
+msgstr "Ошибка сессии!"
+
+#: lib/classes/TLPteamPostTypeAdmin.php:22
+msgid "TLP Team Shortcode"
+msgstr "Шорткод TLP Team"
+
+#: lib/classes/TLPTeamSCMeta.php:182
+msgid "Styling"
+msgstr "Оформление"
+
+#: lib/classes/TLPTeamSCMeta.php:181
+msgid "Filtering"
+msgstr "Отбор"
+
+#: lib/classes/TLPTeamSCMeta.php:180
+msgid "Layout Settings"
+msgstr "Настройки макета"
+
+#: lib/classes/TLPTeamSCMeta.php:129
+msgid "Pro Feature"
+msgstr "Возможности Pro-версии"
+
+#: lib/classes/TLPTeamSCMeta.php:122
+msgid "Layout Preview"
+msgstr "Просмотр макета"
+
+#: lib/classes/TLPTeamHelper.php:326
+msgid "Last"
+msgstr "Последняя"
+
+#: lib/classes/TLPTeamHelper.php:319
+msgid "Next"
+msgstr "Следующая"
+
+#: lib/classes/TLPTeamHelper.php:301
+msgid "Previous"
+msgstr "Предыдущая"
+
+#: lib/classes/TLPTeamHelper.php:294
+msgid "First"
+msgstr "Первая"
+
+#: lib/classes/TLPTeamHelper.php:288
+msgid "Page %d of %d"
+msgstr "Страница %d из %d"
+
+#: lib/classes/TLPTeamHelper.php:198
+msgid "Custom image size"
+msgstr "Пользовательский размер изображения"
+
+#: lib/classes/TLPTeamOptions.php:280
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: lib/classes/TLPTeamOptions.php:270
+msgid "Weight"
+msgstr "Насыщенность"
+
+#: lib/classes/TPLTeamShortCode.php:221 lib/classes/TLPTeamOptions.php:263
+#: lib/classes/TLPTeamOptions.php:273 lib/classes/TLPTeamOptions.php:282
+msgid "Default"
+msgstr "По умолчанию"
+
+#: lib/classes/TLPTeamOptions.php:260
+msgid "Font size"
+msgstr "Размер шрифта"
+
+#: lib/classes/TLPTeamOptions.php:254
+msgid "Hover color"
+msgstr "Цвет при наведении"
+
+#: lib/classes/TLPTeamOptions.php:247
+msgid "Color"
+msgstr "Цвет"
+
+#: lib/classes/TLPTeamOptions.php:237
+msgid "Hard Crop"
+msgstr "Жёсткая обрезка"
+
+#: lib/classes/TLPTeamOptions.php:236
+msgid "Soft Crop"
+msgstr "Лёгкая обрезка"
+
+#: lib/classes/TLPTeamOptions.php:214
+msgid "Short biography"
+msgstr "Краткая биография"
+
+#: lib/classes/TPLTeamShortCode.php:222 lib/classes/TLPTeamOptions.php:204
+msgid "Name"
+msgstr "Название"
+
+#: lib/classes/TLPTeamOptions.php:148
+msgid "Order"
+msgstr "Порядок"
+
+#: lib/classes/TLPTeamOptions.php:141
+msgid "Order By"
+msgstr "Сортировать по"
+
+#: lib/classes/TLPTeamOptions.php:137
+msgid "The number of posts to show. Set empty to show all found posts."
+msgstr "Сколько записей показывать. Оставьте пустым, чтобы отобразить все записи."
+
+#: lib/classes/TLPTeamOptions.php:135
+msgid "Limit"
+msgstr "Лимит"
+
+#: lib/classes/TLPTeamOptions.php:129
+msgid "Select the member you want to hide"
+msgstr "Выберете участников, которых вы хотите скрыть"
+
+#: lib/classes/TLPTeamOptions.php:126
+msgid "Exclude"
+msgstr "Исключить"
+
+#: lib/classes/TLPTeamOptions.php:120
+msgid "Select the member you want to display"
+msgstr "Выберете участников, которых вы хотите отобразить"
+
+#: lib/classes/TLPTeamOptions.php:117
+msgid "Include only"
+msgstr "Включить только"
+
+#: lib/classes/TLPTeamOptions.php:106
+msgid "Detail page link"
+msgstr "Ссылка на страницу с подробной информацией"
+
+#: lib/classes/TLPTeamOptions.php:101
+msgid "Short description limit only integer number is allowed, Leave it blank for full text.<br> <span style='color: red;'>Also HTML TAGS will not work if you use limit.</span>"
+msgstr "Количество слов для цитаты: допускаются только целые числа. Оставьте поле пустым, чтобы вывести весь текст.<br><span style='color: red;'>Также не будет работать HTML разметка, если вы используете это ограничение.</span>"
+
+#: lib/classes/TLPTeamOptions.php:100
+msgid "Short description limit"
+msgstr "Количество слов для цитаты"
+
+#: lib/classes/TLPTeamOptions.php:94
+msgid "Custom Image Size"
+msgstr "Пользовательский размер изображения"
+
+#: lib/classes/TLPTeamOptions.php:82 lib/classes/TLPTeamOptions.php:107
+msgid "Disable"
+msgstr "Отключено"
+
+#: lib/classes/TLPTeamOptions.php:81
+msgid "Feature Image"
+msgstr "Изображение записи"
+
+#: lib/classes/TLPTeamOptions.php:76
+msgid "If value of Limit setting is not blank (empty), this value should be smaller than Limit value."
+msgstr "Если значение параметра Limit задано (не пустое), это значение должно быть меньше значения Limit."
+
+#: lib/classes/TLPTeamOptions.php:73
+msgid "Display per page"
+msgstr "Отображать на странице"
+
+#: lib/classes/TLPTeamOptions.php:68
+msgid "Enable"
+msgstr "Включено"
+
+#: lib/classes/TLPTeamOptions.php:62
+msgid "Autoplay interval timeout"
+msgstr "Тайм-аут автовоспроизведения"
+
+#: lib/classes/TLPTeamOptions.php:58
+msgid "Autoplay timeout"
+msgstr "Задержка автовоспроизведения"
+
+#: lib/classes/TLPTeamOptions.php:49
+msgid "Carousel Options"
+msgstr "Параметры Карусели"
+
+#: lib/classes/TLPTeamOptions.php:46
+msgid "Auto play Speed in milliseconds"
+msgstr "Скорость автоматического воспроизведения в миллисекундах"
+
+#: lib/classes/TLPTeamOptions.php:42
+msgid "Speed"
+msgstr "Скорость"
+
+#: lib/classes/TLPTeamOptions.php:35
+msgid "Mobile"
+msgstr "Мобильное устройство"
+
+#: lib/classes/TLPTeamOptions.php:28
+msgid "Tab"
+msgstr "Планшет"
+
+#: lib/classes/TLPTeamOptions.php:21
+msgid "Desktop"
+msgstr "Настольный компьютер"
+
+#: lib/classes/TLPTeamOptions.php:16
+msgid "Column"
+msgstr "Колонка"
+
+#: lib/classes/TLPTeamOptions.php:9
+msgid "Layout"
+msgstr "Макет"
+
+#: lib/classes/TLPTeamPostTypeRegistrations.php:89
+msgid "No ShortCode found in trash."
+msgstr "Шотркод в корзине не найден."
+
+#: lib/classes/TLPTeamPostTypeRegistrations.php:88
+msgid "No ShortCode found."
+msgstr "Шорткоды не найдены."
+
+#: lib/classes/TLPTeamPostTypeRegistrations.php:87
+msgid "ShortCode Locations"
+msgstr "Расположение шорткода"
+
+#: lib/classes/TLPTeamPostTypeRegistrations.php:86
+msgid "View ShortCode"
+msgstr "Просмотреть шорткод"
+
+#: lib/classes/TLPTeamPostTypeRegistrations.php:85
+msgid "New ShortCode"
+msgstr "Новый шорткод"
+
+#: lib/classes/TLPTeamPostTypeRegistrations.php:84
+msgid "Edit ShortCode"
+msgstr "Редактировать шорткод"
+
+#: lib/classes/TLPTeamPostTypeRegistrations.php:79
+msgid "TLP Team ShortCode generator"
+msgstr "Генератор шорткодов TLP Team"
+
+#: lib/classes/TLPTeamPostTypeRegistrations.php:35
+msgctxt "tlp-team"
+msgid "Member"
+msgstr "Участник"
+
+#: lib/classes/TLPTeamPostTypeRegistrations.php:34
+msgctxt "tlp-team"
+msgid "Team"
+msgstr "Team"
+
+#: lib/classes/TLPTeamOptions.php:362
+msgid "Left to Right (RTL)"
+msgstr "Тип письма справа-налево (RTL)"
+
+#: lib/classes/TLPTeamOptions.php:361
+msgid "Lazy Load"
+msgstr "Lazy Load (отложенная загрузка)"
+
+#: lib/classes/TLPTeamOptions.php:360
+msgid "Auto Height"
+msgstr "Автоматический подбор высоты"
+
+#: lib/classes/TLPTeamOptions.php:66 lib/classes/TLPTeamOptions.php:359
+msgid "Pagination"
+msgstr "Разбивка на страницы"
+
+#: lib/classes/TLPTeamOptions.php:358
+msgid "Nav Button"
+msgstr "Кнопки навигации"
+
+#: lib/classes/TLPTeamOptions.php:357
+msgid "Pause on mouse hover"
+msgstr "Пауза при наведении мыши"
+
+#: lib/classes/TLPTeamOptions.php:356
+msgid "Auto Play"
+msgstr "Автоматическое воспроизведение"
+
+#: lib/classes/TLPTeamOptions.php:355
+msgid "Loop"
+msgstr "Зациклить"
+
+#: lib/classes/TLPTeamOptions.php:299
+msgid "Instagram"
+msgstr "Instagram"
+
+#: lib/widgets/TLPTeamWidget.php:91 lib/widgets/TLPTeamWidget.php:104
+msgid "Order by"
+msgstr "Сортировка по"
+
+#: lib/widgets/TLPTeamWidget.php:77
+msgid "Select a column"
+msgstr "Количество колонок"
+
+#: lib/widgets/TLPTeamWidget.php:64
+msgid "Select a layout"
+msgstr "Выберите макет"
+
+#: lib/classes/TLPTeamPostTypeRegistrations.php:78
+#: lib/classes/TLPTeamPostTypeRegistrations.php:82
+#: lib/classes/TLPTeamPostTypeRegistrations.php:83
+msgid "ShortCode"
+msgstr "Шорткод"
+
+#: lib/classes/TLPTeamSCMeta.php:115
+msgid "Short Code Generator"
+msgstr "Генератор шорткода"
+
+#: lib/classes/TLPTeamOptions.php:400
+msgid "Descending"
+msgstr "По убыванию"
+
+#: lib/classes/TLPTeamOptions.php:399
+msgid "Ascending"
+msgstr "По возрастанию"
+
+#. Plugin Name of the plugin
+#: lib/classes/TLPTeamPostTypeRegistrations.php:36
+#: lib/classes/TLPTeamPostTypeRegistrations.php:51
+msgid "Team"
+msgstr "Team"
+
+#: lib/classes/TLPTeamOptions.php:297
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#. Author URI of the plugin
+msgid "www.radiustheme.com"
+msgstr "www.radiustheme.com"
+
+#. Author of the plugin
+msgid "RadiusTheme"
+msgstr "RadiusTheme"
+
+#. Description of the plugin
+msgid "Fully Responsive and Mobile Friendly Team member display plugin for wordpress with Grid and Isotope View."
+msgstr "Полностью адаптивный с поддержкой работы на мобильных устройствах плагин для WordPress отображает участников вашей команды."
+
+#. Plugin URI of the plugin
+msgid "http://demo.radiustheme.com/wordpress/plugins/tlp-team/"
+msgstr "http://demo.radiustheme.com/wordpress/plugins/tlp-team/"
+
+#: lib/views/settings.php:70
+msgid "Slug configuration"
+msgstr "Настройка отображения в адресной строке"
+
+#: lib/views/settings.php:65
+msgid "Slug"
+msgstr "Ярлык"
+
+#: lib/widgets/TLPTeamWidget.php:117
+msgid "Number of member to show:"
+msgstr "Сколько Участников отображать:"
+
+#: lib/widgets/TLPTeamWidget.php:58
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: lib/widgets/TLPTeamWidget.php:20
+msgid "TPL Team"
+msgstr "TPL Team"
+
+#: lib/widgets/TLPTeamWidget.php:18
+msgid "Display the Team."
+msgstr "Отобразить Команду"
+
+#: lib/classes/TLPTeamPostTypeRegistrations.php:81
+msgid "ShortCodes"
+msgstr "Шорткод"
+
+#: lib/views/settings.php:110
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: lib/views/settings.php:98
+msgid "Custom Css "
+msgstr "Дополнительные CSS"
+
+#: lib/views/settings.php:76
+msgid "Link To Detail Page"
+msgstr "Ссылка на страницу Участника"
+
+#: lib/views/settings.php:14
+msgid "Primary Color"
+msgstr "Основной цвет"
+
+#: lib/classes/TLPTeamOptions.php:87 lib/views/settings.php:22
+msgid "Image Size"
+msgstr "Размер фотографии"
+
+#: lib/views/settings.php:9
+msgid "General settings"
+msgstr "Общие настройки"
+
+#: lib/classes/TPLsettings.php:68 lib/views/settings.php:3
+msgid "TLP Team Settings"
+msgstr "Настройка TLP Team"
+
+#: lib/classes/TPLTeamShortCode.php:660
+msgid "No member found"
+msgstr "Участников не найдено"
+
+#: lib/classes/TPLsettings.php:68
+msgid "Settings"
+msgstr "Настройки"
+
+#: lib/classes/TPLsettings.php:40
+msgid "Settings successfully updated"
+msgstr "Настройки успешно обновлены"
+
+#: lib/templates/single-team.php:41
+msgid "<strong>URL:</strong>"
+msgstr "<strong>Сайт:</strong>"
+
+#: lib/templates/single-team.php:38
+msgid "<strong>Email:</strong>"
+msgstr "<strong>Электронная почта:</strong>"
+
+#: lib/templates/single-team.php:35
+msgid "<strong>Location:</strong>"
+msgstr "<strong>Местонахождение:</strong>"
+
+#: lib/templates/single-team.php:32
+msgid "<strong>Tel:</strong>"
+msgstr "<strong>Телефон:</strong>"
+
+#: lib/classes/TLPTeamOptions.php:298
+msgid "Google+"
+msgstr "Google+"
+
+#: lib/classes/TLPTeamOptions.php:296
+msgid "Youtube"
+msgstr "Youtube"
+
+#: lib/classes/TLPTeamOptions.php:295
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: lib/classes/TLPTeamOptions.php:294
+msgid "Twitter"
+msgstr "Twitter"
+
+#: lib/classes/TLPTeamOptions.php:293
+msgid "Facebook"
+msgstr "Facebook"
+
+#: lib/classes/TLPTeamPostTypeRegistrations.php:48
+msgid "Not found in Trash"
+msgstr "Не найдено в Корзине"
+
+#: lib/classes/TLPTeamPostTypeRegistrations.php:47
+msgid "Not found"
+msgstr "Не найдено"
+
+#: lib/classes/TLPTeamPostTypeRegistrations.php:46
+msgid "Search Member"
+msgstr "Поиск Участника"
+
+#: lib/classes/TLPTeamPostTypeRegistrations.php:45
+msgid "View Member"
+msgstr "Просмотреть Участника"
+
+#: lib/classes/TLPTeamPostTypeRegistrations.php:44
+msgid "Update Member"
+msgstr "Обновить Участника"
+
+#: lib/classes/TLPTeamPostTypeRegistrations.php:43
+msgid "Edit Member"
+msgstr "Редактировать Участника"
+
+#: lib/classes/TLPTeamPostTypeRegistrations.php:42
+msgid "New Member"
+msgstr "Новый Участник"
+
+#: lib/classes/TLPTeamPostTypeRegistrations.php:41
+msgid "Add Member"
+msgstr "Добавить Участника"
+
+#: lib/classes/TLPTeamPostTypeRegistrations.php:40
+msgid "Add New Member"
+msgstr "Добавить нового Участника"
+
+#: lib/classes/TLPTeamPostTypeRegistrations.php:39
+msgid "All Members"
+msgstr "Вся Команда"
+
+#: lib/classes/TLPTeamPostTypeRegistrations.php:38
+msgid "Parent Member:"
+msgstr "Старший Участник:"
+
+#: lib/classes/TLPTeamPostTypeRegistrations.php:37
+#: lib/classes/TLPTeamPostTypeRegistrations.php:52
+msgid "Member"
+msgstr "Участника"
+
+#: lib/classes/TPLTeamShortCode.php:223 lib/classes/TLPTeamOptions.php:209
+#: lib/classes/TLPteamPostTypeAdmin.php:110
+msgid "Designation"
+msgstr "Должность"
+
+#: lib/classes/TLPteamPostTypeAdmin.php:109
+msgid "Image"
+msgstr "Фотография"
+
+#: lib/classes/TLPteamPostMeta.php:113
+msgid "Social Links"
+msgstr "Ссылки на профили в социальных сетях"
+
+#: lib/classes/TLPteamPostMeta.php:104 lib/classes/TLPteamPostTypeAdmin.php:112
+msgid "Location"
+msgstr "Место нахождения"
+
+#: lib/classes/TLPteamPostMeta.php:93
+msgid "Telephone"
+msgstr "Телефон"
+
+#: lib/classes/TLPteamPostMeta.php:82
+msgid "Personal Web URL"
+msgstr "Адрес персональной веб-страницы"
+
+#: lib/classes/TLPteamPostMeta.php:71 lib/classes/TLPteamPostTypeAdmin.php:111
+msgid "Email"
+msgstr "Электронная почта"
+
+#: lib/classes/TLPteamPostMeta.php:59
+msgid "Designations"
+msgstr "Должность"
+
+#: lib/classes/TLPteamPostMeta.php:53
+msgid "Add some short bio"
+msgstr "Добавьте немного интересных фактов из биографии"
+
+#: lib/classes/TLPteamPostMeta.php:48
+msgid "Short Bio:"
+msgstr "Краткая биография:"
+
+#: lib/classes/TLPteamPostMeta.php:33
+msgid "Member Info"
+msgstr "Информация об Участнике"

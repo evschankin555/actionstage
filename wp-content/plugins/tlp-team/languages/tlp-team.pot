@@ -1,0 +1,576 @@
+# Copyright (C) 2021 Team
+# This file is distributed under the same license as the Team package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../lib/classes/TLPTeamHelper.php:198
+msgid "Custom image size"
+msgstr ""
+
+#: ../lib/classes/TLPTeamHelper.php:288
+msgid "Page %d of %d"
+msgstr ""
+
+#: ../lib/classes/TLPTeamHelper.php:294
+msgid "First"
+msgstr ""
+
+#: ../lib/classes/TLPTeamHelper.php:301
+msgid "Previous"
+msgstr ""
+
+#: ../lib/classes/TLPTeamHelper.php:319
+msgid "Next"
+msgstr ""
+
+#: ../lib/classes/TLPTeamHelper.php:326
+msgid "Last"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:9, ../lib/vendor/TlpTeamElementorWidget.php:36
+msgid "Layout"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:16
+msgid "Column"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:21
+msgid "Desktop"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:28
+msgid "Tab"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:35
+msgid "Mobile"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:42
+msgid "Speed"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:46
+msgid "Auto play Speed in milliseconds"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:49
+msgid "Carousel Options"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:58
+msgid "Autoplay timeout"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:62
+msgid "Autoplay interval timeout"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:66, ../lib/classes/TLPTeamOptions.php:359
+msgid "Pagination"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:68
+msgid "Enable"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:73
+msgid "Display per page"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:76
+msgid "If value of Limit setting is not blank (empty), this value should be smaller than Limit value."
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:81
+msgid "Feature Image"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:82, ../lib/classes/TLPTeamOptions.php:107
+msgid "Disable"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:87, ../lib/views/settings.php:22
+msgid "Image Size"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:94
+msgid "Custom Image Size"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:100
+msgid "Short description limit"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:101
+msgid "Short description limit only integer number is allowed, Leave it blank for full text.<br> <span style='color: red;'>Also HTML TAGS will not work if you use limit.</span>"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:106
+msgid "Detail page link"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:117
+msgid "Include only"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:120
+msgid "Select the member you want to display"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:126
+msgid "Exclude"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:129
+msgid "Select the member you want to hide"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:135
+msgid "Limit"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:137
+msgid "The number of posts to show. Set empty to show all found posts."
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:141, ../lib/vendor/TlpTeamElementorWidget.php:54
+msgid "Order By"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:148, ../lib/vendor/TlpTeamElementorWidget.php:63
+msgid "Order"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:204, ../lib/classes/TPLTeamShortCode.php:222
+msgid "Name"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:209, ../lib/classes/TLPteamPostTypeAdmin.php:110, ../lib/classes/TPLTeamShortCode.php:223
+msgid "Designation"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:214
+msgid "Short biography"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:236
+msgid "Soft Crop"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:237
+msgid "Hard Crop"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:247
+msgid "Color"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:254
+msgid "Hover color"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:260
+msgid "Font size"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:263, ../lib/classes/TLPTeamOptions.php:273, ../lib/classes/TLPTeamOptions.php:282, ../lib/classes/TPLTeamShortCode.php:221
+msgid "Default"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:270
+msgid "Weight"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:280
+msgid "Alignment"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:293
+msgid "Facebook"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:294
+msgid "Twitter"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:295
+msgid "LinkedIn"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:296
+msgid "Youtube"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:297
+msgid "Vimeo"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:298
+msgid "Google+"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:299
+msgid "Instagram"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:355
+msgid "Loop"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:356
+msgid "Auto Play"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:357
+msgid "Pause on mouse hover"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:358
+msgid "Nav Button"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:360
+msgid "Auto Height"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:361
+msgid "Lazy Load"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:362
+msgid "Left to Right (RTL)"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:399
+msgid "Ascending"
+msgstr ""
+
+#: ../lib/classes/TLPTeamOptions.php:400
+msgid "Descending"
+msgstr ""
+
+#: ../lib/classes/TLPteamPostMeta.php:33
+msgid "Member Info"
+msgstr ""
+
+#: ../lib/classes/TLPteamPostMeta.php:48
+msgid "Short Bio:"
+msgstr ""
+
+#: ../lib/classes/TLPteamPostMeta.php:53
+msgid "Add some short bio"
+msgstr ""
+
+#: ../lib/classes/TLPteamPostMeta.php:59
+msgid "Designations"
+msgstr ""
+
+#: ../lib/classes/TLPteamPostMeta.php:71, ../lib/classes/TLPteamPostTypeAdmin.php:111
+msgid "Email"
+msgstr ""
+
+#: ../lib/classes/TLPteamPostMeta.php:82
+msgid "Personal Web URL"
+msgstr ""
+
+#: ../lib/classes/TLPteamPostMeta.php:93
+msgid "Telephone"
+msgstr ""
+
+#: ../lib/classes/TLPteamPostMeta.php:104, ../lib/classes/TLPteamPostTypeAdmin.php:112
+msgid "Location"
+msgstr ""
+
+#: ../lib/classes/TLPteamPostMeta.php:113
+msgid "Social Links"
+msgstr ""
+
+#: ../lib/classes/TLPteamPostTypeAdmin.php:22
+msgid "TLP Team Shortcode"
+msgstr ""
+
+#: ../lib/classes/TLPteamPostTypeAdmin.php:109
+msgid "Image"
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:34
+msgctxt "tlp-team"
+msgid "Team"
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:35
+msgctxt "tlp-team"
+msgid "Member"
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:36, ../lib/classes/TLPTeamPostTypeRegistrations.php:51
+msgid "Team"
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:37, ../lib/classes/TLPTeamPostTypeRegistrations.php:52
+msgid "Member"
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:38
+msgid "Parent Member:"
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:39
+msgid "All Members"
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:40
+msgid "Add New Member"
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:41
+msgid "Add Member"
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:42
+msgid "New Member"
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:43
+msgid "Edit Member"
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:44
+msgid "Update Member"
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:45
+msgid "View Member"
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:46
+msgid "Search Member"
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:47
+msgid "Not found"
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:48
+msgid "Not found in Trash"
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:78, ../lib/classes/TLPTeamPostTypeRegistrations.php:82, ../lib/classes/TLPTeamPostTypeRegistrations.php:83
+msgid "ShortCode"
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:79
+msgid "TLP Team ShortCode generator"
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:81
+msgid "ShortCodes"
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:84
+msgid "Edit ShortCode"
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:85
+msgid "New ShortCode"
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:86
+msgid "View ShortCode"
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:87
+msgid "ShortCode Locations"
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:88
+msgid "No ShortCode found."
+msgstr ""
+
+#: ../lib/classes/TLPTeamPostTypeRegistrations.php:89
+msgid "No ShortCode found in trash."
+msgstr ""
+
+#: ../lib/classes/TLPTeamSCMeta.php:115
+msgid "Short Code Generator"
+msgstr ""
+
+#: ../lib/classes/TLPTeamSCMeta.php:122
+msgid "Layout Preview"
+msgstr ""
+
+#: ../lib/classes/TLPTeamSCMeta.php:129
+msgid "Pro Feature"
+msgstr ""
+
+#: ../lib/classes/TLPTeamSCMeta.php:180
+msgid "Layout Settings"
+msgstr ""
+
+#: ../lib/classes/TLPTeamSCMeta.php:181
+msgid "Filtering"
+msgstr ""
+
+#: ../lib/classes/TLPTeamSCMeta.php:182
+msgid "Styling"
+msgstr ""
+
+#: ../lib/classes/TPLsettings.php:40
+msgid "Settings successfully updated"
+msgstr ""
+
+#: ../lib/classes/TPLsettings.php:42
+msgid "Session Error!!"
+msgstr ""
+
+#: ../lib/classes/TPLsettings.php:68, ../lib/views/settings.php:3
+msgid "TLP Team Settings"
+msgstr ""
+
+#: ../lib/classes/TPLsettings.php:68, ../lib/vendor/TlpTeamElementorWidget.php:26
+msgid "Settings"
+msgstr ""
+
+#: ../lib/classes/TPLTeamShortCode.php:255
+msgid "Session Error !!"
+msgstr ""
+
+#: ../lib/classes/TPLTeamShortCode.php:257
+msgid "No shortCode found"
+msgstr ""
+
+#: ../lib/classes/TPLTeamShortCode.php:660
+msgid "No member found"
+msgstr ""
+
+#: ../lib/templates/single-team.php:32
+msgid "<strong>Tel:</strong>"
+msgstr ""
+
+#: ../lib/templates/single-team.php:35
+msgid "<strong>Location:</strong>"
+msgstr ""
+
+#: ../lib/templates/single-team.php:38
+msgid "<strong>Email:</strong>"
+msgstr ""
+
+#: ../lib/templates/single-team.php:41
+msgid "<strong>URL:</strong>"
+msgstr ""
+
+#: ../lib/vendor/TlpTeamElementorWidget.php:11
+msgid "Tlp Team"
+msgstr ""
+
+#: ../lib/vendor/TlpTeamElementorWidget.php:45
+msgid "Column / Number to Display at slider"
+msgstr ""
+
+#: ../lib/vendor/TlpTeamElementorWidget.php:72
+msgid "Include Member Only"
+msgstr ""
+
+#: ../lib/vendor/TlpTeamElementorWidget.php:73
+msgid "List of member IDs (comma-separated values, for example: 1,2,3)"
+msgstr ""
+
+#: ../lib/vendor/TlpTeamElementorWidget.php:81
+msgid "Total Member"
+msgstr ""
+
+#: ../lib/vendor/TlpTeamElementorWidget.php:84
+msgid "Leave it blank to display all. (Only number is allowed)"
+msgstr ""
+
+#: ../lib/vendor/TlpTeamElementorWidget.php:90
+msgid "Wrapper Class"
+msgstr ""
+
+#: ../lib/vendor/TlpTeamElementorWidget.php:100
+msgid "Style"
+msgstr ""
+
+#: ../lib/vendor/TlpTeamElementorWidget.php:107
+msgid "Name color"
+msgstr ""
+
+#: ../lib/vendor/TlpTeamElementorWidget.php:121
+msgid "Designation color"
+msgstr ""
+
+#: ../lib/vendor/TlpTeamElementorWidget.php:135
+msgid "Short description color"
+msgstr ""
+
+#: ../lib/views/settings.php:9
+msgid "General settings"
+msgstr ""
+
+#: ../lib/views/settings.php:14
+msgid "Primary Color"
+msgstr ""
+
+#: ../lib/views/settings.php:65
+msgid "Slug"
+msgstr ""
+
+#: ../lib/views/settings.php:70
+msgid "Slug configuration"
+msgstr ""
+
+#: ../lib/views/settings.php:76
+msgid "Link To Detail Page"
+msgstr ""
+
+#: ../lib/views/settings.php:98
+msgid "Custom Css "
+msgstr ""
+
+#: ../lib/views/settings.php:103
+msgid "Please use default customizer to add your css. This option is deprecated."
+msgstr ""
+
+#: ../lib/views/settings.php:110
+msgid "Save Changes"
+msgstr ""
+
+#: ../lib/widgets/TLPTeamWidget.php:18
+msgid "Display the Team."
+msgstr ""
+
+#: ../lib/widgets/TLPTeamWidget.php:20
+msgid "TPL Team"
+msgstr ""
+
+#: ../lib/widgets/TLPTeamWidget.php:58
+msgid "Title:"
+msgstr ""
+
+#: ../lib/widgets/TLPTeamWidget.php:64
+msgid "Select a layout"
+msgstr ""
+
+#: ../lib/widgets/TLPTeamWidget.php:77
+msgid "Select a column"
+msgstr ""
+
+#: ../lib/widgets/TLPTeamWidget.php:91, ../lib/widgets/TLPTeamWidget.php:104
+msgid "Order by"
+msgstr ""
+
+#: ../lib/widgets/TLPTeamWidget.php:117
+msgid "Number of member to show:"
+msgstr ""

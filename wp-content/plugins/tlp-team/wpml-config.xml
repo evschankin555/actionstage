@@ -1,0 +1,11 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">team</custom-type>
+    </custom-types>
+    <custom-fields>
+        <custom-field action="translate">short_bio</custom-field>
+        <custom-field action="translate">designation</custom-field>
+        <custom-field action="translate">telephone</custom-field>
+        <custom-field action="translate">location</custom-field>
+    </custom-fields>
+</wpml-config>

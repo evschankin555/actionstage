@@ -1,0 +1,98 @@
+# Translation of Plugins - Featured Image by URL - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Featured Image by URL - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-02-28 21:42:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Featured Image by URL - Stable (latest release)\n"
+
+#: includes/class-featured-image-by-url-admin.php:471
+msgid "Product Variation Image URL"
+msgstr "URL изображения вариации товара"
+
+#: includes/class-featured-image-by-url-admin.php:463
+msgid "Product Variation Image by URL"
+msgstr "Изображение вариации товара по URL"
+
+#: includes/class-featured-image-by-url-admin.php:133
+msgid "Error in Image URL"
+msgstr "Ошибка в URL изображения"
+
+#. Description of the plugin
+msgid "This plugin allows to use an external URL Images as Featured Image for your post types. Includes support for Product Gallery (WooCommece)."
+msgstr "Этот плагин позволяет использовать внешние URL изображений для установки изображений записей для разных типов записей. Включает поддержку галереи товара (WooCommece)."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/featured-image-by-url/"
+msgstr "https://wordpress.org/plugins/featured-image-by-url/"
+
+#: templates/knawatfibu-metabox.php:59
+#: templates/knawatfibu-wcgallary-metabox.php:61
+msgid "Error URL Image"
+msgstr "Ошибка URL изображения"
+
+#: templates/knawatfibu-metabox.php:30
+msgid "Remove Image"
+msgstr "Удалить изображение"
+
+#: templates/knawatfibu-metabox.php:26
+msgid "No image"
+msgstr "Нет изображения"
+
+#: templates/knawatfibu-metabox.php:23
+msgid "Alt text (Optional)"
+msgstr "Атрибут alt (опционально)"
+
+#: templates/knawatfibu-metabox.php:20
+#: templates/knawatfibu-wcgallary-metabox.php:14
+#: includes/class-featured-image-by-url-admin.php:473
+msgid "Preview"
+msgstr "Просмотр"
+
+#: templates/knawatfibu-metabox.php:18
+#: templates/knawatfibu-wcgallary-metabox.php:12
+msgid "Image URL"
+msgstr "URL изображения"
+
+#: includes/class-featured-image-by-url-admin.php:413
+msgid "You need Jetpack plugin installed & connected  for enable this functionality."
+msgstr "Для включения данного функционала, необходимо установить и настроить плагин Jetpack."
+
+#: includes/class-featured-image-by-url-admin.php:409
+msgid "Enable display resized images for image sizes like thumbnail, medium, large etc.."
+msgstr "Включить отображение изображений в изменённом размере, как миниатюры, средние, большие и т.д.."
+
+#: includes/class-featured-image-by-url-admin.php:390
+msgid "Please check checkbox for posttypes on which you want to disable Featured image by URL."
+msgstr "Отметьте типы записей, для которых желаете отключить функционал плагина Изображение записи по URL."
+
+#: includes/class-featured-image-by-url-admin.php:343
+msgid "Display Resized Images"
+msgstr "Отображать изображения в изменённом размере"
+
+#: includes/class-featured-image-by-url-admin.php:331
+msgid "Disable Post types"
+msgstr "Отключить типы записей"
+
+#: includes/class-featured-image-by-url-admin.php:323
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class-featured-image-by-url-admin.php:66
+msgid "Product gallery by URLs"
+msgstr "Галерея товара по URLs"
+
+#. Plugin Name of the plugin
+#: includes/class-featured-image-by-url-admin.php:58
+#: includes/class-featured-image-by-url-admin.php:279
+msgid "Featured Image by URL"
+msgstr "Изображение записи по URL"
+
+#: featured-image-by-url.php:79 featured-image-by-url.php:86
+msgid "Cheatin&#8217; huh?"
+msgstr "Ломаешь?"

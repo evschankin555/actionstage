@@ -1,0 +1,16 @@
+TO DO:
+<link rel='dns-prefetch' href='//s.w.org' />
+
+minify html
+
+<link rel="profile" href="http://gmpg.org/xfn/11">
+
+  <link rel="pingback" href="http://www.developeraccount.com/blog/xmlrpc.php">
+
+  https://nl.wordpress.org/plugins/bicycles-by-falbar/
+
+admin styles en js folders weg
+
+https://wordpress.org/plugins/wp-basic-elements/screenshots/
+
+https://wordpress.org/plugins/wp-helper-master/

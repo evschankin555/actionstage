@@ -1,0 +1,144 @@
+# Translation of Plugins - A-Z Listing - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - A-Z Listing - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-05-11 05:27:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - A-Z Listing - Stable (latest release)\n"
+
+#: widgets/class-a-z-listing-widget.php:194
+msgid "Show only children of this post (ID)"
+msgstr "Отображать только дочерние элементы этой записи (ID)"
+
+#: widgets/class-a-z-listing-widget.php:212
+msgid "Include grand-children?"
+msgstr "Включить \"внуков\"?"
+
+#: widgets/class-a-z-listing-widget.php:207
+msgid "Type some or all of the title of the post to limit the listing to only the children of that post. Ensure this input field is not selected when you save the settings."
+msgstr "Начните печатать заголовок записи, чтобы ограничить вывод лишь дочерними элементами этой записи. Убедитесь, что это поле не выбрано, когда сохраняете настройки."
+
+#: widgets/class-a-z-listing-widget.php:148
+#: widgets/class-a-z-listing-widget.php:208
+msgid "Matching posts will be shown as you type. Click on the correct post from the matches to update the setting."
+msgstr "Начните печатать для вывода соответствующих запросу записей. Выберите нужную запись из предложенного списка, чтобы обновить настройку."
+
+#: widgets/class-a-z-listing-widget.php:147
+msgid "Type some or all of the title of the page you want links to point at. Ensure this input field is not selected when you save the settings."
+msgstr "Начните печатать заголовок страницы, на которую должны указывать ссылки. Убедитесь, что это поле не выбрано, когда сохраняете настройки."
+
+#: templates/a-z-listing.example.php:47 templates/a-z-listing.php:65
+msgid "Back to top"
+msgstr "Наверх"
+
+#: widgets/class-a-z-listing-widget.php:279
+msgid "Hide empty terms"
+msgstr "Скрыть пустые термины"
+
+#: widgets/class-a-z-listing-widget.php:162
+msgid "Posts"
+msgstr "Записи"
+
+#: widgets/class-a-z-listing-widget.php:267
+msgid "Terms to exclude (IDs)"
+msgstr "Исключить термины (ID)"
+
+#: widgets/class-a-z-listing-widget.php:255
+msgid "Terms to include (IDs)"
+msgstr "Включить термины (ID)"
+
+#: widgets/class-a-z-listing-widget.php:243
+msgid "Parent term to display children of"
+msgstr "Отображать дочерние термины следующего родительского термина"
+
+#: widgets/class-a-z-listing-widget.php:166
+msgid "Taxonomy terms"
+msgstr "Термины таксономии"
+
+#: widgets/class-a-z-listing-widget.php:155
+msgid "Display posts or terms?"
+msgstr "Отображать записи или термины?"
+
+#: widgets/class-a-z-listing-widget.php:224
+msgid "Taxonomy to display"
+msgstr "Отобразить таксономию"
+
+#. Plugin URI of the plugin
+msgid "https://a-z-listing.com/"
+msgstr "https://a-z-listing.com/"
+
+#: widgets/class-a-z-listing-widget.php:175
+msgid "Post-type to display"
+msgstr "Тип записи для отображения"
+
+#: widgets/class-a-z-listing-widget.php:128
+msgid "Leave the title field blank, above, to use the title from the page set in the next field"
+msgstr "Оставьте  поле заголовка пустым, чтобы использовать заголовок страницы, установленной в следующем поле"
+
+#. translators: List the aphabet of your language in the order that your
+#. language prefers. list as groups of identical meanings but different
+#. characters together, e.g. in English we group A with a because they are both
+#. the same letter but different character-code. Each character group should be
+#. followed by a comma separating it from the next group. Any amount of
+#. characters per group are acceptible, and there is no requirement for all the
+#. groups to contain the same amount of characters as all the others. Be
+#. careful with the character you place first in each group as that will be
+#. used as the identifier for the group which gets displayed on the page, e.g.
+#. in English a group definition of "Aa" will indicate that we display all the
+#. posts in the group, i.e. whose titles begin with either "A" or "a", listed
+#. under a heading of "A" (the first character in the definition).
+#: build/src/Query.php:301 src/Query.php:355
+msgid "AÁÀÄÂaáàäâ,Bb,CÇcç,Dd,EÉÈËÊeéèëê,Ff,Gg,Hh,IÍÌÏÎiíìïî,Jj,Kk,Ll,Mm,Nn,OÓÒÖÔoóòöô,Pp,Qq,Rr,Ssß,Tt,UÚÙÜÛuúùüû,Vv,Ww,Xx,Yy,Zz"
+msgstr "Аа,Бб,Вв,Гг,Дд,Ее,Ёё,Жж,Зз,Ии,Йй,Кк,Лл,Мм,Нн,Оо,Пп,Рр,Сс,Тт,Уу,Фф,Хх,Цц,Чч,Шш,Щщ,Ээ,Юю,Яя"
+
+#. translators: This should be a single character to denote "all entries that
+#. didn't fit under one of the alphabet character groups defined". This is used
+#. in English to categorise posts whose title begins with a numeric (0 through
+#. to 9), or some other character that is not a standard English alphabet
+#. letter.
+#: build/src/Query.php:303 src/Query.php:357
+msgid "#"
+msgstr "#"
+
+#: widgets/class-a-z-listing-widget.php:119
+#: widgets/class-a-z-listing-widget.php:124
+msgid "Widget Title"
+msgstr "Название виджета"
+
+#. Description of the plugin
+msgid "Display an A to Z listing of posts"
+msgstr "Отображение списка записей от А до Я"
+
+#: templates/a-z-listing.example.php:57 templates/a-z-listing.php:79
+msgid "There are no posts included in this index."
+msgstr "Данный индекс не содержит записей."
+
+#. Author of the plugin
+msgid "Daniel Llewellyn"
+msgstr "Daniel Llewellyn"
+
+#: widgets/class-a-z-listing-widget.php:29
+msgid "Alphabetised links to the A-Z site map"
+msgstr "Отсортированные по алфавиту ссылки карты сайта"
+
+#: widgets/class-a-z-listing-widget.php:26
+msgid "A-Z Site Map"
+msgstr "А-Я карта сайта"
+
+#. Author URI of the plugin
+msgid "https://bowlhat.net/"
+msgstr "https://bowlhat.net/"
+
+#: widgets/class-a-z-listing-widget.php:135
+msgid "Sitemap A-Z page"
+msgstr "Страница А-Я карты сайта"
+
+#. Plugin Name of the plugin
+#: widgets/class-a-z-listing-widget.php:421
+msgid "A-Z Listing"
+msgstr "A-Z Listing"

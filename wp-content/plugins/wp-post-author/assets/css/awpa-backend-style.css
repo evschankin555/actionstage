@@ -1,0 +1,86 @@
+/*Backend style*/
+table.awpa-table tr td{
+    padding: 10px;
+}
+
+.awpa-appearance-table label{
+    font-weight: bold;
+}
+.aft-left-part{
+    width: calc(50% - 7.5px);
+    float: left;
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    background: #fff;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+}
+.aft-right-part{
+	width: calc(50% - 7.5px);
+    margin-top: 15px;
+	float: right;
+}
+
+.aft-right-part .aft-section-wrap {
+	padding: 15px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    background: #fff;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+}
+
+.aft-right-part .aft-section-wrap:first-child {
+	margin-top: 0;
+}
+
+.aft-section-wrap img{
+    width: 100%;
+}
+
+.wp-core-ui table.awpa-table.awpa-appearance-table select{
+	width: 100%;
+}
+
+table.awpa-table.awpa-appearance-table {
+    width: 100%;
+}
+
+table.awpa-table.awpa-appearance-table input[type=text] {
+	width: 100%;
+}
+
+.form-table th{
+	width: 25%;
+}
+
+table.awpa-table.awpa-appearance-table tr td {
+    padding: 10px 0;
+}
+
+table.form-table tbody tr td textarea {
+	width: 100%;
+}
+
+/*--------------------------------------------------------------
+# media queries------------------------------------------------
+--------------------------------------------------------------*/
+@media screen and (max-width: 1024px) {
+	.aft-left-part{
+	    width: 100%;
+	}
+	.aft-right-part{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 782px){
+	.wp-list-table tr:not(.inline-edit-row):not(.no-items) td:not(.check-column) {
+	     position: static; 
+	     clear: none; 
+	     display: table-cell; 
+	}
+}

@@ -1,0 +1,525 @@
+# Translation of Plugins - Automatic YouTube Gallery - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Automatic YouTube Gallery - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-11-27 09:23:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Automatic YouTube Gallery - Stable (latest release)\n"
+
+#: admin/admin.php:103 admin/admin.php:104
+msgid "Dashboard"
+msgstr "Панель управления"
+
+#: admin/admin.php:79 admin/admin.php:120
+msgid "Build Gallery"
+msgstr "Построить галерею"
+
+#: admin/admin.php:63
+msgid "Invalid API Key"
+msgstr "Неверный API ключ"
+
+#: admin/templates/builder.php:104
+msgid "Congrats! copy the shortcode below and paste it in your POST/PAGE where you need the gallery,"
+msgstr "Поздравляем! Скопируйте приведенный ниже шорткод и вставьте его в ваш ЗАПИСЬ/СТРАНИЦА, где вам нужна галерея,"
+
+#: admin/templates/builder.php:92
+msgid "Use our \"Automatic YouTube Gallery\" widget to add the gallery in your website sidebars. This is a PRO feature."
+msgstr "Используйте наш виджет \"Automatic YouTube Gallery\" для добавления галереи в боковые панели вашего сайта. Это функция PRO."
+
+#: admin/templates/builder.php:91
+msgid "Use our \"Automatic YouTube Gallery\" <a href=\"%s\" target=\"_blank\">Gutenberg block</a> to build the gallery directly in your POST/PAGE."
+msgstr "Используйте наш \"Automatic YouTube Gallery\" <a href=\"%s\" target=\"_blank\">блок Gutenberg</a> для создания галереи непосредственно в вашей ЗАПИСИ/СТРАНИЦЕ."
+
+#: admin/templates/builder.php:90
+msgid "Use the shortcode builder in this page to build your gallery shortcode, then add it in your POST/PAGE."
+msgstr "Используйте конструктор шорткодов на этой странице для создания шорткода галереи, а затем добавьте его в ЗАПИСЬ/СТРАНИЦУ."
+
+#: admin/templates/builder.php:89
+msgid "\"Automatic YouTube Gallery\" provides several methods to build your gallery. Choose one of the following methods best suited for you,"
+msgstr "\"Automatic YouTube Gallery\" предоставляет несколько методов для создания вашей галереи. Выберите один из следующих методов, наиболее подходящий для вас,"
+
+#: admin/templates/builder.php:80
+msgid "Generate Shortcode"
+msgstr "Сгенерировать шорткод"
+
+#: admin/templates/api-key.php:22
+msgid "Proceed"
+msgstr "Продолжить"
+
+#: admin/templates/api-key.php:13
+msgid "You must create an API Key to build dynamic galleries from YouTube."
+msgstr "Для создания динамических галерей с YouTube необходимо создать API-ключ."
+
+#: includes/youtube-api.php:132
+msgid "YouTube Video ID (or) URL is required."
+msgstr "Требуется ID (или) URL видео YouTube."
+
+#: includes/youtube-api.php:78
+msgid "YouTube Channel ID (or) URL is required."
+msgstr "Требуется ID канала YouTube (или) URL."
+
+#: includes/youtube-api.php:70
+msgid "YouTube Playlist ID (or) URL is required."
+msgstr "Требуется URL (или) ID списка воспроизведения YouTube."
+
+#: includes/functions.php:201
+msgid "IMPORTANT! Specifies how frequently the plugin should check your YouTube source for any new update. We recommend keeping this value as \"Page load\" when you test the gallery and strongly suggest to change this value as \"Day\" or to a greater value before pushing the gallery live."
+msgstr "ВАЖНО! Указывает, как часто плагин должен проверять ваш источник YouTube на наличие новых обновлений. Мы рекомендуем оставить значение \"Загрузка страницы\" при тестировании галереи и настоятельно рекомендуем изменить это значение на \"День\" или на большее значение перед запуском галереи."
+
+#: includes/functions.php:167
+msgid "YouTube Video ID (or) URL"
+msgstr "ID (или) URL видео YouTube"
+
+#: includes/functions.php:158
+msgid "YouTube Video IDs (or) URLs"
+msgstr "ID (или) URL-адреса видео YouTube"
+
+#: includes/functions.php:134
+msgid "YouTube Channel ID (or) URL"
+msgstr "ID (или) URL канала YouTube"
+
+#: includes/functions.php:126
+msgid "YouTube Playlist ID (or) URL"
+msgstr "URL (или) ID списка воспроизведения YouTube"
+
+#: includes/functions.php:119
+msgid "Single Video"
+msgstr "Одно видео"
+
+#: includes/functions.php:118
+msgid "Custom Videos List"
+msgstr "Список пользовательских видеороликов"
+
+#: includes/functions.php:117 includes/functions.php:150
+msgid "Search Terms"
+msgstr "Поисковые запросы"
+
+#: includes/functions.php:344
+msgid "<a href=\"%s\">Upgrade Pro</a> for more themes (Popup, Slider, Playlister)."
+msgstr "<a href=\"%s\">Обновите Pro</a>, чтобы получить дополнительные темы (всплывающие окна, слайдер, плейлист)."
+
+#: block/block.php:77
+msgid "Waiting to finish your block configuration. This delay is to avoid frequent YouTube API calls."
+msgstr "Жду завершения настройки вашего блока. Эта задержка призвана избежать частых вызовов API YouTube."
+
+#: block/block.php:76
+msgid "Selected Color"
+msgstr "Выбранный цвет"
+
+#: block/block.php:74
+msgid "Create automated YouTube galleries."
+msgstr "Создание автоматизированных галерей YouTube."
+
+#: includes/functions.php:637
+msgid "Specifies the default language that the player will use to display captions. Set the field's value to an <a href=\"%s\" target=\"_blank\">ISO 639-1 two-letter language code.</a>"
+msgstr "Определяет язык по умолчанию, который плеер будет использовать для отображения субтитров. Установите значение поля на <a href=\"%s\" target=\"_blank\">ISO 639-1 двухбуквенный код языка.</a>"
+
+#: includes/functions.php:635
+msgid "Default Captions Language"
+msgstr "Язык субтитров по умолчанию"
+
+#: includes/functions.php:626
+msgid "Specifies the player's interface language. Set the field's value to an <a href=\"%s\" target=\"_blank\">ISO 639-1 two-letter language code.</a>"
+msgstr "Указывает язык интерфейса проигрывателя. Установите значение поля на <a href=\"%s\" target=\"_blank\">ISO 639-1 двухбуквенный код языка.</a>"
+
+#: includes/functions.php:624
+msgid "Player Language"
+msgstr "Язык проигрывателя"
+
+#: includes/functions.php:617
+msgid "Choose whether to show annotations or not."
+msgstr "Выберите, показывать аннотации или нет."
+
+#: includes/functions.php:616
+msgid "Show Annotations"
+msgstr "Показать аннотации"
+
+#: includes/functions.php:609
+msgid "Show captions by default, even if the user has turned captions off. The default behavior is based on user preference."
+msgstr "Показывать субтитры по умолчанию, даже если пользователь отключил их. Поведение по умолчанию основано на предпочтениях пользователя."
+
+#: includes/functions.php:608
+msgid "Force Closed Captions"
+msgstr "Принудительно использовать субтитры"
+
+#: includes/functions.php:601
+msgid "Lets you prevent the YouTube logo from displaying in the control bar. Note that a small YouTube text label will still display in the upper-right corner of a paused video when the user's mouse pointer hovers over the player."
+msgstr "Позволяет запретить отображение логотипа YouTube на панели управления. Обратите внимание, что небольшой текстовый ярлык YouTube все равно будет отображаться в правом верхнем углу приостановленного видео, когда пользователь наведет указатель мыши на проигрыватель."
+
+#: includes/functions.php:600
+msgid "Hide YouTube Logo"
+msgstr "Скрыть логотип YouTube"
+
+#: includes/functions.php:593
+msgid "Uncheck this option to hide the video player controls."
+msgstr "Снимите этот флажок, чтобы скрыть элементы управления видеоплеером."
+
+#: includes/functions.php:592
+msgid "Show Player Controls"
+msgstr "Показать элементы управления проигрывателя"
+
+#: includes/functions.php:585
+msgid "In the case of a single video player, plays the initial video again and again. In the case of a gallery, plays the entire list in the gallery and then starts again at the first video."
+msgstr "В случае одиночного видеоплеера воспроизводит начальный видеоролик снова и снова. В случае галереи воспроизводится весь список в галерее, а затем снова начинается с первого видео."
+
+#: includes/functions.php:584
+msgid "Loop"
+msgstr "Зациклить"
+
+#: includes/functions.php:577
+msgid "Specifies whether to play the next video in the list automatically after previous one end."
+msgstr "Указывает, следует ли автоматически воспроизводить следующее видео в списке после окончания предыдущего."
+
+#: includes/functions.php:576
+msgid "Autoplay Next Video"
+msgstr "Автовоспроизведение следующего видео"
+
+#: includes/functions.php:569
+msgid "Specifies whether the initial video will automatically start to play when the player loads."
+msgstr "Указывает, будет ли начальное видео автоматически запускаться при загрузке проигрывателя."
+
+#: includes/functions.php:568
+msgid "Autoplay"
+msgstr "Автовоспроизведение"
+
+#: includes/functions.php:561
+msgid "Check this option to show the current playing video description on the bottom of the player."
+msgstr "Отметьте эту опцию, чтобы показать описание текущего воспроизводимого видео в нижней части проигрывателя."
+
+#: includes/functions.php:560
+msgid "Show Video Description"
+msgstr "Показать описание видео"
+
+#: includes/functions.php:553
+msgid "Check this option to show the current playing video title on the bottom of the player."
+msgstr "Установите этот флажок, чтобы отображать название текущего воспроизводимого видео в нижней части проигрывателя."
+
+#: includes/functions.php:541
+msgid "Player Ratio"
+msgstr "Пропорции проигрывателя"
+
+#: includes/functions.php:433
+msgid "Load More"
+msgstr "Загрузить ещё"
+
+#: includes/functions.php:432
+msgid "Pager"
+msgstr "Пейджер"
+
+#: includes/functions.php:429
+msgid "Pagination Type"
+msgstr "Тип разбивки на страницы"
+
+#: includes/functions.php:422
+msgid "Check this option to show the pagination."
+msgstr "Установите этот флажок, чтобы отобразить разбиение на страницы."
+
+#: includes/functions.php:421
+msgid "Pagination"
+msgstr "Разбивка на страницы"
+
+#: includes/functions.php:412
+msgid "Enter the number of characters you like to have in the video excerpt. Set 0 to show the whole description."
+msgstr "Введите кол-во символов, которые вы хотите иметь в отрывке видео. Установите значение 0, чтобы показать все описание."
+
+#: includes/functions.php:411
+msgid "Video Excerpt Length"
+msgstr "Длина отрывка видео"
+
+#: includes/functions.php:404
+msgid "Check this option to show the short description of a video in each gallery item."
+msgstr "Установите этот флажок, чтобы отображать краткое описание видео в каждом элементе галереи."
+
+#: includes/functions.php:403
+msgid "Show Video Excerpt (Short Description)"
+msgstr "Показать отрывок из видео (краткое описание)"
+
+#: includes/functions.php:394
+msgid "Enter the number of characters you like to show in the title. Set 0 to show the whole title."
+msgstr "Введите кол-во символов, которое вы хотите отображать в названии. Установите 0, чтобы показать все название."
+
+#: includes/functions.php:393
+msgid "Video Title Length"
+msgstr "Длина названия видео"
+
+#: includes/functions.php:386
+msgid "Check this option to show the video title in each gallery item."
+msgstr "Установите этот флажок, чтобы отображать название видео в каждом элементе галереи."
+
+#: includes/functions.php:385 includes/functions.php:552
+msgid "Show Video Title"
+msgstr "Показать название видео"
+
+#: includes/functions.php:374
+msgid "Thumbnail Ratio"
+msgstr "Пропорции миниатюр"
+
+#: includes/functions.php:365
+msgid "Enter the number of videos to show per page. Maximum of 50."
+msgstr "Введите кол-во видеороликов для показа на странице. Макс. кол-во - 50."
+
+#: includes/functions.php:364
+msgid "Videos per page"
+msgstr "Видео на страницу"
+
+#: includes/functions.php:355
+msgid "Enter the number of columns you like to have in the gallery. Maximum of 12."
+msgstr "Введите желаемое кол-во столбцов в галерее. Максимум 12."
+
+#: includes/functions.php:354
+msgid "Columns"
+msgstr "Столбцы"
+
+#: includes/functions.php:347
+msgid "Classic"
+msgstr "Классический"
+
+#: includes/functions.php:343
+msgid "Select Theme"
+msgstr "Выбрать тему"
+
+#: includes/functions.php:222
+msgid "Player (optional)"
+msgstr "Проигрыватель (необязательно)"
+
+#: includes/functions.php:218
+msgid "Gallery (optional)"
+msgstr "Галерея (необязательно)"
+
+#: includes/functions.php:210
+msgid "Month"
+msgstr "Месяц"
+
+#: includes/functions.php:209
+msgid "Week"
+msgstr "Неделя"
+
+#: includes/functions.php:208
+msgid "Day"
+msgstr "День"
+
+#: includes/functions.php:207
+msgid "Hour"
+msgstr "Час"
+
+#: includes/functions.php:206
+msgid "30 minutes"
+msgstr "30 минут"
+
+#: includes/functions.php:205
+msgid "15 minutes"
+msgstr "15 минут"
+
+#: includes/functions.php:204
+msgid "Page load"
+msgstr "Загрузка страницы"
+
+#: includes/functions.php:200
+msgid "Refresh the data every (Cache time)"
+msgstr "Обновлять данные каждый раз (время кэширования)"
+
+#: includes/functions.php:191
+msgid "Specifies the maximum number of videos that will appear in this gallery. Set to 0 for the maximum amount (500)."
+msgstr "Указывает макс. кол-во видеороликов, которые будут отображаться в этой галерее. Установите значение 0 для мак. кол-ва (500)."
+
+#: includes/functions.php:190
+msgid "Number of Videos"
+msgstr "Кол-во видео"
+
+#: includes/functions.php:183
+msgid "View Count"
+msgstr "Кол-во просмотров"
+
+#: includes/functions.php:182
+msgid "Title"
+msgstr "Название"
+
+#: includes/functions.php:181
+msgid "Relevance"
+msgstr "Релевантность"
+
+#: includes/functions.php:180
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: includes/functions.php:179
+msgid "Date"
+msgstr "Дата"
+
+#: includes/functions.php:175
+msgid "Order Videos by"
+msgstr "Сортировать видео по"
+
+#: includes/functions.php:161
+msgid "Enter one video per line"
+msgstr "Вводите по одному видео в строке"
+
+#: includes/functions.php:142
+msgid "YouTube Account Username"
+msgstr "Имя пользователя аккаунта YouTube"
+
+#: includes/functions.php:127 includes/functions.php:135
+#: includes/functions.php:143 includes/functions.php:151
+#: includes/functions.php:159 includes/functions.php:168
+msgid "Example"
+msgstr "Пример"
+
+#: includes/functions.php:116
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: includes/functions.php:115
+msgid "Channel"
+msgstr "Канал"
+
+#: includes/functions.php:114
+msgid "Playlist"
+msgstr "Список воспроизведения"
+
+#: includes/functions.php:110
+msgid "Source Type"
+msgstr "Тип источника"
+
+#: includes/youtube-api.php:276 includes/youtube-api.php:541
+msgid "No videos found matching your query."
+msgstr "По вашему запросу видео не найдено."
+
+#: includes/youtube-api.php:124
+msgid "Atleast one YouTube Video ID (or) URL is required."
+msgstr "Требуется хотя бы один ID видео YouTube (или URL)."
+
+#: includes/youtube-api.php:116
+msgid "Cannot search an empty string. A search term is required."
+msgstr "Невозможно найти пустую строку. Требуется поисковый запрос."
+
+#: includes/youtube-api.php:96
+msgid "YouTube Account Username is required."
+msgstr "Требуется имя аккаунта YouTube."
+
+#: includes/youtube-api.php:59
+msgid "YouTube API Key Missing."
+msgstr "Отсутствует ключ API YouTube."
+
+#: public/templates/pagination-pager.php:25
+msgid "Next"
+msgstr "Далее"
+
+#: public/templates/pagination-pager.php:20
+msgid "of"
+msgstr "из"
+
+#: public/templates/pagination-pager.php:15
+msgid "Prev"
+msgstr "Назад"
+
+#: public/templates/pagination-loadmore.php:15
+msgid "More Videos"
+msgstr "Больше видео"
+
+#: public/templates/gallery-thumbnail.php:31
+msgid "active"
+msgstr "активный"
+
+#: public/public.php:68
+msgid "Show Less"
+msgstr "Показать меньше"
+
+#: includes/functions.php:461 public/public.php:67
+msgid "Show More"
+msgstr "Показать больше"
+
+#: admin/settings.php:59 admin/settings.php:60
+msgid "Settings"
+msgstr "Настройки"
+
+#: admin/admin.php:64
+msgid "Cleared"
+msgstr "Очищено"
+
+#: admin/templates/dashboard.php:14
+msgid "Welcome to \"Automatic YouTube Gallery\""
+msgstr "Добро пожаловать в \"Automatic YouTube Gallery\""
+
+#: admin/templates/dashboard.php:20
+msgid "Version %s"
+msgstr "Версия %s"
+
+#: admin/templates/settings.php:43
+msgid "Delete all of the YouTube API data cached by the plugin."
+msgstr "Удалите все данные API YouTube, кэшированные плагином."
+
+#: admin/templates/settings.php:38 admin/templates/settings.php:41
+msgid "Delete Cache"
+msgstr "Удалить кэш"
+
+#: admin/settings.php:482
+msgid "Select a page"
+msgstr "Выбрать страницу"
+
+#: admin/settings.php:433
+msgid "Choose File"
+msgstr "Выбрать файл"
+
+#: admin/settings.php:152 admin/templates/api-key.php:27
+#: includes/youtube-api.php:59
+msgid "Follow <a href=\"%s\" target=\"_blank\">this guide</a> to get your own API key."
+msgstr "Следуйте <a href=\"%s\" target=\"_blank\">этой инструкции</a>, чтобы получить свой собственный ключ API."
+
+#: admin/settings.php:150 admin/templates/api-key.php:18
+msgid "Youtube API Key"
+msgstr "Ключ API YouTube"
+
+#: admin/settings.php:131
+msgid "Player Settings"
+msgstr "Настройки проигрывателя"
+
+#: admin/settings.php:126
+msgid "Gallery Settings"
+msgstr "Настройки галереи"
+
+#: admin/settings.php:121
+msgid "General Settings"
+msgstr "Основные настройки"
+
+#: admin/settings.php:105
+msgid "Player"
+msgstr "Проигрыватель"
+
+#: admin/settings.php:104
+msgid "Gallery"
+msgstr "Галерея"
+
+#: admin/settings.php:103 includes/functions.php:106
+msgid "General"
+msgstr "Основное"
+
+#: admin/admin.php:93
+msgid "YouTube Gallery"
+msgstr "Галерея YouTube"
+
+#. Author URI of the plugin
+msgid "https://plugins360.com"
+msgstr "https://plugins360.com"
+
+#. Author of the plugin
+msgid "Team Plugins360"
+msgstr "Team Plugins360"
+
+#. Description of the plugin
+#: admin/templates/dashboard.php:17
+msgid "Create responsive, modern & dynamic video galleries by simply adding a YouTube USERNAME, CHANNEL, PLAYLIST, SEARCH TERM or a custom list of YouTube URLs."
+msgstr "Создавайте адаптивные, современные и динамичные видеогалереи, просто добавляя ИМЯ ПОЛЬЗОВАТЕЛЯ YouTube, КАНАЛ, СПИСОК ВОСПРОИЗВЕДЕНИЯ, ТЕРМИН ПОИСКА или настраиваемый список URL-адресов YouTube."
+
+#. Plugin URI of the plugin
+msgid "https://plugins360.com/automatic-youtube-gallery/"
+msgstr "https://plugins360.com/automatic-youtube-gallery/"
+
+#. Plugin Name of the plugin
+#: admin/admin.php:92 block/block.php:37 block/block.php:75
+msgid "Automatic YouTube Gallery"
+msgstr "Automatic YouTube Gallery"

@@ -1,0 +1,30 @@
+# Translation of Plugins - OG - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - OG - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-05-31 21:19:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - OG - Stable (latest release)\n"
+
+#. Author of the plugin
+msgid "Marcin Pietrzak"
+msgstr "Marcin Pietrzak"
+
+#. Description of the plugin
+msgid "Very tiny Open Graph plugin - add featured image as facebook image. This plugin do not have any configuration - you can check how it works looking into page source."
+msgstr "Очень маленький и простой плагин Open Graph — добавляет все необходимые Open Graph теги (в том числе Twitter Card и всё необходимое для публикации в Facebook). Не имеет никаких настроек, просто посмотрите в исходном коде страницы на его работу."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "http://iworks.pl/"
+msgstr "http://iworks.pl/"
+
+#. Plugin Name of the plugin
+#: og.php:20
+msgid "OG"
+msgstr "OG"
