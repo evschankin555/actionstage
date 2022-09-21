@@ -39,6 +39,15 @@
                 url: "https://fishing-report.ru/wp-content/plugins/fishing-report-yandex-map/om_data_2.php"
             }).done(function(data) {
                 objectManager.add(data);
+                var geolocation = ymaps.geolocation;
+                geolocation.get({
+                    provider: 'browser',
+                    mapStateAutoApply: true
+                }).then(function (result) {
+                    myMap.setBounds(result.geoObjects.get(0).properties.get('boundedBy'), {
+                        checkZoomRange: true
+                    });
+                });
             });
 
             });

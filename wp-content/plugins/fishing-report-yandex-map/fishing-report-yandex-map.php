@@ -30,14 +30,13 @@ add_shortcode('fishing_report_map', function () {
     if(!empty($_GET)){
         $d .= http_build_query($_GET);
     }
-   /*
+     ?>
     <div style="position: relative;margin-top: 20px;"><button id="btn_map" href="#map" style="
     display: block;margin-right: 0.5em;border: 2px solid transparent;min-width: 2.5em;text-align: center;text-decoration: none;
     border-radius: 0.25rem; color: inherit;border-color: var(--global-palette-btn-bg);background: var(--global-palette-btn-bg);   color: var(--global-palette-btn);
     padding: 0 15px;position: absolute;top: -35px;   right: 16px;font-size: 14px;">Скрыть карту</button>
-    <iframe id="imap" loading="lazy" src="https://fishing-report.ru/wp-content/plugins/fishing-report-yandex-map/map.php<?= $d ?>" style="width: 100%;height: 400px;border: none;overflow: hidden;"></iframe>
-    </div>*/
-     ?>
+    <iframe id="imap" loading="lazy" src="https://fishing-report.ru/wp-content/plugins/fishing-report-yandex-map/om_map_2.php<?= $d ?>" style="width: 100%;height: 400px;border: none;overflow: hidden;"></iframe>
+    </div>
     <script type="text/javascript">
         (function (factory) {
             if (typeof define === 'function' && define.amd) {
@@ -174,7 +173,7 @@ add_shortcode('fishing_report_map', function () {
             if(currentURL != oldURL){
                 if(typeof currentURL != "undefined"){
                     $param = currentURL.split('?');
-                    var p = 'https://fishing-report.ru/wp-content/plugins/fishing-report-yandex-map/map.php?'+$param[1];
+                    var p = 'https://fishing-report.ru/wp-content/plugins/fishing-report-yandex-map/om_map_2.php?'+$param[1];
                     if(document.location.href.indexOf('/tag/') !== -1){
                         var d = document.location.href.split("tag/");
                         if(d.length > 1){
