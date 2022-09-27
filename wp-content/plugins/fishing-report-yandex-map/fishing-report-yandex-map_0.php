@@ -31,34 +31,11 @@ add_shortcode('fishing_report_map', function () {
         $d .= http_build_query($_GET);
     }
      ?>
-    <style>
-        html, body, #map {
-            width: 100%; height: 100%; padding: 0; margin: 0;
-        }
-        .ballon_header{
-            font-size: 12px;
-            text-align: center;
-        }
-        .ballon_footer{
-            margin-top: 8px;
-            text-align: center;
-        }
-        .ballon_body div{
-            width: 390px;
-            height: 220px;
-            overflow: hidden;
-            text-align: center;
-        }
-        .ballon_body img{
-            max-width: 390px;
-            max-height: 220px;
-        }
-    </style>
     <div style="position: relative;margin-top: 20px;"><button id="btn_map" href="#map" style="
     display: block;margin-right: 0.5em;border: 2px solid transparent;min-width: 2.5em;text-align: center;text-decoration: none;
     border-radius: 0.25rem; color: inherit;border-color: var(--global-palette-btn-bg);background: var(--global-palette-btn-bg);   color: var(--global-palette-btn);
     padding: 0 15px;position: absolute;top: -35px;   right: 16px;font-size: 14px;">Скрыть карту</button>
-        <div id="map" style="height: 400px;width: width: 100%"></div>
+    <iframe id="imap" loading="lazy" src="https://fishing-report.ru/wp-content/plugins/fishing-report-yandex-map/om_map_3.php<?= $d ?>" style="width: 100%;height: 400px;border: none;overflow: hidden;"></iframe>
     </div>
     <script type="text/javascript">
         (function (factory) {
@@ -73,16 +50,21 @@ add_shortcode('fishing_report_map', function () {
                 factory(jQuery);
             }
         }(function ($) {
+
             var pluses = /\+/g;
+
             function encode(s) {
                 return config.raw ? s : encodeURIComponent(s);
             }
+
             function decode(s) {
                 return config.raw ? s : decodeURIComponent(s);
             }
+
             function stringifyCookieValue(value) {
                 return encode(config.json ? JSON.stringify(value) : String(value));
             }
+
             function parseCookieValue(s) {
                 if (s.indexOf('"') === 0) {
                     // This is a quoted cookie as according to RFC2068, unescape...
@@ -97,10 +79,12 @@ add_shortcode('fishing_report_map', function () {
                     return config.json ? JSON.parse(s) : s;
                 } catch(e) {}
             }
+
             function read(s, converter) {
                 var value = config.raw ? s : parseCookieValue(s);
                 return $.isFunction(converter) ? converter(value) : value;
             }
+
             var config = $.cookie = function (key, value, options) {
 
                 // Write
@@ -151,20 +135,23 @@ add_shortcode('fishing_report_map', function () {
 
                 return result;
             };
+
             config.defaults = {};
+
             $.removeCookie = function (key, options) {
                 // Must not alter options, thus extending a fresh object...
                 $.cookie(key, '', $.extend({}, options, { expires: -1 }));
                 return !$.cookie(key);
             };
+
         }));
         function show_map(){
-            jQuery('#map').css('height', '400px');
+            jQuery('#imap').css('height', '400px');
             jQuery('#btn_map').text('Скрыть карту');
             jQuery.cookie('btn_map', 'show');
         };
         function hide_map(){
-            jQuery('#map').css('height', '0px');
+            jQuery('#imap').css('height', '0px');
             jQuery('#btn_map').text('Раскрыть карту');
             jQuery.cookie('btn_map', 'hide');
         };
@@ -182,13 +169,11 @@ add_shortcode('fishing_report_map', function () {
         });
         var oldURL = "";
         var currentURL = window.location.href;
-        window.isFirstLoad = true;
         function checkURLchange(currentURL){
-            if(currentURL != oldURL || window.isFirstLoad){
-                if(typeof currentURL != "undefined" || window.isFirstLoad){
-                    window.isFirstLoad = false;
-                    var $param = currentURL.split('?');
-                    var p = 'https://fishing-report.ru/wp-content/plugins/fishing-report-yandex-map/om_data_3.php?'+$param[1];
+            if(currentURL != oldURL){
+                if(typeof currentURL != "undefined"){
+                    $param = currentURL.split('?');
+                    var p = 'https://fishing-report.ru/wp-content/plugins/fishing-report-yandex-map/om_map_3.php?'+$param[1];
                     if(document.location.href.indexOf('/tag/') !== -1){
                         var d = document.location.href.split("tag/");
                         if(d.length > 1){
@@ -196,63 +181,16 @@ add_shortcode('fishing_report_map', function () {
                             p += '&tag=' + d2[0];
                         }
                     }
-                    jQuery.ajax({
-                        url: p
-                    }).done(function(data) {
-                        window.objectManager.removeAll();
-                        window.objectManager.add(data);
-                        window.myMap.setBounds(window.objectManager.getBounds());
-                        var geolocation = ymaps.geolocation;
-                        geolocation.get({
-                            provider: 'browser',
-                            mapStateAutoApply: true
-                        }).then(function (result) {
-                            window.myMap.setBounds(result.geoObjects.get(0).properties.get('boundedBy'), {
-                                checkZoomRange: true
-                            });
-                        });
-                    });
+                    jQuery('#imap').attr('src', p);
                 }
                 oldURL = currentURL;
             }
             oldURL = window.location.href;
+            setInterval(function() {
+                checkURLchange(window.location.href);
+            }, 1000);
         }
-        function createMap(){
-
-            ymaps.ready(function () {
-                window.myMap = new ymaps.Map('map', {
-                        center: [55.76, 37.64],
-                        zoom: 10
-                    }, {
-                        searchControlProvider: 'yandex#search'
-                    }),
-                    window.objectManager = new ymaps.ObjectManager({
-                        // Чтобы метки начали кластеризоваться, выставляем опцию.
-                        clusterize: true,
-                        // ObjectManager принимает те же опции, что и кластеризатор.
-                        gridSize: 32,
-                        clusterBalloonContentLayout: 'cluster#balloonCarousel',
-                        clusterBalloonPanelMaxMapArea: 0,
-                        clusterBalloonContentLayoutWidth: 400,
-                        clusterBalloonContentLayoutHeight: 300,
-                        clusterBalloonPagerSize: 10,
-                        clusterDisableClickZoom: true
-                    });
-
-                // Чтобы задать опции одиночным объектам и кластерам,
-                // обратимся к дочерним коллекциям ObjectManager.
-                window.objectManager.objects.options.set('preset', 'islands#greenDotIcon');
-                window.objectManager.clusters.options.set('preset', 'islands#greenClusterIcons');
-                window.myMap.geoObjects.add(window.objectManager);
-
-                setInterval(function() {
-                    checkURLchange(window.location.href);
-                }, 1000);
-            });
-        };
-        jQuery(document).ready(function(){
-            createMap();
-        });
+        checkURLchange();
 
     </script>
     <?php
